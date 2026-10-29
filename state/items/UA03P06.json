@@ -1,0 +1,19 @@
+{
+ "id": "UA03P06",
+ "started": "2026-10-29T18:34:45Z",
+ "download_url": "https://arxiv.org/pdf/2609.36482",
+ "final_url": "https://arxiv.org/pdf/2609.36482",
+ "http_last_modified": "Wed, 30 Sep 2026 00:40:46 GMT",
+ "verify": "通过：pypdf 可解析 9 页；标题词匹配 1.0",
+ "info": {
+  "pages": 9,
+  "meta_title": "DQ-MPCC: Dual-Quaternion MPCC for Quadrotor Racing",
+  "body_sample_chars": 19554,
+  "title_match": 1.0
+ },
+ "bytes": 3040845,
+ "sha256": "b66df72dce2be5b61b3cae2c82f32531201cc2edddabace2f815afdfdc882f36",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:34:52Z"
+}

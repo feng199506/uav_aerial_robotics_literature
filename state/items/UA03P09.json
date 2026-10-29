@@ -1,0 +1,19 @@
+{
+ "id": "UA03P09",
+ "started": "2026-10-29T18:34:57Z",
+ "download_url": "https://arxiv.org/pdf/2610.35165",
+ "final_url": "https://arxiv.org/pdf/2610.35165",
+ "http_last_modified": "Tue, 27 Oct 2026 02:21:17 GMT",
+ "verify": "通过：pypdf 可解析 20 页；标题词匹配 1.0",
+ "info": {
+  "pages": 20,
+  "meta_title": "How Tuning, Reference Preview, Actuator Modeling, and Fallback Policies Change Quadrotor Controller Comparisons: A Reproducible Simulation Study",
+  "body_sample_chars": 17928,
+  "title_match": 1.0
+ },
+ "bytes": 537110,
+ "sha256": "558acb7940b312e53918142a8d31b3630a906ce3aec766acc16cb239bf39a52c",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:35:01Z"
+}

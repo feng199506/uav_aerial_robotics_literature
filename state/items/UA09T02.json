@@ -1,0 +1,74 @@
+{
+ "id": "UA09T02",
+ "started": "2026-10-29T18:47:35Z",
+ "wget_rc": 8,
+ "quota_hit": true,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://ardupilot.org/copter/index.html",
+ "mirror_scope": {
+  "start": [
+   "https://ardupilot.org/copter/index.html",
+   "https://ardupilot.org/plane/index.html",
+   "https://ardupilot.org/dev/index.html",
+   "https://ardupilot.org/copter/docs/connect-escs-and-motors.html",
+   "https://ardupilot.org/dev/docs/sitl-simulator-software-in-the-loop.html",
+   "https://ardupilot.org/copter/docs/common-logs.html",
+   "https://ardupilot.org/copter/docs/common-parameter-reset.html"
+  ],
+  "include": [
+   "/copter",
+   "/plane",
+   "/dev"
+  ],
+  "level": "3"
+ },
+ "verify": "通过：1306 个文件（HTML 541，文档源 1）",
+ "info": {
+  "files": 1306,
+  "html": 541,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "html",
+    541
+   ],
+   [
+    "jpg",
+    381
+   ],
+   [
+    "png",
+    335
+   ],
+   [
+    "js",
+    8
+   ],
+   [
+    "css",
+    6
+   ],
+   [
+    "jpeg",
+    5
+   ],
+   [
+    "svg",
+    2
+   ],
+   [
+    "gif",
+    1
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 171028480,
+ "sha256": "ff36ad2110d7b1809c5cc1faf71b03fb194c8eb1a00e0adfb33c0fe1698a63eb",
+ "error": "",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:00:51Z",
+ "reverified": "2026-10-29T19:12:58Z"
+}

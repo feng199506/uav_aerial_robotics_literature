@@ -1,0 +1,66 @@
+{
+ "id": "UA10T05",
+ "started": "2026-10-29T18:55:33Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/JSBSim-Team/jsbsim.git",
+ "ref": "(默认分支)",
+ "commit": "911b2d48ce934da183556983ec60b2069faa46fb",
+ "commit_date": "2026-10-29T10:47:21+01:00",
+ "sparse_paths": [
+  "README.md",
+  "COPYING",
+  "LICENSE",
+  "doc",
+  "docs",
+  "aircraft/c172x"
+ ],
+ "verify": "通过：27 个文件（HTML 0，文档源 7）",
+ "info": {
+  "files": 27,
+  "html": 0,
+  "md_rst_ipynb": 7,
+  "top_ext": [
+   [
+    "xml",
+    8
+   ],
+   [
+    "png",
+    4
+   ],
+   [
+    "md",
+    3
+   ],
+   [
+    "",
+    2
+   ],
+   [
+    "in",
+    2
+   ],
+   [
+    "ipynb",
+    2
+   ],
+   [
+    "cff",
+    1
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": [
+   "JSBSim_doc_src_en/COPYING"
+  ]
+ },
+ "bytes": 2775040,
+ "sha256": "5ccbcf12dacf9eeaa90552745acd4704a41e2d20c0fb18899e3bdf3150ad2f37",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:55:34Z"
+}

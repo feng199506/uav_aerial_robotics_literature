@@ -1,0 +1,8 @@
+{
+ "id": "UA12B01",
+ "started": "2026-10-29T18:32:05Z",
+ "error": "https://www.research-collection.ethz.ch/bitstreams/0c5e8a2e-6c3b-4e4a-9c4a-6c6c0c6c0c6c/download: 不是 PDF 文件头 | https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/150209/eth-30212-02.pdf: 不是 PDF 文件头 | https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/150209/1/eth-30212-02.pdf: 不是 PDF 文件头 | https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/150209/eth-30212-01.pdf: 不是 PDF 文件头",
+ "status": "failed",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:32:09Z"
+}

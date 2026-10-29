@@ -1,0 +1,19 @@
+{
+ "id": "UA12P03",
+ "started": "2026-10-29T18:37:53Z",
+ "download_url": "https://arxiv.org/pdf/2608.07571",
+ "final_url": "https://arxiv.org/pdf/2608.07571",
+ "http_last_modified": "Tue, 11 Aug 2026 00:06:35 GMT",
+ "verify": "通过：pypdf 可解析 20 页；标题词匹配 1.0",
+ "info": {
+  "pages": 20,
+  "meta_title": "A Review of Vision-Based Vehicle Detection for UAV-Based Traffic Monitoring: Experimental Insights and Future Directions",
+  "body_sample_chars": 26724,
+  "title_match": 1.0
+ },
+ "bytes": 22185827,
+ "sha256": "fb840bc13bba00eb4b7e3dcb5ea81df2cc19ba13b7e9c2536df9c5bb128da6b3",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:37:58Z"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "UA11P04",
+ "started": "2026-10-29T18:37:38Z",
+ "download_url": "https://arxiv.org/pdf/2601.14415",
+ "final_url": "https://arxiv.org/pdf/2601.14415",
+ "http_last_modified": "Thu, 22 Jan 2026 01:06:32 GMT",
+ "verify": "通过：pypdf 可解析 28 页；标题词匹配 1.0",
+ "info": {
+  "pages": 28,
+  "meta_title": "A Survey of Security Challenges and Solutions for Advanced Air Mobility and eVTOL Aircraft",
+  "body_sample_chars": 18638,
+  "title_match": 1.0
+ },
+ "bytes": 2248605,
+ "sha256": "4b9834023ac1c82d04e8f84af63b48f1d70536427113ad9795a4c125a241d8db",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:37:42Z"
+}

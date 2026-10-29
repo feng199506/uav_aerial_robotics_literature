@@ -1,0 +1,66 @@
+{
+ "id": "UA08X01",
+ "started": "2026-10-29T18:39:24Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/IMRCLab/crazyswarm2.git",
+ "ref": "(默认分支)",
+ "commit": "f1e09954f56cd08e7d9aff5e13dc9a68795914a3",
+ "commit_date": "2026-09-11T12:55:37+02:00",
+ "sparse_paths": [
+  "README.md",
+  "LICENSE",
+  "crazyflie",
+  "crazyflie_examples",
+  "crazyflie_py",
+  "docs"
+ ],
+ "verify": "通过：100 个文件（HTML 0，文档源 18）",
+ "info": {
+  "files": 100,
+  "html": 0,
+  "md_rst_ipynb": 18,
+  "top_ext": [
+   [
+    "py",
+    43
+   ],
+   [
+    "rst",
+    14
+   ],
+   [
+    "yaml",
+    8
+   ],
+   [
+    "",
+    4
+   ],
+   [
+    "jpg",
+    4
+   ],
+   [
+    "txt",
+    3
+   ],
+   [
+    "xml",
+    3
+   ],
+   [
+    "csv",
+    3
+   ]
+  ],
+  "license_files": [
+   "Crazyswarm2_en/LICENSE"
+  ]
+ },
+ "bytes": 2385920,
+ "sha256": "75d55fcc8858c1037a98ac02b1c4b61daec33df959b741b2db4edf75fa5de2a3",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:39:25Z"
+}

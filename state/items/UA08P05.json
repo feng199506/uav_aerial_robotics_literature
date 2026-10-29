@@ -1,0 +1,19 @@
+{
+ "id": "UA08P05",
+ "started": "2026-10-29T18:36:45Z",
+ "download_url": "https://arxiv.org/pdf/2609.31035",
+ "final_url": "https://arxiv.org/pdf/2609.31035",
+ "http_last_modified": "Wed, 28 Oct 2026 01:42:56 GMT",
+ "verify": "通过：pypdf 可解析 8 页；标题词匹配 1.0",
+ "info": {
+  "pages": 8,
+  "meta_title": "Compact Force Sensor for Dual-UAV Cable-Suspended Payload Transport with Tension-Aware Outer-Loop Control",
+  "body_sample_chars": 13816,
+  "title_match": 1.0
+ },
+ "bytes": 4058524,
+ "sha256": "9bb0fb9b0dcb40cd0104af5fbed77b803581348035ee17f7b1fafc2431f7417f",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:36:50Z"
+}

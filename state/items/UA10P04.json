@@ -1,0 +1,19 @@
+{
+ "id": "UA10P04",
+ "started": "2026-10-29T18:37:17Z",
+ "download_url": "https://arxiv.org/pdf/2609.06046",
+ "final_url": "https://arxiv.org/pdf/2609.06046",
+ "http_last_modified": "Wed, 09 Sep 2026 00:51:14 GMT",
+ "verify": "通过：pypdf 可解析 12 页；标题词匹配 1.0",
+ "info": {
+  "pages": 12,
+  "meta_title": "FALCON-S: Fixed-wing ground-effect Aerodynamics Simulator and Flight Control Learning Suite",
+  "body_sample_chars": 16639,
+  "title_match": 1.0
+ },
+ "bytes": 5788320,
+ "sha256": "e573347722a6c9a477dea43231c1656e27f891eeddb3728ba38e29d7cae07cb0",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:37:22Z"
+}

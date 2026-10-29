@@ -1,0 +1,19 @@
+{
+ "id": "UA02B02",
+ "started": "2026-10-29T18:41:27Z",
+ "download_url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/7016770e-20ba-4750-920f-2f8e8a58d5ec/content",
+ "final_url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/7016770e-20ba-4750-920f-2f8e8a58d5ec/content",
+ "http_last_modified": "Mon, 04 Mar 2019 10:06:36 GMT",
+ "verify": "通过：pypdf 可解析 65 页；标题词匹配 1.0",
+ "info": {
+  "pages": 65,
+  "meta_title": "",
+  "body_sample_chars": 3587,
+  "title_match": 1.0
+ },
+ "bytes": 3765798,
+ "sha256": "0b4929fc24c74adb233946d943e1800c2ec0acb9307638af8eb2bca932e4a7d0",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:41:28Z"
+}

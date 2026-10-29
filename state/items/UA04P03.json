@@ -1,0 +1,19 @@
+{
+ "id": "UA04P03",
+ "started": "2026-10-29T18:35:10Z",
+ "download_url": "https://arxiv.org/pdf/2609.30777",
+ "final_url": "https://arxiv.org/pdf/2609.30777",
+ "http_last_modified": "Mon, 28 Sep 2026 00:31:34 GMT",
+ "verify": "通过：pypdf 可解析 12 页；标题词匹配 1.0",
+ "info": {
+  "pages": 12,
+  "meta_title": "Moving Horizon Estimation for Quadrotors: An ℒ_1 Adaptive Optimizer Approach",
+  "body_sample_chars": 11008,
+  "title_match": 1.0
+ },
+ "bytes": 1177316,
+ "sha256": "2af2e122e76e37f1b1b8c916539122cd5218bf37b7792c73ae1f9acbceb9520b",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:35:13Z"
+}

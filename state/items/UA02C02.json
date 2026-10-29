@@ -1,0 +1,43 @@
+{
+ "id": "UA02C02",
+ "started": "2026-10-29T18:40:52Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/byu-magicc/mavsim_public.git",
+ "ref": "(默认分支)",
+ "commit": "10363e0eaeb16a61a7463505f8e122a9eb7e2b4e",
+ "commit_date": "2026-06-12T20:52:31-06:00",
+ "sparse_paths": [
+  "lecture_slides",
+  "slides",
+  "docs",
+  "README.md",
+  "LICENSE",
+  "uavbook.pdf"
+ ],
+ "verify": "通过：3 个文件（HTML 0，文档源 2）",
+ "info": {
+  "files": 3,
+  "html": 0,
+  "md_rst_ipynb": 2,
+  "top_ext": [
+   [
+    "md",
+    2
+   ],
+   [
+    "",
+    1
+   ]
+  ],
+  "license_files": [
+   "BYU_SmallUnmannedAircraft_LectureSlides_en/LICENSE"
+  ]
+ },
+ "bytes": 71680,
+ "sha256": "3dfedde0cf931ce2b05f605a01ae35a0b87ddafb7d4d547525023f3faa18d2b6",
+ "status": "failed",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:40:53Z",
+ "error": "仅 LICENSE/README，仓库无公开讲义幻灯片，不计为完整课程"
+}

@@ -1,0 +1,69 @@
+{
+ "id": "UA09T12",
+ "started": "2026-10-29T18:55:25Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/mavlink/qgroundcontrol.git",
+ "ref": "(默认分支)",
+ "commit": "e8729f494173191402a32db4ea9634b2148f8468",
+ "commit_date": "2026-10-29T11:28:44-07:00",
+ "sparse_paths": [
+  "README.md",
+  "license.txt",
+  "LICENSE",
+  "docs",
+  "src/UI"
+ ],
+ "verify": "通过：1033 个文件（HTML 0，文档源 651）",
+ "info": {
+  "files": 1033,
+  "html": 0,
+  "md_rst_ipynb": 651,
+  "top_ext": [
+   [
+    "md",
+    650
+   ],
+   [
+    "jpg",
+    255
+   ],
+   [
+    "png",
+    108
+   ],
+   [
+    "mjs",
+    3
+   ],
+   [
+    "json",
+    3
+   ],
+   [
+    "",
+    2
+   ],
+   [
+    "js",
+    2
+   ],
+   [
+    "svg",
+    2
+   ]
+  ],
+  "license_files": [
+   "QGroundControl_docs_src_en/LICENSE-APACHE",
+   "QGroundControl_docs_src_en/LICENSE-GPL",
+   "QGroundControl_docs_src_en/docs/en/qgc-dev-guide/contribute/licences.md",
+   "QGroundControl_docs_src_en/docs/ko/qgc-dev-guide/contribute/licences.md",
+   "QGroundControl_docs_src_en/docs/tr/qgc-dev-guide/contribute/licences.md"
+  ]
+ },
+ "bytes": 27904000,
+ "sha256": "b0ec05509febdd959d4c80af078dfbe008fe2e8c12ce7ea84345cfdfc84f2530",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:55:28Z"
+}

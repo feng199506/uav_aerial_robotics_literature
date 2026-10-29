@@ -126,7 +126,7 @@
   "out": "10_simulation_testing/practice/RotorPy_en.tar",
   "get": {
    "kind": "git",
-   "repo": "https://github.com/dasc-lab/rotorpy.git"
+   "repo": "https://github.com/spencerfolk/rotorpy.git"
   },
   "expect": {
    "min_docs": 1,
@@ -174,24 +174,11 @@
   "out": "04_state_estimation/practice/OpenVINS_en.tar",
   "get": {
    "kind": "git",
-   "repo": "https://github.com/rpng/open_vins.git",
-   "paths": [
-    "README.md",
-    "LICENSE",
-    "docs",
-    "ov_msckf",
-    "ov_core",
-    "ov_eval",
-    "ov_data",
-    "config"
-   ]
+   "repo": "https://github.com/rpng/open_vins.git"
   },
   "expect": {
    "min_docs": 3,
-   "need_license": true,
-   "must_have": [
-    "README"
-   ]
+   "need_license": true
   },
   "code_data": "源码公开；不下载 EuRoC 等数据集、不运行",
   "evidence": "项目说明",

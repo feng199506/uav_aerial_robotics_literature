@@ -1,0 +1,19 @@
+{
+ "id": "UA03P01",
+ "started": "2026-10-29T18:33:54Z",
+ "download_url": "https://arxiv.org/pdf/1003.2005",
+ "final_url": "https://arxiv.org/pdf/1003.2005",
+ "http_last_modified": "Wed, 18 Jan 2023 17:34:57 GMT",
+ "verify": "通过：pypdf 可解析 12 页；标题词匹配 1.0",
+ "info": {
+  "pages": 12,
+  "meta_title": "",
+  "body_sample_chars": 16610,
+  "title_match": 1.0
+ },
+ "bytes": 1390003,
+ "sha256": "c35b6d68b31820991cd6ee88e1767d6af4b7c57eae4533e6f70ef20bc227d4d6",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:33:55Z"
+}

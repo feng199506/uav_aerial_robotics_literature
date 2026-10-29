@@ -1,0 +1,56 @@
+{
+ "id": "UA10T02",
+ "started": "2026-10-29T19:12:02Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://jsbsim-team.github.io/jsbsim-reference-manual/",
+ "mirror_scope": {
+  "start": [
+   "https://jsbsim-team.github.io/jsbsim-reference-manual/"
+  ],
+  "include": [
+   "/jsbsim-reference-manual"
+  ],
+  "level": "4"
+ },
+ "verify": "通过：78 个文件（HTML 32，文档源 0）",
+ "info": {
+  "files": 78,
+  "html": 32,
+  "md_rst_ipynb": 0,
+  "top_ext": [
+   [
+    "html",
+    32
+   ],
+   [
+    "svg",
+    23
+   ],
+   [
+    "png",
+    17
+   ],
+   [
+    "css",
+    3
+   ],
+   [
+    "js",
+    2
+   ],
+   [
+    "ico",
+    1
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 20510720,
+ "sha256": "8fb775f5aa9bff451d5652b7f8ad2656f1e5c5b157dd6bcc9e50ed3aabd11305",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:12:37Z"
+}

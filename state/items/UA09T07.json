@@ -1,0 +1,45 @@
+{
+ "id": "UA09T07",
+ "started": "2026-10-29T19:10:01Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://docs.px4.io/v1.17/en/ros2/user_guide.html",
+ "mirror_scope": {
+  "start": [
+   "https://docs.px4.io/v1.17/en/ros2/user_guide.html",
+   "https://docs.px4.io/v1.17/en/ros/ros2_comm.html",
+   "https://docs.px4.io/v1.17/en/ros/mavros_offboard.html",
+   "https://docs.px4.io/v1.17/en/middleware/uxrce_dds.html"
+  ],
+  "include": [
+   "/v1.17/en/ros2",
+   "/v1.17/en/ros",
+   "/v1.17/en/middleware"
+  ],
+  "level": "3"
+ },
+ "verify": "通过：29 个文件（HTML 28，文档源 1）",
+ "info": {
+  "files": 29,
+  "html": 28,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "html",
+    28
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 27781120,
+ "sha256": "57cc79dd1ed17a8f83fbad0dd9473953b7700e134274d2434ea3526be88e7ada",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:10:47Z"
+}

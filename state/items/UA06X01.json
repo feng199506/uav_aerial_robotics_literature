@@ -1,0 +1,61 @@
+{
+ "id": "UA06X01",
+ "started": "2026-10-29T18:39:21Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/ethz-asl/mav_trajectory_generation.git",
+ "ref": "(默认分支)",
+ "commit": "7aeebd9f819217502fd1c5489da49efadf90d411",
+ "commit_date": "2021-01-11T14:06:47+01:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：87 个文件（HTML 0，文档源 6）",
+ "info": {
+  "files": 87,
+  "html": 0,
+  "md_rst_ipynb": 6,
+  "top_ext": [
+   [
+    "h",
+    29
+   ],
+   [
+    "cpp",
+    27
+   ],
+   [
+    "txt",
+    4
+   ],
+   [
+    "xml",
+    4
+   ],
+   [
+    "cc",
+    4
+   ],
+   [
+    "png",
+    3
+   ],
+   [
+    "md",
+    2
+   ],
+   [
+    "rosinstall",
+    2
+   ]
+  ],
+  "license_files": [
+   "ETH_mav_trajectory_generation_en/LICENSE"
+  ]
+ },
+ "bytes": 3266560,
+ "sha256": "8dfbc653d05cc693d7a2bad4f13ea2991bc8d08ab51d6b2e9bae9ed35fbb3b48",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:39:22Z"
+}

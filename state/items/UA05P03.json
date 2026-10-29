@@ -1,0 +1,19 @@
+{
+ "id": "UA05P03",
+ "started": "2026-10-29T18:35:23Z",
+ "download_url": "https://arxiv.org/pdf/2610.37111",
+ "final_url": "https://arxiv.org/pdf/2610.37111",
+ "http_last_modified": "Wed, 28 Oct 2026 01:29:50 GMT",
+ "verify": "通过：pypdf 可解析 20 页；标题词匹配 1.0",
+ "info": {
+  "pages": 20,
+  "meta_title": "RAVEN: A Unified Active SLAM System for Rapid Autonomous Visual Exploration with Aerial Robots under Localization Uncertainty",
+  "body_sample_chars": 22934,
+  "title_match": 1.0
+ },
+ "bytes": 17219632,
+ "sha256": "a4c9eb244fdfd5ae75af7007cd34648931eee301b85cba3955036afac331bb76",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:35:25Z"
+}

@@ -1,8 +1,8 @@
 {
  "id": "UA01B03",
- "started": "2026-10-29T18:19:15Z",
- "error": "https://www.astro.rug.nl/software/kapteyn/_downloads/attitude.pdf: 404 HTTP 404 | https://www.astro.rug.nl/software/kapteyn-3.4/_downloads/attitude.pdf: 404 HTTP 404 | https://ai.stanford.edu/~diebel/attitude/attitude.pdf: 0 URLError: <urlopen error [Errno 111] Connection refused>",
+ "started": "2026-10-29T18:28:28Z",
+ "error": "https://www.cs.cmu.edu/~cga/dynopt/readings/diebel2006attitude.pdf: 404 HTTP 404 | https://citeseerx.ist.psu.edu/pdf/6b0c0d0e: 404 HTTP 404 | https://www.astro.rug.nl/software/kapteyn/_downloads/attitude.pdf: 404 HTTP 404 | https://ai.stanford.edu/~diebel/attitude/attitude.pdf: 0 URLError: <urlopen error [Errno 111] Connection refused> | https://pages.hmc.edu/spjut/AdvRoc/PDF/AircraftQuaternions.pdf: 页数 21 < 期望 40",
  "status": "failed",
  "access_date": "2026-10-29",
- "finished": "2026-10-29T18:19:47Z"
+ "finished": "2026-10-29T18:30:10Z"
 }

@@ -1,0 +1,19 @@
+{
+ "id": "UA07P03",
+ "started": "2026-10-29T18:36:01Z",
+ "download_url": "https://arxiv.org/pdf/2610.37557",
+ "final_url": "https://arxiv.org/pdf/2610.37557",
+ "http_last_modified": "Wed, 28 Oct 2026 01:52:58 GMT",
+ "verify": "通过：pypdf 可解析 21 页；标题词匹配 1.0",
+ "info": {
+  "pages": 21,
+  "meta_title": "Learning Visuomotor Quadrotor Flight Through Dynamic Narrow Gaps via Differentiable Simulation",
+  "body_sample_chars": 11569,
+  "title_match": 1.0
+ },
+ "bytes": 17265505,
+ "sha256": "39642f51623586aa9a8bacc55af17d70cc171a50bdc529ead2272a21c928c780",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:36:08Z"
+}

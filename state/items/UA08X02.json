@@ -1,0 +1,45 @@
+{
+ "id": "UA08X02",
+ "started": "2026-10-29T18:39:53Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/ctu-mrs/mrs_uav_system.git",
+ "ref": "(默认分支)",
+ "commit": "ef41189e981fcfdbd7512db93f0bf6f936e2fa7b",
+ "commit_date": "2026-10-22T14:05:02+02:00",
+ "sparse_paths": [
+  "README.md",
+  "LICENSE",
+  "documentation",
+  "docs",
+  ".github"
+ ],
+ "verify": "通过：9 个文件（HTML 0，文档源 5）",
+ "info": {
+  "files": 9,
+  "html": 0,
+  "md_rst_ipynb": 5,
+  "top_ext": [
+   [
+    "md",
+    5
+   ],
+   [
+    "yml",
+    3
+   ],
+   [
+    "",
+    1
+   ]
+  ],
+  "license_files": [
+   "CTU_MRS_UAV_system_sparse_en/LICENSE"
+  ]
+ },
+ "bytes": 51200,
+ "sha256": "1188950a4feaec371f17150ef6fad9d26de7834bd5596d67625b49d5be0632c6",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:39:54Z"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "UA11P05",
+ "started": "2026-10-29T18:37:42Z",
+ "download_url": "https://arxiv.org/pdf/2610.15867",
+ "final_url": "https://arxiv.org/pdf/2610.15867",
+ "http_last_modified": "Wed, 14 Oct 2026 02:38:03 GMT",
+ "verify": "通过：pypdf 可解析 8 页；标题词匹配 1.0",
+ "info": {
+  "pages": 8,
+  "meta_title": "REFLEX: A Learned On-Board Reflex for Robust Autonomous Collision Recovery of Soft Quadrotors",
+  "body_sample_chars": 17118,
+  "title_match": 1.0
+ },
+ "bytes": 3502671,
+ "sha256": "44b99fff83f24c51da104ee53d8a56eaf14be735205ea1c0856ef5cbd950a071",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:37:46Z"
+}

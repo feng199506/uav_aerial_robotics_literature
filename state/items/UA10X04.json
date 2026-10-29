@@ -1,0 +1,65 @@
+{
+ "id": "UA10X04",
+ "started": "2026-10-29T18:39:49Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/PX4/flight_review.git",
+ "ref": "(默认分支)",
+ "commit": "9dec4bb4c7694c5da8379168ec2a8605536a1def",
+ "commit_date": "2026-10-20T16:37:38+02:00",
+ "sparse_paths": [
+  "README.md",
+  "LICENSE",
+  "app",
+  "plot_app",
+  "config_default.json"
+ ],
+ "verify": "通过：468 个文件（HTML 8，文档源 6）",
+ "info": {
+  "files": 468,
+  "html": 8,
+  "md_rst_ipynb": 6,
+  "top_ext": [
+   [
+    "png",
+    150
+   ],
+   [
+    "js",
+    115
+   ],
+   [
+    "jpg",
+    53
+   ],
+   [
+    "py",
+    37
+   ],
+   [
+    "css",
+    33
+   ],
+   [
+    "json",
+    30
+   ],
+   [
+    "svg",
+    11
+   ],
+   [
+    "html",
+    8
+   ]
+  ],
+  "license_files": [
+   "PX4_flight_review_en/LICENSE.md"
+  ]
+ },
+ "bytes": 49233920,
+ "sha256": "b5de321f6bba6c7b3ef0c786441b7d78143e31eac19b326a7e6fda9bc372a021",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:39:53Z"
+}

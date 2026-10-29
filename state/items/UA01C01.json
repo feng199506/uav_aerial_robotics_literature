@@ -1,0 +1,55 @@
+{
+ "id": "UA01C01",
+ "started": "2026-10-29T18:33:37Z",
+ "download_url": "https://ocw.mit.edu/courses/16-07-dynamics-fall-2009/16.07-fall-2009.zip",
+ "final_url": "https://ocw.mit.edu/courses/16-07-dynamics-fall-2009/16.07-fall-2009.zip",
+ "http_last_modified": "Thu, 15 Oct 2026 12:09:34 GMT",
+ "verify": "通过：382 个文件（HTML 68，文档源 3）",
+ "info": {
+  "files": 382,
+  "html": 68,
+  "md_rst_ipynb": 3,
+  "top_ext": [
+   [
+    "js",
+    92
+   ],
+   [
+    "json",
+    80
+   ],
+   [
+    "html",
+    68
+   ],
+   [
+    "pdf",
+    49
+   ],
+   [
+    "svg",
+    22
+   ],
+   [
+    "png",
+    17
+   ],
+   [
+    "css",
+    9
+   ],
+   [
+    "map",
+    9
+   ]
+  ],
+  "license_files": [
+   "static_shared/mathjax/LICENSE.42368b5a19b817284b3c"
+  ]
+ },
+ "bytes": 23761751,
+ "sha256": "87f255c41e088fbb1565829d2429e554abad3936a84f17243122bd230e0a7b37",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:33:40Z"
+}

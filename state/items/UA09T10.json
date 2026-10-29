@@ -1,0 +1,45 @@
+{
+ "id": "UA09T10",
+ "started": "2026-10-29T18:55:12Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/PX4/PX4-user_guide.git",
+ "ref": "(默认分支)",
+ "commit": "2fa62338099f18fc3092197e856615eca94d2975",
+ "commit_date": "2026-04-18T19:44:50Z",
+ "sparse_paths": [
+  "README.md",
+  "LICENSE",
+  "en",
+  "docs"
+ ],
+ "verify": "通过：941 个文件（HTML 0，文档源 939）",
+ "info": {
+  "files": 941,
+  "html": 0,
+  "md_rst_ipynb": 939,
+  "top_ext": [
+   [
+    "md",
+    939
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "json",
+    1
+   ]
+  ],
+  "license_files": [
+   "PX4_user_guide_src_en/LICENSE",
+   "PX4_user_guide_src_en/en/contribute/licenses.md"
+  ]
+ },
+ "bytes": 8058880,
+ "sha256": "f5ed2d7e7576aaad48f169f36538f8f5d51146690e7eb4bd9b2c409f382d2216",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:55:14Z"
+}

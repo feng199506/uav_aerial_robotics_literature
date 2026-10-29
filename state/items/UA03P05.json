@@ -1,0 +1,19 @@
+{
+ "id": "UA03P05",
+ "started": "2026-10-29T18:34:44Z",
+ "download_url": "https://arxiv.org/pdf/2610.34789",
+ "final_url": "https://arxiv.org/pdf/2610.34789",
+ "http_last_modified": "Tue, 27 Oct 2026 02:14:53 GMT",
+ "verify": "通过：pypdf 可解析 9 页；标题词匹配 1.0",
+ "info": {
+  "pages": 9,
+  "meta_title": "ISB-NMPC: Interception-Oriented Spherical-Bearing Nonlinear Model Predictive Control for Quadrotors",
+  "body_sample_chars": 21368,
+  "title_match": 1.0
+ },
+ "bytes": 19634352,
+ "sha256": "38a2b8c28f9cff7021845d36fff6b28b62945b4d3feb23ef947feffd027d649f",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:34:45Z"
+}

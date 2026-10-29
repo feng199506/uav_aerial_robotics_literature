@@ -1,0 +1,8 @@
+{
+ "id": "UA02B01",
+ "started": "2026-10-29T18:30:10Z",
+ "error": "https://github.com/byu-magicc/mavsim_public/raw/master/uavbook.pdf: 404 HTTP 404 | https://media.githubusercontent.com/media/byu-magicc/mavsim_public/master/uavbook.pdf: 404 HTTP 404 | https://www.et.byu.edu/~beard/classes/ece674/uavbook.pdf: 0 URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+ "status": "failed",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:32:00Z"
+}

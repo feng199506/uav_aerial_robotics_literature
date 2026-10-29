@@ -1,0 +1,65 @@
+{
+ "id": "UA09T13",
+ "started": "2026-10-29T18:55:34Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/mavlink/MAVSDK.git",
+ "ref": "(默认分支)",
+ "commit": "8b1ad926a879a72aefe0e66f606e0349f8186f28",
+ "commit_date": "2026-10-28T19:49:26+13:00",
+ "sparse_paths": [
+  "README.md",
+  "LICENSE",
+  "docs",
+  "examples",
+  "mavsdk_server"
+ ],
+ "verify": "通过：315 个文件（HTML 0，文档源 286）",
+ "info": {
+  "files": 315,
+  "html": 0,
+  "md_rst_ipynb": 286,
+  "top_ext": [
+   [
+    "md",
+    286
+   ],
+   [
+    "png",
+    15
+   ],
+   [
+    "jpg",
+    3
+   ],
+   [
+    "js",
+    2
+   ],
+   [
+    "json",
+    2
+   ],
+   [
+    "py",
+    2
+   ],
+   [
+    "mjs",
+    1
+   ],
+   [
+    "vue",
+    1
+   ]
+  ],
+  "license_files": [
+   "MAVSDK_repo_docs_en/LICENSE.md"
+  ]
+ },
+ "bytes": 5580800,
+ "sha256": "224869d39bbbba3dfca0fa982f3ab365195a169f552b6dd8c3d21f0c492dec08",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:55:36Z"
+}

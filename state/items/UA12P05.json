@@ -1,0 +1,19 @@
+{
+ "id": "UA12P05",
+ "started": "2026-10-29T18:38:02Z",
+ "download_url": "https://arxiv.org/pdf/2608.06404",
+ "final_url": "https://arxiv.org/pdf/2608.06404",
+ "http_last_modified": "Mon, 10 Aug 2026 00:01:57 GMT",
+ "verify": "通过：pypdf 可解析 22 页；标题词匹配 1.0",
+ "info": {
+  "pages": 22,
+  "meta_title": "UAV3DCrop: Benchmarking 3D Reconstruction in Repeated Multi-Angle UAV Crop Surveys",
+  "body_sample_chars": 11973,
+  "title_match": 1.0
+ },
+ "bytes": 11784581,
+ "sha256": "11cde5462455f522614bf538e2b079636b9bedd2f1496dfebe8e00c778d3f8f4",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:38:06Z"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "UA02P01",
+ "started": "2026-10-29T18:34:15Z",
+ "download_url": "https://arxiv.org/pdf/2610.08177",
+ "final_url": "https://arxiv.org/pdf/2610.08177",
+ "http_last_modified": "Wed, 07 Oct 2026 01:20:49 GMT",
+ "verify": "通过：pypdf 可解析 13 页；标题词匹配 1.0",
+ "info": {
+  "pages": 13,
+  "meta_title": "Nested Power Models for Multirotor Propulsion: From Aerodynamic Drag to Electrical Losses",
+  "body_sample_chars": 21434,
+  "title_match": 1.0
+ },
+ "bytes": 5807624,
+ "sha256": "38ec689686e9b66e7851e45332fc594253520ac3d3f1ada09b2e1a25eaf3f7ec",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:34:19Z"
+}

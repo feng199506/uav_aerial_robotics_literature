@@ -1,0 +1,19 @@
+{
+ "id": "UA05P05",
+ "started": "2026-10-29T18:35:32Z",
+ "download_url": "https://arxiv.org/pdf/2610.03530",
+ "final_url": "https://arxiv.org/pdf/2610.03530",
+ "http_last_modified": "Mon, 05 Oct 2026 01:30:33 GMT",
+ "verify": "通过：pypdf 可解析 11 页；标题词匹配 1.0",
+ "info": {
+  "pages": 11,
+  "meta_title": "DR-IPC: Disturbance-Resilient Integrated Planning and Control for LiDAR-Based Quadrotor Navigation",
+  "body_sample_chars": 18020,
+  "title_match": 1.0
+ },
+ "bytes": 8749121,
+ "sha256": "48e05c5b473f631feb606d69bf365d877c36f549c922db506bb67a5d1822da74",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:35:36Z"
+}

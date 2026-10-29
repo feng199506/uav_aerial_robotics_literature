@@ -1,0 +1,39 @@
+{
+ "id": "UA09T06",
+ "started": "2026-10-29T19:07:45Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://mavsdk.mavlink.io/main/en/",
+ "mirror_scope": {
+  "start": [
+   "https://mavsdk.mavlink.io/main/en/",
+   "https://mavsdk.mavlink.io/main/en/getting_started/",
+   "https://mavsdk.mavlink.io/main/en/cpp/",
+   "https://mavsdk.mavlink.io/main/en/python/"
+  ],
+  "include": [
+   "/main/en"
+  ],
+  "level": "3"
+ },
+ "verify": "通过：279 个文件（HTML 279，文档源 0）",
+ "info": {
+  "files": 279,
+  "html": 279,
+  "md_rst_ipynb": 0,
+  "top_ext": [
+   [
+    "html",
+    279
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 60211200,
+ "sha256": "53ae88fb45b6e9f61e3a1825044e749187678cc6fb17da9dde79c9c4868caedd",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:10:01Z"
+}

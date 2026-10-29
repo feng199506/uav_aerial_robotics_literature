@@ -1,0 +1,19 @@
+{
+ "id": "UA07P06",
+ "started": "2026-10-29T18:36:13Z",
+ "download_url": "https://arxiv.org/pdf/2610.25407",
+ "final_url": "https://arxiv.org/pdf/2610.25407",
+ "http_last_modified": "Tue, 20 Oct 2026 02:05:31 GMT",
+ "verify": "通过：pypdf 可解析 8 页；标题词匹配 1.0",
+ "info": {
+  "pages": 8,
+  "meta_title": "AeroDASH: Asynchronous Vision-Language-Action Control for Continuous UAV Flight",
+  "body_sample_chars": 12317,
+  "title_match": 1.0
+ },
+ "bytes": 21657952,
+ "sha256": "9429fc8a1759873bd7db8791aa7424e3c7a0fec6aeb6879e83a4e46ce2549144",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:36:21Z"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "UA12P01",
+ "started": "2026-10-29T18:37:46Z",
+ "download_url": "https://arxiv.org/pdf/2601.11665",
+ "final_url": "https://arxiv.org/pdf/2601.11665",
+ "http_last_modified": "Fri, 21 Aug 2026 01:04:34 GMT",
+ "verify": "通过：pypdf 可解析 8 页；标题词匹配 1.0",
+ "info": {
+  "pages": 8,
+  "meta_title": "UAV-Based Infrastructure Inspections: A Literature Review and Proposed Framework for AEC+FM",
+  "body_sample_chars": 7861,
+  "title_match": 1.0
+ },
+ "bytes": 539123,
+ "sha256": "509ab3c00c5a2792437047395cee5a6cd68cc305b487535db27fe5f01e0950d9",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:37:49Z"
+}

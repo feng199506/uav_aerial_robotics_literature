@@ -2,263 +2,154 @@
  {
   "id": "UA03P01",
   "cat": "03",
-  "year": "2010",
-  "version": "arXiv:1003.2005",
+  "type": "paper",
+  "material": "经典论文",
   "title": "Geometric Tracking Control of a Quadrotor UAV on SE(3)",
   "authors": "Taeyoung Lee; Melvin Leok; N. Harris McClamroch",
-  "source": "https://arxiv.org/abs/1003.2005",
-  "topics": "SE(3) 几何跟踪控制",
-  "vehicle": "四旋翼",
-  "note": "经典：几乎全局稳定的几何控制器，后续 VNAV/实飞控制器的标准引用。",
-  "out": "papers/2010_Lee_GeometricTrackingControlQuadrotor_en.pdf",
-  "type": "paper",
-  "material": "论文/综述/学术教程",
-  "lang": "en",
-  "cross": [],
-  "complete": "完整",
-  "scope": "",
-  "use": "精读",
-  "stack": "",
   "school": "Taeyoung Lee",
+  "year": "2010",
+  "version": "arXiv:1003.2005",
+  "lang": "en",
   "level": "研究生",
   "prereq": "",
-  "license": "arXiv 预印本或作者公开 PDF",
-  "region": "",
-  "tool": "",
+  "topics": "SE(3) 几何跟踪控制",
+  "source": "https://arxiv.org/abs/1003.2005",
+  "license": "arXiv 预印本",
+  "goal": "SE(3) 几何跟踪控制",
+  "order": 0,
+  "out": "papers/2010_GeometricTrackingQuadrotor_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/1003.2005"
+   ]
+  },
   "expect": {
    "title_words": [
     "Geometric",
     "Tracking",
     "Quadrotor"
    ],
-   "min_pages": 6
+   "min_pages": 6,
+   "min_ratio": 0.6
   },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "经典论文，单列；因后续飞控/估计/规划普遍引用而收录。",
+  "use": "精读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "四旋翼",
+  "sensors": "",
+  "lang_file": "en",
   "paper": {
    "vehicle": "四旋翼",
-   "task": "姿态/位置跟踪",
+   "task": "姿态与位置跟踪",
    "sensors": "",
    "compute": "",
    "software": "",
    "setting": "理论+仿真（作者报告）",
-   "env": "未在本文作为唯一实飞依据",
+   "env": "",
    "metrics": "",
-   "code_data": "",
-   "verified_scope": "未执行；仅保存全文",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
    "author_limits": "",
-   "evidence": "摘要+正文"
+   "evidence": "摘要+正文标题核验"
   },
-  "get": {
-   "kind": "pdf",
-   "urls": [
-    "https://arxiv.org/pdf/1003.2005"
-   ]
-  },
-  "order": 0,
-  "goal": "SE(3) 几何跟踪控制"
+  "classic": true
  },
  {
   "id": "UA06P01",
   "cat": "06",
-  "year": "2011",
+  "type": "paper",
+  "material": "经典论文",
   "title": "Minimum Snap Trajectory Generation and Control for Quadrotors",
   "authors": "Daniel Mellinger; Vijay Kumar",
-  "school": "University of Pennsylvania",
-  "source": "https://ieeexplore.ieee.org/document/5980409",
-  "license": "作者公开 PDF（ICRA 2011）",
-  "topics": "微分平坦、最小 snap 轨迹",
-  "vehicle": "四旋翼",
-  "note": "经典：多旋翼轨迹规划的起点。",
-  "out": "papers/2011_Mellinger_MinimumSnapTrajectory_en.pdf",
-  "type": "paper",
-  "material": "论文/综述/学术教程",
+  "school": "Daniel Mellinger",
+  "year": "2011",
+  "version": "2011",
   "lang": "en",
-  "cross": [],
-  "complete": "完整",
-  "scope": "",
-  "use": "精读",
-  "stack": "",
   "level": "研究生",
   "prereq": "",
-  "region": "",
-  "tool": "",
+  "topics": "最小 snap 轨迹生成",
+  "source": "https://www.kumarrobotics.org/",
+  "license": "作者公开 PDF",
+  "goal": "最小 snap 轨迹生成",
+  "order": 0,
+  "out": "papers/2011_MinimumSnapQuadrotors_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://www.kumarrobotics.org/wp-content/uploads/2013/11/2011-icra-mellinger.pdf",
+    "https://www.seas.upenn.edu/~dmel/mellingerICRA11.pdf"
+   ]
+  },
   "expect": {
    "title_words": [
     "Minimum",
     "Snap",
-    "Trajectory",
     "Quadrotors"
    ],
-   "min_pages": 6
+   "min_pages": 6,
+   "min_ratio": 0.6
   },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "经典论文，单列；因后续飞控/估计/规划普遍引用而收录。",
+  "use": "精读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "四旋翼",
+  "sensors": "",
+  "lang_file": "en",
   "paper": {
    "vehicle": "四旋翼",
    "task": "轨迹生成与跟踪",
    "sensors": "",
    "compute": "",
    "software": "",
-   "setting": "实验（作者报告 GRASP 实验室）",
+   "setting": "GRASP 实验室实验（作者报告）",
    "env": "",
    "metrics": "",
-   "code_data": "",
-   "verified_scope": "未执行；仅保存全文",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
    "author_limits": "",
-   "evidence": "摘要+正文"
+   "evidence": "摘要+正文标题核验"
   },
-  "get": {
-   "kind": "pdf",
-   "urls": [
-    "https://www.kumarrobotics.org/wp-content/uploads/2013/11/2011-icra-mellinger.pdf",
-    "https://repository.upenn.edu/bitstreams/minimum-snap.pdf",
-    "https://www.seas.upenn.edu/~dmel/mellingerICRA11.pdf"
-   ]
-  },
-  "version": "2011",
-  "order": 0,
-  "goal": "微分平坦、最小 snap 轨迹"
- },
- {
-  "id": "UA03P02",
-  "cat": "03",
-  "year": "2012",
-  "title": "Multirotor Aerial Vehicles: Modeling, Estimation, and Control of Quadrotor",
-  "authors": "Robert Mahony; Vijay Kumar; Peter Corke",
-  "source": "https://ieeexplore.ieee.org/document/6190800",
-  "license": "作者/IEEE CSM 公开副本（若失败则记缺口）",
-  "topics": "建模、估计、控制综述教程",
-  "vehicle": "四旋翼",
-  "note": "经典 IEEE CSM 教程。",
-  "out": "papers/2012_Mahony_MultirotorAerialVehiclesCSM_en.pdf",
-  "type": "paper",
-  "material": "论文/综述/学术教程",
-  "lang": "en",
-  "cross": [],
-  "complete": "完整",
-  "scope": "",
-  "use": "精读",
-  "stack": "",
-  "school": "Robert Mahony",
-  "level": "研究生",
-  "prereq": "",
-  "region": "",
-  "tool": "",
-  "expect": {
-   "title_words": [
-    "Multirotor",
-    "Quadrotor",
-    "Modeling"
-   ],
-   "min_pages": 6
-  },
-  "paper": {
-   "vehicle": "四旋翼",
-   "task": "",
-   "sensors": "",
-   "compute": "",
-   "software": "",
-   "setting": "",
-   "env": "",
-   "metrics": "",
-   "code_data": "",
-   "verified_scope": "未执行；仅保存全文",
-   "author_limits": "",
-   "evidence": "摘要+正文"
-  },
-  "get": {
-   "kind": "pdf",
-   "urls": [
-    "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6190800",
-    "http://www.roboticssymposium.uzh.ch/mahony_kumar_corke_csm2012.pdf",
-    "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=8c1c6c"
-   ]
-  },
-  "version": "2012",
-  "order": 0,
-  "goal": "建模、估计、控制综述教程"
- },
- {
-  "id": "UA04P01",
-  "cat": "04",
-  "year": "2018",
-  "version": "arXiv:1708.03852 / TRO 2018",
-  "title": "VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator",
-  "authors": "Tong Qin; Peiliang Li; Shaojie Shen",
-  "source": "https://arxiv.org/abs/1708.03852",
-  "topics": "单目 VIO",
-  "vehicle": "多旋翼",
-  "sensors": "单目相机+IMU",
-  "code_data": "代码公开",
-  "note": "经典 VIO，室内弱 GNSS 导航基线。",
-  "out": "papers/2018_Qin_VINSMono_en.pdf",
-  "type": "paper",
-  "material": "论文/综述/学术教程",
-  "lang": "en",
-  "cross": [],
-  "complete": "完整",
-  "scope": "",
-  "use": "精读",
-  "stack": "",
-  "school": "Tong Qin",
-  "level": "研究生",
-  "prereq": "",
-  "license": "arXiv 预印本或作者公开 PDF",
-  "region": "",
-  "tool": "",
-  "expect": {
-   "title_words": [
-    "VINS-Mono",
-    "Visual-Inertial"
-   ],
-   "min_pages": 6
-  },
-  "paper": {
-   "vehicle": "多旋翼",
-   "task": "",
-   "sensors": "单目相机+IMU",
-   "compute": "",
-   "software": "VINS-Mono",
-   "setting": "EuRoC 等公开数据+实飞（作者报告）",
-   "env": "",
-   "metrics": "",
-   "code_data": "代码公开",
-   "verified_scope": "未执行；仅保存全文",
-   "author_limits": "",
-   "evidence": "摘要+正文"
-  },
-  "get": {
-   "kind": "pdf",
-   "urls": [
-    "https://arxiv.org/pdf/1708.03852"
-   ]
-  },
-  "order": 0,
-  "goal": "单目 VIO"
+  "classic": true
  },
  {
   "id": "UA03P03",
   "cat": "03",
-  "year": "2018",
-  "version": "arXiv:1712.02402",
+  "type": "paper",
+  "material": "经典论文",
   "title": "Differential Flatness of Quadrotor Dynamics Subject to Rotor Drag for Accurate Tracking of High-Speed Trajectories",
   "authors": "Matthias Faessler; Antonio Franchi; Davide Scaramuzza",
-  "source": "https://arxiv.org/abs/1712.02402",
-  "topics": "含旋翼阻力的微分平坦与高速跟踪",
-  "vehicle": "四旋翼",
-  "note": "经典：高速轨迹跟踪的气动阻力修正。",
-  "out": "papers/2018_Faessler_DifferentialFlatnessRotorDrag_en.pdf",
-  "type": "paper",
-  "material": "论文/综述/学术教程",
-  "lang": "en",
-  "cross": [],
-  "complete": "完整",
-  "scope": "",
-  "use": "精读",
-  "stack": "",
   "school": "Matthias Faessler",
+  "year": "2018",
+  "version": "arXiv:1712.02402",
+  "lang": "en",
   "level": "研究生",
   "prereq": "",
-  "license": "arXiv 预印本或作者公开 PDF",
-  "region": "",
-  "tool": "",
+  "topics": "含旋翼阻力的微分平坦",
+  "source": "https://arxiv.org/abs/1712.02402",
+  "license": "arXiv 预印本",
+  "goal": "含旋翼阻力的微分平坦",
+  "order": 0,
+  "out": "papers/2018_DifferentialFlatnessQuadrotorDrag_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/1712.02402"
+   ]
+  },
   "expect": {
    "title_words": [
     "Differential",
@@ -266,491 +157,3935 @@
     "Quadrotor",
     "Drag"
    ],
-   "min_pages": 6
+   "min_pages": 6,
+   "min_ratio": 0.6
   },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "经典论文，单列；因后续飞控/估计/规划普遍引用而收录。",
+  "use": "精读",
+  "stack": "RPG 飞控",
+  "tool": "",
+  "region": "",
+  "vehicle": "四旋翼",
+  "sensors": "",
+  "lang_file": "en",
   "paper": {
    "vehicle": "四旋翼",
-   "task": "",
+   "task": "含旋翼阻力的微分平坦",
    "sensors": "",
    "compute": "",
-   "software": "",
+   "software": "RPG 飞控",
    "setting": "实飞（作者报告）",
    "env": "",
    "metrics": "",
-   "code_data": "",
-   "verified_scope": "未执行；仅保存全文",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
    "author_limits": "",
-   "evidence": "摘要+正文"
+   "evidence": "摘要+正文标题核验"
   },
+  "classic": true
+ },
+ {
+  "id": "UA04P01",
+  "cat": "04",
+  "type": "paper",
+  "material": "经典论文",
+  "title": "VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator",
+  "authors": "Tong Qin; Peiliang Li; Shaojie Shen",
+  "school": "Tong Qin",
+  "year": "2018",
+  "version": "arXiv:1708.03852",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "单目视觉惯性状态估计",
+  "source": "https://arxiv.org/abs/1708.03852",
+  "license": "arXiv 预印本",
+  "goal": "单目视觉惯性状态估计",
+  "order": 0,
+  "out": "papers/2018_VINS-MonoVisual-Inertial_en.pdf",
   "get": {
    "kind": "pdf",
+   "timeout": 90,
    "urls": [
-    "https://arxiv.org/pdf/1712.02402"
+    "https://arxiv.org/pdf/1708.03852"
    ]
   },
-  "order": 0,
-  "goal": "含旋翼阻力的微分平坦与高速跟踪"
+  "expect": {
+   "title_words": [
+    "VINS-Mono",
+    "Visual-Inertial"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "经典论文，单列；因后续飞控/估计/规划普遍引用而收录。",
+  "use": "精读",
+  "stack": "VINS-Mono",
+  "tool": "",
+  "region": "",
+  "vehicle": "多旋翼",
+  "sensors": "单目相机+IMU",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "多旋翼",
+   "task": "单目视觉惯性状态估计",
+   "sensors": "单目相机+IMU",
+   "compute": "",
+   "software": "VINS-Mono",
+   "setting": "EuRoC 等+实飞（作者报告）",
+   "env": "",
+   "metrics": "",
+   "code_data": "代码公开",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": true
  },
  {
   "id": "UA04P02",
   "cat": "04",
-  "year": "2020",
-  "version": "arXiv:2008.05716",
+  "type": "paper",
+  "material": "经典论文",
   "title": "OpenVINS: A Research Platform for Visual-Inertial Estimation",
   "authors": "Patrick Geneva; Kevin Eckenhoff; Woosik Lee; Yulin Yang; Guoquan Huang",
-  "source": "https://arxiv.org/abs/2008.05716",
-  "topics": "开源 MSCKF VIO 平台",
-  "vehicle": "多旋翼/手持",
-  "sensors": "相机+IMU",
-  "code_data": "代码公开",
-  "note": "经典开源 VIO 研究平台。",
-  "out": "papers/2020_Geneva_OpenVINS_en.pdf",
-  "type": "paper",
-  "material": "论文/综述/学术教程",
-  "lang": "en",
-  "cross": [],
-  "complete": "完整",
-  "scope": "",
-  "use": "精读",
-  "stack": "",
   "school": "Patrick Geneva",
+  "year": "2020",
+  "version": "arXiv:2008.05716",
+  "lang": "en",
   "level": "研究生",
   "prereq": "",
-  "license": "arXiv 预印本或作者公开 PDF",
-  "region": "",
-  "tool": "",
-  "expect": {
-   "title_words": [
-    "OpenVINS",
-    "Visual-Inertial"
-   ],
-   "min_pages": 6
-  },
-  "paper": {
-   "vehicle": "多旋翼/手持",
-   "task": "",
-   "sensors": "相机+IMU",
-   "compute": "",
-   "software": "OpenVINS",
-   "setting": "",
-   "env": "",
-   "metrics": "",
-   "code_data": "代码公开",
-   "verified_scope": "未执行；仅保存全文",
-   "author_limits": "",
-   "evidence": "摘要+正文"
-  },
+  "topics": "开源 MSCKF VIO 平台",
+  "source": "https://arxiv.org/abs/2008.05716",
+  "license": "arXiv 预印本",
+  "goal": "开源 MSCKF VIO 平台",
+  "order": 0,
+  "out": "papers/2020_OpenVINSVisual-Inertial_en.pdf",
   "get": {
    "kind": "pdf",
+   "timeout": 90,
    "urls": [
     "https://arxiv.org/pdf/2008.05716"
    ]
   },
-  "order": 0,
-  "goal": "开源 MSCKF VIO 平台"
+  "expect": {
+   "title_words": [
+    "OpenVINS"
+   ],
+   "min_pages": 8,
+   "min_ratio": 0.5,
+   "title_pages": 20
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "经典论文，单列；因后续飞控/估计/规划普遍引用而收录。",
+  "use": "精读",
+  "stack": "OpenVINS",
+  "tool": "",
+  "region": "",
+  "vehicle": "多旋翼/手持",
+  "sensors": "相机+IMU",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "多旋翼/手持",
+   "task": "开源 MSCKF VIO 平台",
+   "sensors": "相机+IMU",
+   "compute": "",
+   "software": "OpenVINS",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "代码公开",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": true
  },
  {
   "id": "UA07P01",
   "cat": "07",
-  "year": "2021",
+  "type": "paper",
+  "material": "经典论文",
   "title": "Learning high-speed flight in the wild",
   "authors": "Antonio Loquercio; Elia Kaufmann; René Ranftl; Matthias Müller; Vladlen Koltun; Davide Scaramuzza",
-  "source": "https://arxiv.org/abs/2109.07089",
-  "topics": "学习型视觉导航高速飞行",
-  "vehicle": "四旋翼",
-  "sensors": "相机",
-  "note": "经典 sim-to-real 视觉飞控。Science Robotics 2021。",
-  "out": "papers/2021_Loquercio_LearningHighSpeedFlightWild_en.pdf",
-  "type": "paper",
-  "material": "论文/综述/学术教程",
-  "lang": "en",
-  "cross": [],
-  "complete": "完整",
-  "scope": "",
-  "use": "精读",
-  "stack": "",
   "school": "Antonio Loquercio",
+  "year": "2021",
+  "version": "arXiv:2109.07089",
+  "lang": "en",
   "level": "研究生",
   "prereq": "",
-  "license": "arXiv 预印本或作者公开 PDF",
-  "region": "",
-  "tool": "",
+  "topics": "野外高速视觉飞行学习",
+  "source": "https://arxiv.org/abs/2109.07089",
+  "license": "arXiv 预印本",
+  "goal": "野外高速视觉飞行学习",
+  "order": 0,
+  "out": "papers/2021_LearningHigh-speedFlight_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2109.07089"
+   ]
+  },
   "expect": {
    "title_words": [
     "Learning",
-    "high-speed",
-    "flight"
+    "flight",
+    "wild"
    ],
-   "min_pages": 6
+   "min_pages": 8,
+   "min_ratio": 0.5,
+   "title_pages": 20
   },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "经典论文，单列；因后续飞控/估计/规划普遍引用而收录。",
+  "use": "精读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "四旋翼",
+  "sensors": "相机",
+  "lang_file": "en",
   "paper": {
    "vehicle": "四旋翼",
-   "task": "",
+   "task": "野外高速视觉飞行学习",
    "sensors": "相机",
    "compute": "",
    "software": "",
    "setting": "野外实飞（作者报告）",
    "env": "",
    "metrics": "",
-   "code_data": "",
-   "verified_scope": "未执行；仅保存全文",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
    "author_limits": "",
-   "evidence": "摘要+正文"
+   "evidence": "摘要+正文标题核验"
   },
-  "get": {
-   "kind": "pdf",
-   "urls": [
-    "https://arxiv.org/pdf/2109.07089"
-   ]
-  },
-  "version": "2021",
-  "order": 0,
-  "goal": "学习型视觉导航高速飞行"
+  "classic": true
  },
  {
-  "id": "UA07P02",
-  "cat": "07",
-  "year": "2024",
-  "version": "arXiv:2402.04418",
-  "title": "A Survey of Offline and Online Learning-Based Algorithms for Multirotor UAVs",
-  "authors": "Eleni Anastasiou; et al.",
-  "source": "https://arxiv.org/abs/2402.04418",
-  "topics": "多旋翼离线/在线学习算法综述",
-  "vehicle": "多旋翼",
-  "out": "papers/2024_Anastasiou_SurveyLearningMultirotorUAVs_en.pdf",
+  "id": "UA05P00",
+  "cat": "05",
+  "type": "paper",
+  "material": "经典论文",
+  "title": "FAST-LIO2: Fast Direct LiDAR-inertial Odometry",
+  "authors": "Wei Xu; Yixi Cai; Dongjiao He; Jiarong Lin; Fu Zhang",
+  "school": "Wei Xu",
+  "year": "2022",
+  "version": "arXiv:2107.06829",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "激光惯性里程计",
+  "source": "https://arxiv.org/abs/2107.06829",
+  "license": "arXiv 预印本",
+  "goal": "激光惯性里程计",
+  "order": 0,
+  "out": "papers/2022_FAST-LIO2LiDARInertial_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2107.06829"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "FAST-LIO2",
+    "LiDAR",
+    "inertial"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "经典论文，单列；因后续飞控/估计/规划普遍引用而收录。",
+  "use": "精读",
+  "stack": "FAST-LIO",
+  "tool": "",
+  "region": "",
+  "vehicle": "机载激光平台",
+  "sensors": "LiDAR+IMU",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "机载激光平台",
+   "task": "激光惯性里程计",
+   "sensors": "LiDAR+IMU",
+   "compute": "",
+   "software": "FAST-LIO",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "代码公开",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": true
+ },
+ {
+  "id": "UA02P01",
+  "cat": "02",
   "type": "paper",
   "material": "论文/综述/学术教程",
+  "title": "Nested Power Models for Multirotor Propulsion: From Aerodynamic Drag to Electrical Losses",
+  "authors": "Antonio Franchi; et al.",
+  "school": "Antonio Franchi",
+  "year": "2026",
+  "version": "arXiv:2610.08177",
   "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "多旋翼推进分层功率模型",
+  "source": "https://arxiv.org/abs/2610.08177",
+  "license": "arXiv 预印本",
+  "goal": "多旋翼推进分层功率模型",
+  "order": 0,
+  "out": "papers/2026_NestedPowerMultirotorPropulsion_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.08177"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Nested",
+    "Power",
+    "Multirotor",
+    "Propulsion"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
   "cross": [],
   "complete": "完整",
   "scope": "",
   "note": "",
   "use": "选读",
   "stack": "",
-  "school": "Eleni Anastasiou",
-  "level": "研究生",
-  "prereq": "",
-  "license": "arXiv 预印本或作者公开 PDF",
-  "region": "",
   "tool": "",
-  "expect": {
-   "title_words": [
-    "Survey",
-    "Learning",
-    "Multirotor",
-    "UAVs"
-   ],
-   "min_pages": 6
-  },
+  "region": "",
+  "vehicle": "多旋翼",
+  "sensors": "",
+  "lang_file": "en",
   "paper": {
    "vehicle": "多旋翼",
-   "task": "",
+   "task": "推进/气动-电气建模",
    "sensors": "",
    "compute": "",
    "software": "",
-   "setting": "",
+   "setting": "见正文；本库未复现",
    "env": "",
    "metrics": "",
-   "code_data": "",
-   "verified_scope": "未执行；仅保存全文",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
    "author_limits": "",
-   "evidence": "摘要+正文"
+   "evidence": "摘要+正文标题核验"
   },
+  "classic": false
+ },
+ {
+  "id": "UA02P02",
+  "cat": "02",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Aerodynamic Promptness of Tilting-Propeller Multirotors",
+  "authors": "Antonio Franchi; et al.",
+  "school": "Antonio Franchi",
+  "year": "2026",
+  "version": "arXiv:2610.16532",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "倾转桨多旋翼气动响应",
+  "source": "https://arxiv.org/abs/2610.16532",
+  "license": "arXiv 预印本",
+  "goal": "倾转桨多旋翼气动响应",
+  "order": 0,
+  "out": "papers/2026_AerodynamicTiltingMultirotors_en.pdf",
   "get": {
    "kind": "pdf",
+   "timeout": 90,
    "urls": [
-    "https://arxiv.org/pdf/2402.04418"
+    "https://arxiv.org/pdf/2610.16532"
    ]
   },
+  "expect": {
+   "title_words": [
+    "Aerodynamic",
+    "Tilting",
+    "Multirotors"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "倾转桨多旋翼/VTOL",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "倾转桨多旋翼/VTOL",
+   "task": "气动效应",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA02P03",
+  "cat": "02",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Tilt-Rotor Quadcopter with Learned Residual Control and Mode-Dependent State Estimation",
+  "authors": "Joshi; et al.",
+  "school": "Joshi",
+  "year": "2026",
+  "version": "arXiv:2610.31051",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "倾转旋翼四旋翼残差控制与模态估计",
+  "source": "https://arxiv.org/abs/2610.31051",
+  "license": "arXiv 预印本",
+  "goal": "倾转旋翼四旋翼残差控制与模态估计",
   "order": 0,
-  "goal": "多旋翼离线/在线学习算法综述"
+  "out": "papers/2026_Tilt-RotorQuadcopterResidual_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.31051"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Tilt-Rotor",
+    "Quadcopter",
+    "Residual"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "03",
+   "04"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "倾转旋翼 VTOL",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "倾转旋翼 VTOL",
+   "task": "倾转旋翼四旋翼残差控制与模态估计",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA02P04",
+  "cat": "02",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Swarmlet: a GPU-resident reformulated vortex particle method for coupled multirotor aerodynamics and flight dynamics",
+  "authors": "Horne; et al.",
+  "school": "Horne",
+  "year": "2026",
+  "version": "arXiv:2610.29867",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "多旋翼气动-飞行动力学耦合涡方法",
+  "source": "https://arxiv.org/abs/2610.29867",
+  "license": "arXiv 预印本",
+  "goal": "多旋翼气动-飞行动力学耦合涡方法",
+  "order": 0,
+  "out": "papers/2026_SwarmletVortexMultirotor_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.29867"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Swarmlet",
+    "vortex",
+    "multirotor"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "10"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "多旋翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "多旋翼",
+   "task": "多旋翼气动-飞行动力学耦合涡方法",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA02P05",
+  "cat": "02",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Vehicle-State-Aware Confidence Estimation for Direct Wind Sensing on a Multirotor",
+  "authors": "Kumar; et al.",
+  "school": "Kumar",
+  "year": "2026",
+  "version": "arXiv:2610.25688",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "多旋翼直接测风与置信度",
+  "source": "https://arxiv.org/abs/2610.25688",
+  "license": "arXiv 预印本",
+  "goal": "多旋翼直接测风与置信度",
+  "order": 0,
+  "out": "papers/2026_WindSensingMultirotor_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.25688"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Wind",
+    "Sensing",
+    "Multirotor"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "04"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "多旋翼",
+  "sensors": "风速/IMU",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "多旋翼",
+   "task": "多旋翼直接测风与置信度",
+   "sensors": "风速/IMU",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
  },
  {
   "id": "UA03P04",
   "cat": "03",
-  "year": "2023",
-  "version": "arXiv:2310.10943",
-  "title": "Reaching the limit in autonomous racing: Optimal control versus reinforcement learning",
-  "authors": "Yunlong Song; Angel Romero; Matthias Müller; Vladlen Koltun; Davide Scaramuzza",
-  "source": "https://arxiv.org/abs/2310.10943",
-  "topics": "竞速：MPC vs RL",
-  "vehicle": "四旋翼",
-  "out": "papers/2023_Song_ReachingLimitAutonomousRacing_en.pdf",
   "type": "paper",
   "material": "论文/综述/学术教程",
-  "lang": "en",
-  "cross": [],
-  "complete": "完整",
-  "scope": "",
-  "note": "",
-  "use": "选读",
-  "stack": "",
+  "title": "Reaching the limit in autonomous racing: Optimal control versus reinforcement learning",
+  "authors": "Yunlong Song; Angel Romero; Matthias Müller; Vladlen Koltun; Davide Scaramuzza",
   "school": "Yunlong Song",
+  "year": "2023",
+  "version": "arXiv:2310.10943",
+  "lang": "en",
   "level": "研究生",
   "prereq": "",
-  "license": "arXiv 预印本或作者公开 PDF",
-  "region": "",
-  "tool": "",
+  "topics": "无人机竞速：最优控制对比强化学习",
+  "source": "https://arxiv.org/abs/2310.10943",
+  "license": "arXiv 预印本",
+  "goal": "无人机竞速：最优控制对比强化学习",
+  "order": 0,
+  "out": "papers/2023_AutonomousRacingReinforcement_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2310.10943"
+   ]
+  },
   "expect": {
    "title_words": [
     "autonomous",
     "racing",
-    "Optimal",
     "reinforcement"
    ],
-   "min_pages": 6
+   "min_pages": 6,
+   "min_ratio": 0.6
   },
+  "cross": [
+   "07"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "v1 需核验是否落入窗口；若早于 2023-10-30 则记入经典。",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "四旋翼竞速",
+  "sensors": "",
+  "lang_file": "en",
   "paper": {
-   "vehicle": "四旋翼",
-   "task": "",
+   "vehicle": "四旋翼竞速",
+   "task": "无人机竞速：最优控制对比强化学习",
    "sensors": "",
    "compute": "",
    "software": "",
    "setting": "实飞（作者报告）",
    "env": "",
    "metrics": "",
-   "code_data": "",
-   "verified_scope": "未执行；仅保存全文",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
    "author_limits": "",
-   "evidence": "摘要+正文"
+   "evidence": "摘要+正文标题核验"
   },
-  "get": {
-   "kind": "pdf",
-   "urls": [
-    "https://arxiv.org/pdf/2310.10943"
-   ]
-  },
-  "order": 0,
-  "goal": "竞速：MPC vs RL"
+  "classic": false
  },
  {
-  "id": "UA05P01",
-  "cat": "05",
-  "year": "2024",
-  "version": "arXiv:2408.14035",
-  "title": "FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry",
-  "authors": "Chunran Zheng; Wei Xu; Zuhao Zou; et al.",
-  "source": "https://arxiv.org/abs/2408.14035",
-  "topics": "LIVO",
-  "vehicle": "激光无人机",
-  "sensors": "LiDAR+IMU+相机",
-  "code_data": "代码公开（作者报告）",
-  "out": "papers/2024_Zheng_FASTLIVO2_en.pdf",
+  "id": "UA03P05",
+  "cat": "03",
   "type": "paper",
   "material": "论文/综述/学术教程",
+  "title": "ISB-NMPC: Interception-Oriented Spherical-Bearing Nonlinear Model Predictive Control for Quadrotors",
+  "authors": "Hong; et al.",
+  "school": "Hong",
+  "year": "2026",
+  "version": "arXiv:2610.34789",
   "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "拦截导向非线性 MPC",
+  "source": "https://arxiv.org/abs/2610.34789",
+  "license": "arXiv 预印本",
+  "goal": "拦截导向非线性 MPC",
+  "order": 0,
+  "out": "papers/2026_NMPCQuadrotors_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.34789"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "NMPC",
+    "Quadrotors"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
   "cross": [],
   "complete": "完整",
   "scope": "",
   "note": "",
   "use": "选读",
   "stack": "",
-  "school": "Chunran Zheng",
-  "level": "研究生",
-  "prereq": "",
-  "license": "arXiv 预印本或作者公开 PDF",
-  "region": "",
   "tool": "",
-  "expect": {
-   "title_words": [
-    "FAST-LIVO2",
-    "LiDAR",
-    "Visual",
-    "Odometry"
-   ],
-   "min_pages": 6
-  },
+  "region": "",
+  "vehicle": "四旋翼",
+  "sensors": "",
+  "lang_file": "en",
   "paper": {
-   "vehicle": "激光无人机",
-   "task": "",
-   "sensors": "LiDAR+IMU+相机",
+   "vehicle": "四旋翼",
+   "task": "轨迹/拦截控制",
+   "sensors": "",
    "compute": "",
-   "software": "FAST-LIVO2",
-   "setting": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
    "env": "",
    "metrics": "",
-   "code_data": "代码公开（作者报告）",
-   "verified_scope": "未执行；仅保存全文",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
    "author_limits": "",
-   "evidence": "摘要+正文"
+   "evidence": "摘要+正文标题核验"
   },
+  "classic": false
+ },
+ {
+  "id": "UA03P06",
+  "cat": "03",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "DQ-MPCC: Dual-Quaternion MPCC for Quadrotor Racing",
+  "authors": "Guevara; et al.",
+  "school": "Guevara",
+  "year": "2026",
+  "version": "arXiv:2609.36482",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "双四元数模型预测轮廓控制用于竞速",
+  "source": "https://arxiv.org/abs/2609.36482",
+  "license": "arXiv 预印本",
+  "goal": "双四元数模型预测轮廓控制用于竞速",
+  "order": 0,
+  "out": "papers/2026_Dual-QuaternionMPCCQuadrotor_en.pdf",
   "get": {
    "kind": "pdf",
+   "timeout": 90,
    "urls": [
-    "https://arxiv.org/pdf/2408.14035"
+    "https://arxiv.org/pdf/2609.36482"
    ]
   },
+  "expect": {
+   "title_words": [
+    "Dual-Quaternion",
+    "MPCC",
+    "Quadrotor"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "四旋翼竞速",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "四旋翼竞速",
+   "task": "双四元数模型预测轮廓控制用于竞速",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA03P07",
+  "cat": "03",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Robust Variable-Horizon MPC for Landing a Multirotor UAV on a Moving Platform",
+  "authors": "Doodeman; et al.",
+  "school": "Doodeman",
+  "year": "2026",
+  "version": "arXiv:2609.34574",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "动平台降落变时域 MPC",
+  "source": "https://arxiv.org/abs/2609.34574",
+  "license": "arXiv 预印本",
+  "goal": "动平台降落变时域 MPC",
   "order": 0,
-  "goal": "LIVO"
+  "out": "papers/2026_MPCLandingMultirotor_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2609.34574"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "MPC",
+    "Landing",
+    "Multirotor"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "06"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "多旋翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "多旋翼",
+   "task": "自主降落",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA03P08",
+  "cat": "03",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "MPC-Based Trajectory Tracking for a Quadrotor UAV with Uniform Semi-Global Asymptotic Stability Guarantees",
+  "authors": "Yang; et al.",
+  "school": "Yang",
+  "year": "2026",
+  "version": "arXiv:2603.27576",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "带稳定性保证的四旋翼 MPC 跟踪",
+  "source": "https://arxiv.org/abs/2603.27576",
+  "license": "arXiv 预印本",
+  "goal": "带稳定性保证的四旋翼 MPC 跟踪",
+  "order": 0,
+  "out": "papers/2026_MPCTrajectoryQuadrotor_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2603.27576"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "MPC",
+    "Trajectory",
+    "Quadrotor"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "四旋翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "四旋翼",
+   "task": "带稳定性保证的四旋翼 MPC 跟踪",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA03P09",
+  "cat": "03",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "How Tuning, Reference Preview, Actuator Modeling, and Fallback Policies Change Quadrotor Controller Comparison",
+  "authors": "Dao; et al.",
+  "school": "Dao",
+  "year": "2026",
+  "version": "arXiv:2610.35165",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "四旋翼控制器比较的调参与执行器模型影响",
+  "source": "https://arxiv.org/abs/2610.35165",
+  "license": "arXiv 预印本",
+  "goal": "四旋翼控制器比较的调参与执行器模型影响",
+  "order": 0,
+  "out": "papers/2026_QuadrotorControllerComparison_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.35165"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Quadrotor",
+    "Controller",
+    "Comparison"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "10"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "四旋翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "四旋翼",
+   "task": "控制器评测",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA03P10",
+  "cat": "03",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "L1-MPPI: L1 Adaptive Model Predictive Path Integral for Agile UAV Control",
+  "authors": "Kotek; et al.",
+  "school": "Kotek",
+  "year": "2026",
+  "version": "arXiv:2609.38467",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "L1 自适应 MPPI 敏捷控制",
+  "source": "https://arxiv.org/abs/2609.38467",
+  "license": "arXiv 预印本",
+  "goal": "L1 自适应 MPPI 敏捷控制",
+  "order": 0,
+  "out": "papers/2026_AdaptiveMPPIUAV_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2609.38467"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Adaptive",
+    "MPPI",
+    "UAV"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "07"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "多旋翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "多旋翼",
+   "task": "L1 自适应 MPPI 敏捷控制",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA03P11",
+  "cat": "03",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Safety-Critical Quadrotor Navigation Using Fourth-Order Control Barrier Functions with Full Nonlinear Quadrotor Dynamics",
+  "authors": "Liu; et al.",
+  "school": "Liu",
+  "year": "2026",
+  "version": "arXiv:2610.14522",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "四阶 CBF 安全关键导航",
+  "source": "https://arxiv.org/abs/2610.14522",
+  "license": "arXiv 预印本",
+  "goal": "四阶 CBF 安全关键导航",
+  "order": 0,
+  "out": "papers/2026_ControlBarrierQuadrotor_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.14522"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Control",
+    "Barrier",
+    "Quadrotor"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "06"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "四旋翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "四旋翼",
+   "task": "四阶 CBF 安全关键导航",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
  },
  {
   "id": "UA04P03",
   "cat": "04",
-  "year": "2024",
-  "version": "arXiv:2402.11347",
-  "title": "AirIMU: Learning Uncertainty Propagation for Inertial Odometry",
-  "authors": "",
-  "source": "https://arxiv.org/abs/2402.11347",
-  "topics": "学习惯性里程计不确定性",
-  "vehicle": "IMU 平台",
-  "out": "papers/2024_AirIMU_LearningUncertaintyInertialOdometry_en.pdf",
   "type": "paper",
   "material": "论文/综述/学术教程",
+  "title": "Moving Horizon Estimation for Quadrotors: An L1 Adaptive Optimizer Approach",
+  "authors": "Nguyen; et al.",
+  "school": "Nguyen",
+  "year": "2026",
+  "version": "arXiv:2609.30777",
   "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "四旋翼滚动时域估计",
+  "source": "https://arxiv.org/abs/2609.30777",
+  "license": "arXiv 预印本",
+  "goal": "四旋翼滚动时域估计",
+  "order": 0,
+  "out": "papers/2026_MovingHorizonQuadrotors_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2609.30777"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Moving",
+    "Horizon",
+    "Quadrotors"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
   "cross": [],
   "complete": "完整",
   "scope": "",
   "note": "",
   "use": "选读",
   "stack": "",
-  "school": "",
-  "level": "研究生",
-  "prereq": "",
-  "license": "arXiv 预印本或作者公开 PDF",
-  "region": "",
   "tool": "",
-  "expect": {
-   "title_words": [
-    "AirIMU",
-    "Inertial"
-   ],
-   "min_pages": 6
-  },
+  "region": "",
+  "vehicle": "四旋翼",
+  "sensors": "",
+  "lang_file": "en",
   "paper": {
-   "vehicle": "IMU 平台",
-   "task": "",
+   "vehicle": "四旋翼",
+   "task": "状态估计",
    "sensors": "",
    "compute": "",
    "software": "",
-   "setting": "",
+   "setting": "见正文；本库未复现",
    "env": "",
    "metrics": "",
-   "code_data": "",
-   "verified_scope": "未执行；仅保存全文",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
    "author_limits": "",
-   "evidence": "摘要+正文"
+   "evidence": "摘要+正文标题核验"
   },
+  "classic": false
+ },
+ {
+  "id": "UA05P01",
+  "cat": "05",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry",
+  "authors": "Chunran Zheng; Wei Xu; Zuhao Zou; et al.",
+  "school": "Chunran Zheng",
+  "year": "2024",
+  "version": "arXiv:2408.14035",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "激光-惯性-视觉里程计",
+  "source": "https://arxiv.org/abs/2408.14035",
+  "license": "arXiv 预印本",
+  "goal": "激光-惯性-视觉里程计",
+  "order": 0,
+  "out": "papers/2024_FAST-LIVO2LiDARVisual_en.pdf",
   "get": {
    "kind": "pdf",
+   "timeout": 90,
    "urls": [
-    "https://arxiv.org/pdf/2402.11347"
+    "https://arxiv.org/pdf/2408.14035"
    ]
   },
+  "expect": {
+   "title_words": [
+    "FAST-LIVO2",
+    "LiDAR",
+    "Visual"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "FAST-LIVO2",
+  "tool": "",
+  "region": "",
+  "vehicle": "机载激光无人机",
+  "sensors": "LiDAR+IMU+相机",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "机载激光无人机",
+   "task": "激光-惯性-视觉里程计",
+   "sensors": "LiDAR+IMU+相机",
+   "compute": "",
+   "software": "FAST-LIVO2",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "代码公开（作者报告）",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA05P02",
+  "cat": "05",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "A Survey on LiDAR-based Autonomous Aerial Vehicles",
+  "authors": "Ren; et al.",
+  "school": "Ren",
+  "year": "2025",
+  "version": "arXiv:2509.10730",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "激光无人机综述",
+  "source": "https://arxiv.org/abs/2509.10730",
+  "license": "arXiv 预印本",
+  "goal": "激光无人机综述",
   "order": 0,
-  "goal": "学习惯性里程计不确定性"
+  "out": "papers/2025_SurveyLiDARAerial_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2509.10730"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Survey",
+    "LiDAR",
+    "Aerial"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "激光无人机",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "激光无人机",
+   "task": "综述",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA05P03",
+  "cat": "05",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "RAVEN: A Unified Active SLAM System for Rapid Autonomous Visual Exploration with Aerial Robots under Localization Uncertainty",
+  "authors": "Chen; et al.",
+  "school": "Chen",
+  "year": "2026",
+  "version": "arXiv:2610.37111",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "空中机器人主动 SLAM 探索",
+  "source": "https://arxiv.org/abs/2610.37111",
+  "license": "arXiv 预印本",
+  "goal": "空中机器人主动 SLAM 探索",
+  "order": 0,
+  "out": "papers/2026_ActiveSLAMAerial_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.37111"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Active",
+    "SLAM",
+    "Aerial"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "06"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "多旋翼",
+  "sensors": "视觉",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "多旋翼",
+   "task": "空中机器人主动 SLAM 探索",
+   "sensors": "视觉",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "GNSS 弱/室内可能",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA05P04",
+  "cat": "05",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Stereo-Planner: Learning Stereo-to-Trajectory Planning for Zero-Shot Sim-to-Real Quadrotor Navigation",
+  "authors": "Shen; et al.",
+  "school": "Shen",
+  "year": "2026",
+  "version": "arXiv:2610.15560",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "立体视觉到轨迹的零样本仿真到现实导航",
+  "source": "https://arxiv.org/abs/2610.15560",
+  "license": "arXiv 预印本",
+  "goal": "立体视觉到轨迹的零样本仿真到现实导航",
+  "order": 0,
+  "out": "papers/2026_StereoQuadrotorNavigation_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.15560"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Stereo",
+    "Quadrotor",
+    "Navigation"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "06",
+   "07"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "四旋翼",
+  "sensors": "双目",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "四旋翼",
+   "task": "立体视觉到轨迹的零样本仿真到现实导航",
+   "sensors": "双目",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA05P05",
+  "cat": "05",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "DR-IPC: Disturbance-Resilient Integrated Planning and Control for LiDAR-Based Quadrotor Navigation",
+  "authors": "Liu; et al.",
+  "school": "Liu",
+  "year": "2026",
+  "version": "arXiv:2610.03530",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "抗扰激光四旋翼规划与控制一体化",
+  "source": "https://arxiv.org/abs/2610.03530",
+  "license": "arXiv 预印本",
+  "goal": "抗扰激光四旋翼规划与控制一体化",
+  "order": 0,
+  "out": "papers/2026_LiDARQuadrotorNavigation_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.03530"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "LiDAR",
+    "Quadrotor",
+    "Navigation"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "06"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "四旋翼",
+  "sensors": "LiDAR",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "四旋翼",
+   "task": "抗扰激光四旋翼规划与控制一体化",
+   "sensors": "LiDAR",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA05P06",
+  "cat": "05",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "ClearNav: Perception-Aligned Quadrotor Flight Using Differential-Physics",
+  "authors": "Azad; et al.",
+  "school": "Azad",
+  "year": "2026",
+  "version": "arXiv:2610.17419",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "感知对齐的微分物理四旋翼飞行",
+  "source": "https://arxiv.org/abs/2610.17419",
+  "license": "arXiv 预印本",
+  "goal": "感知对齐的微分物理四旋翼飞行",
+  "order": 0,
+  "out": "papers/2026_ClearNavQuadrotorPerception_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.17419"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "ClearNav",
+    "Quadrotor",
+    "Perception"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "四旋翼",
+  "sensors": "视觉",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "四旋翼",
+   "task": "感知对齐的微分物理四旋翼飞行",
+   "sensors": "视觉",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
  },
  {
   "id": "UA06P02",
   "cat": "06",
-  "year": "2024",
-  "version": "arXiv:2407.04230",
-  "title": "EGO-Swarm 2.0: A Fully Autonomous and Decentralized Quadrotor Swarm System in Cluttered Environments",
-  "authors": "Xin Zhou; et al.",
-  "source": "https://arxiv.org/abs/2407.04230",
-  "topics": "去中心化四旋翼集群避障",
-  "vehicle": "四旋翼集群",
-  "out": "papers/2024_EGOSwarm_QuadrotorSwarm_en.pdf",
   "type": "paper",
   "material": "论文/综述/学术教程",
+  "title": "NMPP: Nonlinear Model Predictive Planning for Agile UAV Flight in Cluttered Environments",
+  "authors": "Procházka; et al.",
+  "school": "Procházka",
+  "year": "2026",
+  "version": "arXiv:2610.08695",
   "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "杂乱环境敏捷飞行非线性模型预测规划",
+  "source": "https://arxiv.org/abs/2610.08695",
+  "license": "arXiv 预印本",
+  "goal": "杂乱环境敏捷飞行非线性模型预测规划",
+  "order": 0,
+  "out": "papers/2026_PredictivePlanningUAV_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.08695"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Predictive",
+    "Planning",
+    "UAV"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
   "cross": [],
   "complete": "完整",
   "scope": "",
   "note": "",
   "use": "选读",
   "stack": "",
-  "school": "Xin Zhou",
-  "level": "研究生",
-  "prereq": "",
-  "license": "arXiv 预印本或作者公开 PDF",
-  "region": "",
   "tool": "",
-  "expect": {
-   "title_words": [
-    "Swarm",
-    "Quadrotor"
-   ],
-   "min_pages": 6
-  },
+  "region": "",
+  "vehicle": "多旋翼",
+  "sensors": "",
+  "lang_file": "en",
   "paper": {
-   "vehicle": "四旋翼集群",
-   "task": "",
+   "vehicle": "多旋翼",
+   "task": "杂乱环境敏捷飞行非线性模型预测规划",
    "sensors": "",
    "compute": "",
    "software": "",
-   "setting": "",
-   "env": "",
+   "setting": "见正文；本库未复现",
+   "env": "障碍环境",
    "metrics": "",
-   "code_data": "",
-   "verified_scope": "未执行；仅保存全文",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
    "author_limits": "",
-   "evidence": "摘要+正文"
+   "evidence": "摘要+正文标题核验"
   },
-  "get": {
-   "kind": "pdf",
-   "urls": [
-    "https://arxiv.org/pdf/2407.04230",
-    "https://arxiv.org/pdf/2011.04187"
-   ]
-  },
-  "order": 0,
-  "goal": "去中心化四旋翼集群避障"
+  "classic": false
  },
  {
-  "id": "UA10P02",
-  "cat": "10",
-  "year": "2024",
-  "version": "arXiv:2404.18065",
-  "title": "Pegasus Simulator: An Isaac Sim-based Framework for Multiple Aerial Vehicles Simulation",
-  "authors": "Marcelo Jacinto; et al.",
-  "source": "https://arxiv.org/abs/2404.10853",
-  "topics": "Isaac Sim 多机仿真框架",
-  "vehicle": "多旋翼",
-  "out": "papers/2024_Jacinto_PegasusSimulator_en.pdf",
+  "id": "UA06P03",
+  "cat": "06",
   "type": "paper",
   "material": "论文/综述/学术教程",
+  "title": "TransNav: Transformer-Based End-to-End Navigation Method for Static and Dynamic Quadrotor Obstacle Avoidance",
+  "authors": "Zhu; et al.",
+  "school": "Zhu",
+  "year": "2026",
+  "version": "arXiv:2610.23635",
   "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "静态/动态障碍端到端避障导航",
+  "source": "https://arxiv.org/abs/2610.23635",
+  "license": "arXiv 预印本",
+  "goal": "静态/动态障碍端到端避障导航",
+  "order": 0,
+  "out": "papers/2026_TransNavQuadrotorObstacle_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.23635"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "TransNav",
+    "Quadrotor",
+    "Obstacle"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "07"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "四旋翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "四旋翼",
+   "task": "静态/动态障碍端到端避障导航",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA06P04",
+  "cat": "06",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Adaptive Long-range UAV Flight Planning using Monte Carlo Search Trees",
+  "authors": "Dong; et al.",
+  "school": "Dong",
+  "year": "2026",
+  "version": "arXiv:2610.25804",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "远程航线蒙特卡洛规划",
+  "source": "https://arxiv.org/abs/2610.25804",
+  "license": "arXiv 预印本",
+  "goal": "远程航线蒙特卡洛规划",
+  "order": 0,
+  "out": "papers/2026_UAVFlightPlanning_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.25804"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "UAV",
+    "Flight",
+    "Planning"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
   "cross": [],
   "complete": "完整",
   "scope": "",
   "note": "",
   "use": "选读",
   "stack": "",
-  "school": "Marcelo Jacinto",
+  "tool": "",
+  "region": "",
+  "vehicle": "固定翼/UAV",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "固定翼/UAV",
+   "task": "任务/路径规划",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA06P05",
+  "cat": "06",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "FU-MPC: Frontier- and Uncertainty-Aware Model Predictive Control for Efficient and Accurate UAV Exploration",
+  "authors": "Li; et al.",
+  "school": "Li",
+  "year": "2026",
+  "version": "arXiv:2605.14920",
+  "lang": "en",
   "level": "研究生",
   "prereq": "",
-  "license": "arXiv 预印本或作者公开 PDF",
-  "region": "",
+  "topics": "前沿与不确定性感知探索 MPC",
+  "source": "https://arxiv.org/abs/2605.14920",
+  "license": "arXiv 预印本",
+  "goal": "前沿与不确定性感知探索 MPC",
+  "order": 0,
+  "out": "papers/2026_UAVExplorationMPC_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2605.14920"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "UAV",
+    "Exploration",
+    "MPC"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "03"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
   "tool": "",
+  "region": "",
+  "vehicle": "多旋翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "多旋翼",
+   "task": "探索覆盖",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA06P06",
+  "cat": "06",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Constrained MPC-Based Motion Planning for Morphing Quadrotors in Ultra-Narrow Passages under Limited Perception",
+  "authors": "Modi; et al.",
+  "school": "Modi",
+  "year": "2026",
+  "version": "arXiv:2605.15999",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "变形四旋翼窄通道运动规划",
+  "source": "https://arxiv.org/abs/2605.15999",
+  "license": "arXiv 预印本",
+  "goal": "变形四旋翼窄通道运动规划",
+  "order": 0,
+  "out": "papers/2026_MorphingQuadrotorsPlanning_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2605.15999"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Morphing",
+    "Quadrotors",
+    "Planning"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "变形四旋翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "变形四旋翼",
+   "task": "变形四旋翼窄通道运动规划",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA07P02",
+  "cat": "07",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "A Survey of Offline and Online Learning-Based Algorithms for Multirotor UAVs",
+  "authors": "Anastasiou; et al.",
+  "school": "Anastasiou",
+  "year": "2024",
+  "version": "arXiv:2402.04418",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "多旋翼学习算法综述",
+  "source": "https://arxiv.org/abs/2402.04418",
+  "license": "arXiv 预印本",
+  "goal": "多旋翼学习算法综述",
+  "order": 0,
+  "out": "papers/2024_SurveyLearningMultirotor_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2402.04418"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Survey",
+    "Learning",
+    "Multirotor"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "多旋翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "多旋翼",
+   "task": "综述",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA07P03",
+  "cat": "07",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Learning Visuomotor Quadrotor Flight Through Dynamic Narrow Gaps via Differentiable Simulation",
+  "authors": "Bianco; et al.",
+  "school": "Bianco",
+  "year": "2026",
+  "version": "arXiv:2610.37557",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "可微仿真学习穿狭缝",
+  "source": "https://arxiv.org/abs/2610.37557",
+  "license": "arXiv 预印本",
+  "goal": "可微仿真学习穿狭缝",
+  "order": 0,
+  "out": "papers/2026_VisuomotorQuadrotorDifferentiable_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.37557"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Visuomotor",
+    "Quadrotor",
+    "Differentiable"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "10"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "四旋翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "四旋翼",
+   "task": "可微仿真学习穿狭缝",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "仿真（作者报告）；不得标为实飞",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA07P04",
+  "cat": "07",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "DiffDreamer: Coupling World Models with Differentiable Simulation for Agile Quadrotor Control",
+  "authors": "Li; et al.",
+  "school": "Li",
+  "year": "2026",
+  "version": "arXiv:2610.31617",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "世界模型+可微仿真敏捷控制",
+  "source": "https://arxiv.org/abs/2610.31617",
+  "license": "arXiv 预印本",
+  "goal": "世界模型+可微仿真敏捷控制",
+  "order": 0,
+  "out": "papers/2026_DifferentiableSimulationQuadrotor_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.31617"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Differentiable",
+    "Simulation",
+    "Quadrotor"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "10"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "四旋翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "四旋翼",
+   "task": "世界模型+可微仿真敏捷控制",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA07P05",
+  "cat": "07",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Battery-Aware Reinforcement Learning for Aggressive Quadrotor Flight",
+  "authors": "Roncero; et al.",
+  "school": "Roncero",
+  "year": "2026",
+  "version": "arXiv:2609.37316",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "计及电池的强化学习机动飞行",
+  "source": "https://arxiv.org/abs/2609.37316",
+  "license": "arXiv 预印本",
+  "goal": "计及电池的强化学习机动飞行",
+  "order": 0,
+  "out": "papers/2026_BatteryReinforcementQuadrotor_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2609.37316"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Battery",
+    "Reinforcement",
+    "Quadrotor"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "11"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "四旋翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "四旋翼",
+   "task": "计及电池的强化学习机动飞行",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA07P06",
+  "cat": "07",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "AeroDASH: Asynchronous Vision-Language-Action Control for Continuous UAV Flight",
+  "authors": "Liu; et al.",
+  "school": "Liu",
+  "year": "2026",
+  "version": "arXiv:2610.25407",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "视觉语言动作连续飞行控制",
+  "source": "https://arxiv.org/abs/2610.25407",
+  "license": "arXiv 预印本",
+  "goal": "视觉语言动作连续飞行控制",
+  "order": 0,
+  "out": "papers/2026_Vision-Language-ActionUAV_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.25407"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Vision-Language-Action",
+    "UAV"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "多旋翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "多旋翼",
+   "task": "VLN/VLA",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA07P07",
+  "cat": "07",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery",
+  "authors": "Jiang; et al.",
+  "school": "Jiang",
+  "year": "2026",
+  "version": "arXiv:2609.31507",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "卫星影像长时程视觉语言导航基准",
+  "source": "https://arxiv.org/abs/2609.31507",
+  "license": "arXiv 预印本",
+  "goal": "卫星影像长时程视觉语言导航基准",
+  "order": 0,
+  "out": "papers/2026_Vision-LanguageNavigationUAV_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2609.31507"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Vision-Language",
+    "Navigation",
+    "UAV"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "10"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "UAV",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "UAV",
+   "task": "VLN 基准",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA07P08",
+  "cat": "07",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Vision Language Action (VLA) Models for Unmanned Aerial Robotics and Bimanual Manipulation: A Review",
+  "authors": "Sa; et al.",
+  "school": "Sa",
+  "year": "2025",
+  "version": "arXiv:2507.13359",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "无人空中机器人 VLA 综述",
+  "source": "https://arxiv.org/abs/2507.13359",
+  "license": "arXiv 预印本",
+  "goal": "无人空中机器人 VLA 综述",
+  "order": 0,
+  "out": "papers/2025_VisionLanguageUnmannedAerial_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2507.13359"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Vision",
+    "Language",
+    "Unmanned",
+    "Aerial"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "含双臂操作章节，仅空中部分作为本库依据。",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "空中机器人",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "空中机器人",
+   "task": "无人空中机器人 VLA 综述",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA07P09",
+  "cat": "07",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Constrained Differentiable Policy Learning for Safe Quadrotor Navigation",
+  "authors": "Tan; et al.",
+  "school": "Tan",
+  "year": "2026",
+  "version": "arXiv:2610.16119",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "约束可微策略学习安全导航",
+  "source": "https://arxiv.org/abs/2610.16119",
+  "license": "arXiv 预印本",
+  "goal": "约束可微策略学习安全导航",
+  "order": 0,
+  "out": "papers/2026_PolicyLearningQuadrotor_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.16119"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Policy",
+    "Learning",
+    "Quadrotor"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "06"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "四旋翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "四旋翼",
+   "task": "约束可微策略学习安全导航",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA08P01",
+  "cat": "08",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Learning Waypoints and Passage Events for Decentralized Multi-Quadrotor Trajectory Planning",
+  "authors": "Shi; et al.",
+  "school": "Shi",
+  "year": "2026",
+  "version": "arXiv:2610.25024",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "去中心化多四旋翼轨迹规划",
+  "source": "https://arxiv.org/abs/2610.25024",
+  "license": "arXiv 预印本",
+  "goal": "去中心化多四旋翼轨迹规划",
+  "order": 0,
+  "out": "papers/2026_DecentralizedMulti-QuadrotorPlanning_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.25024"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Decentralized",
+    "Multi-Quadrotor",
+    "Planning"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "四旋翼多机",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "四旋翼多机",
+   "task": "分布式规划",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA08P02",
+  "cat": "08",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "BGC-Nav: Cross-Altitude Multi-UAV Collaborative Navigation via Belief-Guided Coupling",
+  "authors": "Hao; et al.",
+  "school": "Hao",
+  "year": "2026",
+  "version": "arXiv:2610.14702",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "跨高度多机协同导航",
+  "source": "https://arxiv.org/abs/2610.14702",
+  "license": "arXiv 预印本",
+  "goal": "跨高度多机协同导航",
+  "order": 0,
+  "out": "papers/2026_Multi-UAVCollaborativeNavigation_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.14702"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Multi-UAV",
+    "Collaborative",
+    "Navigation"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "多机",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "多机",
+   "task": "协同感知/导航",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA08P03",
+  "cat": "08",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "SwarmNxt: Open-source Software-Hardware Platform for Fast and Agile Aerial Swarms",
+  "authors": "Toumieh; et al.",
+  "school": "Toumieh",
+  "year": "2026",
+  "version": "arXiv:2609.11382",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "开源空中集群软硬件平台",
+  "source": "https://arxiv.org/abs/2609.11382",
+  "license": "arXiv 预印本",
+  "goal": "开源空中集群软硬件平台",
+  "order": 0,
+  "out": "papers/2026_AerialSwarmsOpen-source_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2609.11382"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Aerial",
+    "Swarms",
+    "Open-source"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "09",
+   "10"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "SwarmNxt",
+  "tool": "",
+  "region": "",
+  "vehicle": "微型多旋翼集群",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "微型多旋翼集群",
+   "task": "开源空中集群软硬件平台",
+   "sensors": "",
+   "compute": "",
+   "software": "SwarmNxt",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA08P04",
+  "cat": "08",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Spatial-Temporal Hybrid Path Planning for Multi-UAV Methane Emission Rate Quantification",
+  "authors": "Wu; et al.",
+  "school": "Wu",
+  "year": "2026",
+  "version": "arXiv:2610.14471",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "多机甲烷排放量化路径规划",
+  "source": "https://arxiv.org/abs/2610.14471",
+  "license": "arXiv 预印本",
+  "goal": "多机甲烷排放量化路径规划",
+  "order": 0,
+  "out": "papers/2026_Multi-UAVMethanePlanning_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.14471"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Multi-UAV",
+    "Methane",
+    "Planning"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "12"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "多机",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "多机",
+   "task": "环境监测",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA08P05",
+  "cat": "08",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Compact Force Sensor for Dual-UAV Cable-Suspended Payload Transport with Tension-Aware Outer-Loop Control",
+  "authors": "Delbene; et al.",
+  "school": "Delbene",
+  "year": "2026",
+  "version": "arXiv:2609.31035",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "双机吊运张力感知控制",
+  "source": "https://arxiv.org/abs/2609.31035",
+  "license": "arXiv 预印本",
+  "goal": "双机吊运张力感知控制",
+  "order": 0,
+  "out": "papers/2026_Dual-UAVPayloadTransport_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2609.31035"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Dual-UAV",
+    "Payload",
+    "Transport"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "双机多旋翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "双机多旋翼",
+   "task": "协同运输（民用）",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA09P01",
+  "cat": "09",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Cybflight: An Embedded Rust Autopilot for Aerial Robotics Research",
+  "authors": "Lin; et al.",
+  "school": "Lin",
+  "year": "2026",
+  "version": "arXiv:2609.31232",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "面向研究的嵌入式 Rust 飞控",
+  "source": "https://arxiv.org/abs/2609.31232",
+  "license": "arXiv 预印本",
+  "goal": "面向研究的嵌入式 Rust 飞控",
+  "order": 0,
+  "out": "papers/2026_CybflightAutopilotAerial_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2609.31232"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Cybflight",
+    "Autopilot",
+    "Aerial"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "Cybflight",
+  "tool": "",
+  "region": "",
+  "vehicle": "多旋翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "多旋翼",
+   "task": "飞控架构",
+   "sensors": "",
+   "compute": "",
+   "software": "Cybflight",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA09P02",
+  "cat": "09",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Scheduling Analysis of UAV Flight Control Workloads on PREEMPT_RT Linux Using a Raspberry Pi 5",
+  "authors": "Giacomossi; et al.",
+  "school": "Giacomossi",
+  "year": "2026",
+  "version": "arXiv:2604.19275",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "树莓派实时 Linux 飞控任务调度",
+  "source": "https://arxiv.org/abs/2604.19275",
+  "license": "arXiv 预印本",
+  "goal": "树莓派实时 Linux 飞控任务调度",
+  "order": 0,
+  "out": "papers/2026_FlightControlLinuxUAV_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2604.19275"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Flight",
+    "Control",
+    "Linux",
+    "UAV"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "UAV 伴随/飞控计算机",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "UAV 伴随/飞控计算机",
+   "task": "实时任务",
+   "sensors": "",
+   "compute": "Raspberry Pi 5 + PREEMPT_RT",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA09P03",
+  "cat": "09",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "MARS-Dragonfly: Agile and Robust Flight Control of Modular Aerial Robot Systems",
+  "authors": "Huang; et al.",
+  "school": "Huang",
+  "year": "2026",
+  "version": "arXiv:2604.05499",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "模块化空中机器人飞控",
+  "source": "https://arxiv.org/abs/2604.05499",
+  "license": "arXiv 预印本",
+  "goal": "模块化空中机器人飞控",
+  "order": 0,
+  "out": "papers/2026_ModularAerialFlightControl_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2604.05499"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Modular",
+    "Aerial",
+    "Flight",
+    "Control"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "03"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "模块化多旋翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "模块化多旋翼",
+   "task": "模块化空中机器人飞控",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA09P04",
+  "cat": "09",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Embedded Firmware Development for Flight Control, Telemetry, and Video Streaming for DIY UAV Research",
+  "authors": "Mahbub; et al.",
+  "school": "Mahbub",
+  "year": "2026",
+  "version": "arXiv:2607.23220",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "DIY 无人机飞控/遥测固件开发（仅论文，不下载固件二进制）",
+  "source": "https://arxiv.org/abs/2607.23220",
+  "license": "arXiv 预印本",
+  "goal": "DIY 无人机飞控/遥测固件开发（仅论文，不下载固件二进制）",
+  "order": 0,
+  "out": "papers/2026_FirmwareFlightControlUAV_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2607.23220"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Firmware",
+    "Flight",
+    "Control",
+    "UAV"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "DIY 多旋翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "DIY 多旋翼",
+   "task": "DIY 无人机飞控/遥测固件开发（仅论文，不下载固件二进制）",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA10P01",
+  "cat": "10",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Pegasus Simulator: An Isaac Sim Framework for Multiple Aerial Vehicles Simulation",
+  "authors": "Marcelo Jacinto; et al.",
+  "school": "Marcelo Jacinto",
+  "year": "2024",
+  "version": "arXiv:2404.10853",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "Isaac Sim 多机仿真框架",
+  "source": "https://arxiv.org/abs/2404.10853",
+  "license": "arXiv 预印本",
+  "goal": "Isaac Sim 多机仿真框架",
+  "order": 0,
+  "out": "papers/2024_PegasusSimulatorAerial_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2404.10853"
+   ]
+  },
   "expect": {
    "title_words": [
     "Pegasus",
     "Simulator",
     "Aerial"
    ],
-   "min_pages": 6
+   "min_pages": 6,
+   "min_ratio": 0.6
   },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "Pegasus + Isaac Sim + PX4",
+  "tool": "",
+  "region": "",
+  "vehicle": "多旋翼",
+  "sensors": "",
+  "lang_file": "en",
   "paper": {
    "vehicle": "多旋翼",
-   "task": "",
+   "task": "Isaac Sim 多机仿真框架",
    "sensors": "",
    "compute": "",
    "software": "Pegasus + Isaac Sim + PX4",
-   "setting": "",
+   "setting": "仿真",
    "env": "",
    "metrics": "",
-   "code_data": "",
-   "verified_scope": "未执行；仅保存全文",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
    "author_limits": "",
-   "evidence": "摘要+正文"
+   "evidence": "摘要+正文标题核验"
   },
+  "classic": false
+ },
+ {
+  "id": "UA10P02",
+  "cat": "10",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "UWB Meets Crazyflow: Simulating Degraded Feedback at Scale for Aerial Robotics",
+  "authors": "Schuck; et al.",
+  "school": "Schuck",
+  "year": "2026",
+  "version": "arXiv:2610.08225",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "大规模退化反馈仿真",
+  "source": "https://arxiv.org/abs/2610.08225",
+  "license": "arXiv 预印本",
+  "goal": "大规模退化反馈仿真",
+  "order": 0,
+  "out": "papers/2026_CrazyflowAerialSimulating_en.pdf",
   "get": {
    "kind": "pdf",
+   "timeout": 90,
    "urls": [
-    "https://arxiv.org/pdf/2404.10853"
+    "https://arxiv.org/pdf/2610.08225"
    ]
   },
+  "expect": {
+   "title_words": [
+    "Crazyflow",
+    "Aerial",
+    "Simulating"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "Crazyflow",
+  "tool": "",
+  "region": "",
+  "vehicle": "微型四旋翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "微型四旋翼",
+   "task": "大规模退化反馈仿真",
+   "sensors": "",
+   "compute": "",
+   "software": "Crazyflow",
+   "setting": "仿真",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA10P03",
+  "cat": "10",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "An Open MuJoCo Simulation Framework for a Quadrotor Carrying a Tendon-Driven Soft Continuum Arm",
+  "authors": "El-Hussieny; et al.",
+  "school": "El-Hussieny",
+  "year": "2026",
+  "version": "arXiv:2610.15308",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "带软臂四旋翼 MuJoCo 仿真",
+  "source": "https://arxiv.org/abs/2610.15308",
+  "license": "arXiv 预印本",
+  "goal": "带软臂四旋翼 MuJoCo 仿真",
   "order": 0,
-  "goal": "Isaac Sim 多机仿真框架"
+  "out": "papers/2026_MuJoCoSimulationQuadrotor_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.15308"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "MuJoCo",
+    "Simulation",
+    "Quadrotor"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "MuJoCo",
+  "tool": "",
+  "region": "",
+  "vehicle": "四旋翼+机械臂",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "四旋翼+机械臂",
+   "task": "带软臂四旋翼 MuJoCo 仿真",
+   "sensors": "",
+   "compute": "",
+   "software": "MuJoCo",
+   "setting": "仿真",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA10P04",
+  "cat": "10",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "FALCON-S: Fixed-wing ground-effect Aerodynamics Simulator and Flight Control Learning Suite",
+  "authors": "Hariry; et al.",
+  "school": "Hariry",
+  "year": "2026",
+  "version": "arXiv:2609.06046",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "固定翼地面效应仿真与飞控学习套件",
+  "source": "https://arxiv.org/abs/2609.06046",
+  "license": "arXiv 预印本",
+  "goal": "固定翼地面效应仿真与飞控学习套件",
+  "order": 0,
+  "out": "papers/2026_Fixed-wingSimulatorFlight_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2609.06046"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Fixed-wing",
+    "Simulator",
+    "Flight"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "02",
+   "07"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "固定翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "固定翼",
+   "task": "固定翼地面效应仿真与飞控学习套件",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "仿真",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA10P05",
+  "cat": "10",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Task Allocation of UAVs for Monitoring Missions via Hardware-in-the-Loop Simulation and Experimental Validation",
+  "authors": "Chakraa; et al.",
+  "school": "Chakraa",
+  "year": "2025",
+  "version": "arXiv:2506.20626",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "监测任务分配的硬件在环与实验",
+  "source": "https://arxiv.org/abs/2506.20626",
+  "license": "arXiv 预印本",
+  "goal": "监测任务分配的硬件在环与实验",
+  "order": 0,
+  "out": "papers/2025_Hardware-in-the-LoopUAVs_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2506.20626"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Hardware-in-the-Loop",
+    "UAVs"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "08",
+   "12"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "多机 UAV",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "多机 UAV",
+   "task": "监测任务分配的硬件在环与实验",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "HIL+实验（作者报告）",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA11P01",
+  "cat": "11",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Learning-Oriented Fault-Tolerant Control for UAVs with Time-Varying Fault Estimation",
+  "authors": "Wafi; et al.",
+  "school": "Wafi",
+  "year": "2026",
+  "version": "arXiv:2610.30566",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "时变故障估计与容错控制",
+  "source": "https://arxiv.org/abs/2610.30566",
+  "license": "arXiv 预印本",
+  "goal": "时变故障估计与容错控制",
+  "order": 0,
+  "out": "papers/2026_Fault-TolerantUAVs_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.30566"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Fault-Tolerant",
+    "UAVs"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "UAV",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "UAV",
+   "task": "故障检测/容错",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA11P02",
+  "cat": "11",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "A Safety-Driven Architectural Framework for Fail-Operational Drone Swarms in Critical Missions",
+  "authors": "Giacomossi; et al.",
+  "school": "Giacomossi",
+  "year": "2026",
+  "version": "arXiv:2608.20906",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "失效仍运行的无人机集群安全架构",
+  "source": "https://arxiv.org/abs/2608.20906",
+  "license": "arXiv 预印本",
+  "goal": "失效仍运行的无人机集群安全架构",
+  "order": 0,
+  "out": "papers/2026_Fail-OperationalDroneSwarms_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2608.20906"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Fail-Operational",
+    "Drone",
+    "Swarms"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "08"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "集群",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "集群",
+   "task": "失效保护",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA11P03",
+  "cat": "11",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "A Comprehensive Survey of Unmanned Aerial Systems' Risks and Mitigation Strategies",
+  "authors": "Shrestha; et al.",
+  "school": "Shrestha",
+  "year": "2025",
+  "version": "arXiv:2506.10327",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "UAS 风险与缓解综述",
+  "source": "https://arxiv.org/abs/2506.10327",
+  "license": "arXiv 预印本",
+  "goal": "UAS 风险与缓解综述",
+  "order": 0,
+  "out": "papers/2025_SurveyUnmannedAerialRisks_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2506.10327"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Survey",
+    "Unmanned",
+    "Aerial",
+    "Risks"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "UAS",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "UAS",
+   "task": "综述",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA11P04",
+  "cat": "11",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "A Survey of Security Challenges and Solutions for Advanced Air Mobility and eVTOL Aircraft",
+  "authors": "Ghazanfari; et al.",
+  "school": "Ghazanfari",
+  "year": "2026",
+  "version": "arXiv:2601.14415",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "AAM/eVTOL 安全挑战综述（民用空中交通）",
+  "source": "https://arxiv.org/abs/2601.14415",
+  "license": "arXiv 预印本",
+  "goal": "AAM/eVTOL 安全挑战综述（民用空中交通）",
+  "order": 0,
+  "out": "papers/2026_SecurityEVTOLAirMobility_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2601.14415"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Security",
+    "eVTOL",
+    "Air",
+    "Mobility"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "eVTOL",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "eVTOL",
+   "task": "综述",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA11P05",
+  "cat": "11",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "REFLEX: A Learned On-Board Reflex for Robust Autonomous Collision Recovery of Soft Quadrotors",
+  "authors": "Hermeler; et al.",
+  "school": "Hermeler",
+  "year": "2026",
+  "version": "arXiv:2610.15867",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "软体四旋翼碰撞恢复反射",
+  "source": "https://arxiv.org/abs/2610.15867",
+  "license": "arXiv 预印本",
+  "goal": "软体四旋翼碰撞恢复反射",
+  "order": 0,
+  "out": "papers/2026_CollisionRecoveryQuadrotors_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.15867"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Collision",
+    "Recovery",
+    "Quadrotors"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "软体四旋翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "软体四旋翼",
+   "task": "容错/碰撞恢复",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA12P01",
+  "cat": "12",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "UAV-Based Infrastructure Inspections: A Literature Review and Proposed Framework for AEC+FM",
+  "authors": "Nikkhah; et al.",
+  "school": "Nikkhah",
+  "year": "2026",
+  "version": "arXiv:2601.11665",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "基础设施巡检文献综述",
+  "source": "https://arxiv.org/abs/2601.11665",
+  "license": "arXiv 预印本",
+  "goal": "基础设施巡检文献综述",
+  "order": 0,
+  "out": "papers/2026_UAVInfrastructureInspections_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2601.11665"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "UAV",
+    "Infrastructure",
+    "Inspections"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "多旋翼/固定翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "多旋翼/固定翼",
+   "task": "巡检综述",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA12P02",
+  "cat": "12",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Autonomous UAV Route Planning for Coverage Maximization in Environmental Monitoring: A Systematic Literature Review",
+  "authors": "Jouannet-Contreras; et al.",
+  "school": "Jouannet-Contreras",
+  "year": "2026",
+  "version": "arXiv:2607.13054",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "环境监测覆盖航线系统综述",
+  "source": "https://arxiv.org/abs/2607.13054",
+  "license": "arXiv 预印本",
+  "goal": "环境监测覆盖航线系统综述",
+  "order": 0,
+  "out": "papers/2026_UAVEnvironmentalMonitoring_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2607.13054"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "UAV",
+    "Environmental",
+    "Monitoring"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "UAV",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "UAV",
+   "task": "环境监测/覆盖",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA12P03",
+  "cat": "12",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "A Review of Vision-Based Vehicle Detection for UAV-Based Traffic Monitoring: Experimental Insights and Future Directions",
+  "authors": "Ye; et al.",
+  "school": "Ye",
+  "year": "2026",
+  "version": "arXiv:2608.07571",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "无人机交通监测车辆检测综述",
+  "source": "https://arxiv.org/abs/2608.07571",
+  "license": "arXiv 预印本",
+  "goal": "无人机交通监测车辆检测综述",
+  "order": 0,
+  "out": "papers/2026_UAVTrafficMonitoring_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2608.07571"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "UAV",
+    "Traffic",
+    "Monitoring"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "多旋翼",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "多旋翼",
+   "task": "交通监测",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA12P04",
+  "cat": "12",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "IVG-UAV: An Intelligent Voice-Guided UAV System for Autonomous Ripe Fruit Harvesting with Vision-Based Classification",
+  "authors": "Duong; et al.",
+  "school": "Duong",
+  "year": "2026",
+  "version": "arXiv:2610.09398",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "语音引导成熟果实采收无人机",
+  "source": "https://arxiv.org/abs/2610.09398",
+  "license": "arXiv 预印本",
+  "goal": "语音引导成熟果实采收无人机",
+  "order": 0,
+  "out": "papers/2026_UAVFruitHarvesting_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2610.09398"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "UAV",
+    "Fruit",
+    "Harvesting"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "多旋翼农业",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "多旋翼农业",
+   "task": "农业",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA12P05",
+  "cat": "12",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "UAV3DCrop: Benchmarking 3D Reconstruction in Repeated Multi-Angle UAV Crop Surveys",
+  "authors": "Zhou; et al.",
+  "school": "Zhou",
+  "year": "2026",
+  "version": "arXiv:2608.06404",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "农田多角度三维重建基准",
+  "source": "https://arxiv.org/abs/2608.06404",
+  "license": "arXiv 预印本",
+  "goal": "农田多角度三维重建基准",
+  "order": 0,
+  "out": "papers/2026_UAVCropReconstruction_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2608.06404"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "UAV",
+    "Crop",
+    "Reconstruction"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [
+   "05"
+  ],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "农用无人机",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "农用无人机",
+   "task": "农业测绘",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
+ },
+ {
+  "id": "UA12P06",
+  "cat": "12",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "title": "Automated Detection of Salvin's Albatrosses: Improving Deep Learning Tools for Aerial Wildlife Surveys",
+  "authors": "Rogers; et al.",
+  "school": "Rogers",
+  "year": "2025",
+  "version": "arXiv:2505.10737",
+  "lang": "en",
+  "level": "研究生",
+  "prereq": "",
+  "topics": "航空野生动物调查",
+  "source": "https://arxiv.org/abs/2505.10737",
+  "license": "arXiv 预印本",
+  "goal": "航空野生动物调查",
+  "order": 0,
+  "out": "papers/2025_AerialWildlifeSurveys_en.pdf",
+  "get": {
+   "kind": "pdf",
+   "timeout": 90,
+   "urls": [
+    "https://arxiv.org/pdf/2505.10737"
+   ]
+  },
+  "expect": {
+   "title_words": [
+    "Aerial",
+    "Wildlife",
+    "Surveys"
+   ],
+   "min_pages": 6,
+   "min_ratio": 0.6
+  },
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "若正文不是无人机平台则不计。",
+  "use": "选读",
+  "stack": "",
+  "tool": "",
+  "region": "",
+  "vehicle": "固定翼/无人机航拍",
+  "sensors": "",
+  "lang_file": "en",
+  "paper": {
+   "vehicle": "固定翼/无人机航拍",
+   "task": "环境监测",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "见正文；本库未复现",
+   "env": "",
+   "metrics": "",
+   "code_data": "以论文声明为准，本轮不运行代码",
+   "verified_scope": "仅核验全文 PDF，未执行实验",
+   "author_limits": "",
+   "evidence": "摘要+正文标题核验"
+  },
+  "classic": false
  }
 ]

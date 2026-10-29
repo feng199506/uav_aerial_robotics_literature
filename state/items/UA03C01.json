@@ -1,0 +1,55 @@
+{
+ "id": "UA03C01",
+ "started": "2026-10-29T18:33:35Z",
+ "download_url": "https://ocw.mit.edu/courses/16-333-aircraft-stability-and-control-fall-2004/16.333-fall-2004.zip",
+ "final_url": "https://ocw.mit.edu/courses/16-333-aircraft-stability-and-control-fall-2004/16.333-fall-2004.zip",
+ "http_last_modified": "Thu, 15 Oct 2026 12:40:28 GMT",
+ "verify": "通过：322 个文件（HTML 46，文档源 3）",
+ "info": {
+  "files": 322,
+  "html": 46,
+  "md_rst_ipynb": 3,
+  "top_ext": [
+   [
+    "js",
+    92
+   ],
+   [
+    "json",
+    61
+   ],
+   [
+    "html",
+    46
+   ],
+   [
+    "pdf",
+    23
+   ],
+   [
+    "svg",
+    22
+   ],
+   [
+    "png",
+    17
+   ],
+   [
+    "css",
+    9
+   ],
+   [
+    "map",
+    9
+   ]
+  ],
+  "license_files": [
+   "static_shared/mathjax/LICENSE.42368b5a19b817284b3c"
+  ]
+ },
+ "bytes": 18989286,
+ "sha256": "7499e9a8e8c15f75930cec7ff0e35b7c02a6d0439a160014b81e036e89ade583",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:33:37Z"
+}

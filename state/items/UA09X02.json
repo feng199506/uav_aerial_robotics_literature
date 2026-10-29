@@ -1,0 +1,64 @@
+{
+ "id": "UA09X02",
+ "started": "2026-10-29T18:39:45Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/mavlink/MAVSDK-Python.git",
+ "ref": "(默认分支)",
+ "commit": "8fa280f1d7473524a32d061e60b7bb346ff65264",
+ "commit_date": "2026-10-15T17:51:06+13:00",
+ "sparse_paths": [
+  "README.md",
+  "LICENSE",
+  "examples",
+  "mavsdk"
+ ],
+ "verify": "通过：231 个文件（HTML 1，文档源 50）",
+ "info": {
+  "files": 231,
+  "html": 1,
+  "md_rst_ipynb": 50,
+  "top_ext": [
+   [
+    "py",
+    171
+   ],
+   [
+    "rst",
+    43
+   ],
+   [
+    "txt",
+    5
+   ],
+   [
+    "png",
+    3
+   ],
+   [
+    "md",
+    2
+   ],
+   [
+    "plan",
+    1
+   ],
+   [
+    "csv",
+    1
+   ],
+   [
+    "",
+    1
+   ]
+  ],
+  "license_files": [
+   "MAVSDK_Python_examples_en/LICENSE.txt"
+  ]
+ },
+ "bytes": 3266560,
+ "sha256": "f99b85c9cae07d376c4fbb774cd9cb117d8c3d2dc3e9c98ad342c8b9c60c639d",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:39:47Z"
+}

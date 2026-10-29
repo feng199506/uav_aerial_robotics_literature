@@ -1,0 +1,65 @@
+{
+ "id": "UA04X01",
+ "started": "2026-10-29T18:41:34Z",
+ "dropped_large_files": [
+  "OpenVINS_en/ov_data/kaist/raw/urban38_global_pose.csv (26954 KiB)",
+  "OpenVINS_en/ov_data/kaist/raw/urban39_global_pose.csv (26869 KiB)"
+ ],
+ "dropped_count": 2,
+ "download_url": "https://github.com/rpng/open_vins.git",
+ "ref": "(默认分支)",
+ "commit": "69488123ed9362dd44b6f28e7f4680abbff1442b",
+ "commit_date": "2025-11-30T00:23:17-08:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：439 个文件（HTML 0，文档源 78）",
+ "info": {
+  "files": 439,
+  "html": 0,
+  "md_rst_ipynb": 78,
+  "top_ext": [
+   [
+    "txt",
+    77
+   ],
+   [
+    "h",
+    67
+   ],
+   [
+    "cpp",
+    66
+   ],
+   [
+    "yaml",
+    46
+   ],
+   [
+    "csv",
+    34
+   ],
+   [
+    "dox",
+    31
+   ],
+   [
+    "png",
+    29
+   ],
+   [
+    "jpg",
+    13
+   ]
+  ],
+  "license_files": [
+   "OpenVINS_en/LICENSE",
+   "OpenVINS_en/ov_core/src/plot/LICENSE"
+  ]
+ },
+ "bytes": 362301440,
+ "sha256": "8d88007f57e313a88101d3debbc8e2467bdecf5fc6594bcdce6071acc400e600",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:41:43Z"
+}

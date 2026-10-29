@@ -1,0 +1,62 @@
+{
+ "id": "UA10T04",
+ "started": "2026-10-29T18:55:28Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/gazebosim/docs.git",
+ "ref": "(默认分支)",
+ "commit": "5f060d0549f58e09bd8d9bb236337d20c4fddecc",
+ "commit_date": "2026-10-26T18:52:45Z",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：943 个文件（HTML 6，文档源 292）",
+ "info": {
+  "files": 943,
+  "html": 6,
+  "md_rst_ipynb": 292,
+  "top_ext": [
+   [
+    "png",
+    333
+   ],
+   [
+    "md",
+    280
+   ],
+   [
+    "gif",
+    194
+   ],
+   [
+    "sdf",
+    45
+   ],
+   [
+    "yaml",
+    15
+   ],
+   [
+    "txt",
+    12
+   ],
+   [
+    "cc",
+    9
+   ],
+   [
+    "urdf",
+    9
+   ]
+  ],
+  "license_files": [
+   "Gazebo_docs_src_en/LICENSE",
+   "Gazebo_docs_src_en/common/fuel/copyright.md"
+  ]
+ },
+ "bytes": 335882240,
+ "sha256": "ca7ba85a054b71bb5d4546855b62a32bf526fca3fb78e5b4d6845a6c17b8d0f7",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:55:33Z"
+}

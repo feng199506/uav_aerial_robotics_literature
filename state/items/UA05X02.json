@@ -1,0 +1,67 @@
+{
+ "id": "UA05X02",
+ "started": "2026-10-29T18:39:20Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/hku-mars/FAST_LIO.git",
+ "ref": "(默认分支)",
+ "commit": "7cc4175de6f8ba2edf34bab02a42195b141027e9",
+ "commit_date": "2024-07-23T19:22:17+08:00",
+ "sparse_paths": [
+  "README.md",
+  "LICENSE",
+  "src",
+  "include",
+  "config",
+  "launch",
+  "msg"
+ ],
+ "verify": "通过：37 个文件（HTML 0，文档源 2）",
+ "info": {
+  "files": 37,
+  "html": 0,
+  "md_rst_ipynb": 2,
+  "top_ext": [
+   [
+    "hpp",
+    13
+   ],
+   [
+    "launch",
+    7
+   ],
+   [
+    "yaml",
+    6
+   ],
+   [
+    "h",
+    5
+   ],
+   [
+    "cpp",
+    2
+   ],
+   [
+    "txt",
+    1
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "md",
+    1
+   ]
+  ],
+  "license_files": [
+   "FAST_LIO_en/LICENSE"
+  ]
+ },
+ "bytes": 481280,
+ "sha256": "b7a382a4fc86287a2e76a241150dd0e3fdd07eff8e39b2edecf09971f048af38",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:39:21Z"
+}

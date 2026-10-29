@@ -1,0 +1,55 @@
+{
+ "id": "UA05C01",
+ "started": "2026-10-29T18:33:24Z",
+ "download_url": "https://ocw.mit.edu/courses/16-485-visual-navigation-for-autonomous-vehicles-vnav-fall-2020/16.485-fall-2020.zip",
+ "final_url": "https://ocw.mit.edu/courses/16-485-visual-navigation-for-autonomous-vehicles-vnav-fall-2020/16.485-fall-2020.zip",
+ "http_last_modified": "Thu, 15 Oct 2026 10:59:31 GMT",
+ "verify": "通过：374 个文件（HTML 59，文档源 3）",
+ "info": {
+  "files": 374,
+  "html": 59,
+  "md_rst_ipynb": 3,
+  "top_ext": [
+   [
+    "js",
+    92
+   ],
+   [
+    "json",
+    75
+   ],
+   [
+    "html",
+    59
+   ],
+   [
+    "pdf",
+    50
+   ],
+   [
+    "svg",
+    22
+   ],
+   [
+    "png",
+    17
+   ],
+   [
+    "zip",
+    9
+   ],
+   [
+    "css",
+    9
+   ]
+  ],
+  "license_files": [
+   "static_shared/mathjax/LICENSE.42368b5a19b817284b3c"
+  ]
+ },
+ "bytes": 95171192,
+ "sha256": "eaf93a941b30af3a8a06403c492300e6c616e87a7d468bcddfae04f6c931d2f5",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:33:35Z"
+}

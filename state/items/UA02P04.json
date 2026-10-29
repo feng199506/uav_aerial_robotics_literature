@@ -1,0 +1,19 @@
+{
+ "id": "UA02P04",
+ "started": "2026-10-29T18:34:27Z",
+ "download_url": "https://arxiv.org/pdf/2610.29867",
+ "final_url": "https://arxiv.org/pdf/2610.29867",
+ "http_last_modified": "Thu, 22 Oct 2026 01:30:11 GMT",
+ "verify": "通过：pypdf 可解析 17 页；标题词匹配 1.0",
+ "info": {
+  "pages": 17,
+  "meta_title": "Swarmlet: a GPU-resident reformulated vortex particle method for coupled multirotor aerodynamics and flight dynamics",
+  "body_sample_chars": 13579,
+  "title_match": 1.0
+ },
+ "bytes": 1772912,
+ "sha256": "ad33f8c96862924a85f2636a8465dbf619bb0324734f0b491c406eb0939a3cc4",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:34:31Z"
+}

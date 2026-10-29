@@ -1,0 +1,64 @@
+{
+ "id": "UA07X01",
+ "started": "2026-10-29T18:39:48Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/uzh-rpg/agilicious.git",
+ "ref": "(默认分支)",
+ "commit": "50bba456156f6f438bea212c643b02e162442fa7",
+ "commit_date": "2023-03-07T19:30:25+01:00",
+ "sparse_paths": [
+  "README.md",
+  "LICENSE",
+  "docs",
+  "agilicious"
+ ],
+ "verify": "通过：28 个文件（HTML 0，文档源 22）",
+ "info": {
+  "files": 28,
+  "html": 0,
+  "md_rst_ipynb": 22,
+  "top_ext": [
+   [
+    "rst",
+    21
+   ],
+   [
+    "md",
+    1
+   ],
+   [
+    "gitignore",
+    1
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    "py",
+    1
+   ],
+   [
+    "png",
+    1
+   ],
+   [
+    "jpg",
+    1
+   ],
+   [
+    "bat",
+    1
+   ]
+  ],
+  "license_files": [
+   "UZH_agilicious_en/docs/license.rst"
+  ]
+ },
+ "bytes": 634880,
+ "sha256": "ef7d7d72b4fc1bedb28d3c2cdf5356371a6d08db890ca807be14cd5bc93fffb0",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:39:49Z"
+}

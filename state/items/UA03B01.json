@@ -1,0 +1,16 @@
+{
+ "id": "UA03B01",
+ "reused_from": "/root/industrial_process_monitoring_literature/books/Astrom_FeedbackSystems_2ndEd_v3.1.5_en.pdf",
+ "status": "ok",
+ "verify": "通过：pypdf 可解析 573 页；标题词匹配 1.0",
+ "info": {
+  "pages": 573,
+  "meta_title": "",
+  "body_sample_chars": 9448,
+  "title_match": 1.0
+ },
+ "bytes": 34553732,
+ "sha256": "e2fa6992fe5a4773e0e8857b90a4d7d1aa10af0a48fb3b8d45e6f7c1d8bad7ec",
+ "error": "",
+ "access_date": "2026-10-29"
+}

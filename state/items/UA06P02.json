@@ -1,0 +1,19 @@
+{
+ "id": "UA06P02",
+ "started": "2026-10-29T18:35:40Z",
+ "download_url": "https://arxiv.org/pdf/2610.08695",
+ "final_url": "https://arxiv.org/pdf/2610.08695",
+ "http_last_modified": "Wed, 07 Oct 2026 01:53:23 GMT",
+ "verify": "通过：pypdf 可解析 8 页；标题词匹配 1.0",
+ "info": {
+  "pages": 8,
+  "meta_title": "NMPP: Nonlinear Model Predictive Planning for Agile UAV Flight in Cluttered Environments",
+  "body_sample_chars": 15127,
+  "title_match": 1.0
+ },
+ "bytes": 3306493,
+ "sha256": "4a6f13b6eec7172963ca8aa806c7ff330e8b6ed6b82c1e8a75d45c1f546ddf59",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:35:41Z"
+}

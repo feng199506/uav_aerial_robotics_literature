@@ -1,0 +1,61 @@
+{
+ "id": "UA09T09",
+ "started": "2026-10-29T18:55:10Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/mavlink/mavlink-devguide.git",
+ "ref": "(默认分支)",
+ "commit": "b6d83e20c397f05e634986d400ddb1b42385fa19",
+ "commit_date": "2026-10-29T16:00:47+11:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：362 个文件（HTML 0，文档源 309）",
+ "info": {
+  "files": 362,
+  "html": 0,
+  "md_rst_ipynb": 309,
+  "top_ext": [
+   [
+    "md",
+    308
+   ],
+   [
+    "png",
+    18
+   ],
+   [
+    "jpg",
+    7
+   ],
+   [
+    "yml",
+    4
+   ],
+   [
+    "",
+    3
+   ],
+   [
+    "py",
+    3
+   ],
+   [
+    "json",
+    3
+   ],
+   [
+    "yaml",
+    2
+   ]
+  ],
+  "license_files": [
+   "MAVLink_devguide_src_en/LICENSE"
+  ]
+ },
+ "bytes": 13086720,
+ "sha256": "a1038b1ccd4b603c34251aceb4fcf4469ad1b306c52b90aae12291026b8f454d",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:55:12Z"
+}

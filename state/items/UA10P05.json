@@ -1,0 +1,19 @@
+{
+ "id": "UA10P05",
+ "started": "2026-10-29T18:37:22Z",
+ "download_url": "https://arxiv.org/pdf/2506.20626",
+ "final_url": "https://arxiv.org/pdf/2506.20626",
+ "http_last_modified": "Wed, 28 Oct 2026 01:49:15 GMT",
+ "verify": "通过：pypdf 可解析 7 页；标题词匹配 1.0",
+ "info": {
+  "pages": 7,
+  "meta_title": "Task Allocation of UAVs for Monitoring Missions via Hardware-in-the-Loop Simulation and Experimental Validation",
+  "body_sample_chars": 13673,
+  "title_match": 1.0
+ },
+ "bytes": 795568,
+ "sha256": "b5aaef225f623306ecf5a8c33c3e0576e7cdc00afedced18781d54bdca5bf206",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:37:26Z"
+}

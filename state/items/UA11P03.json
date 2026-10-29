@@ -1,0 +1,19 @@
+{
+ "id": "UA11P03",
+ "started": "2026-10-29T18:37:34Z",
+ "download_url": "https://arxiv.org/pdf/2506.10327",
+ "final_url": "https://arxiv.org/pdf/2506.10327",
+ "http_last_modified": "Fri, 13 Jun 2025 00:28:36 GMT",
+ "verify": "通过：pypdf 可解析 33 页；标题词匹配 1.0",
+ "info": {
+  "pages": 33,
+  "meta_title": "A Comprehensive Survey of Unmanned Aerial Systems' Risks and Mitigation Strategies",
+  "body_sample_chars": 23296,
+  "title_match": 1.0
+ },
+ "bytes": 3488077,
+ "sha256": "a0b7432a0df4f605b479fcd31e5dbe8284829545036bfc94fe614bc2780c64fe",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:37:38Z"
+}

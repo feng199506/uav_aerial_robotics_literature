@@ -1,0 +1,19 @@
+{
+ "id": "UA04P01",
+ "started": "2026-10-29T18:34:01Z",
+ "download_url": "https://arxiv.org/pdf/1708.03852",
+ "final_url": "https://arxiv.org/pdf/1708.03852",
+ "http_last_modified": "Sun, 22 Jan 2023 19:02:11 GMT",
+ "verify": "通过：pypdf 可解析 17 页；标题词匹配 1.0",
+ "info": {
+  "pages": 17,
+  "meta_title": "",
+  "body_sample_chars": 15491,
+  "title_match": 1.0
+ },
+ "bytes": 4382711,
+ "sha256": "1f44f92f057cbb05a6570f14d2fe5cae2b9736198a8eeca7c93438adbc38a087",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:34:03Z"
+}

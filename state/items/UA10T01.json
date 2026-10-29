@@ -1,0 +1,66 @@
+{
+ "id": "UA10T01",
+ "started": "2026-10-29T19:10:47Z",
+ "wget_rc": 0,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://gazebosim.org/docs/harmonic",
+ "mirror_scope": {
+  "start": [
+   "https://gazebosim.org/docs/harmonic",
+   "https://gazebosim.org/docs/harmonic/getstarted",
+   "https://gazebosim.org/docs/harmonic/sensors"
+  ],
+  "include": [
+   "/docs/harmonic"
+  ],
+  "level": "3"
+ },
+ "verify": "通过：163 个文件（HTML 72，文档源 1）",
+ "info": {
+  "files": 163,
+  "html": 72,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "html",
+    72
+   ],
+   [
+    "png",
+    43
+   ],
+   [
+    "gif",
+    19
+   ],
+   [
+    "css",
+    7
+   ],
+   [
+    "svg",
+    4
+   ],
+   [
+    "js",
+    3
+   ],
+   [
+    "js?digest=18bd87630a240e9c25be",
+    3
+   ],
+   [
+    "woff2",
+    3
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 30095360,
+ "sha256": "7ceb124a26cb4a4d3bed2ec8f6078ca54ee76b4be7e695f29a936f979b9926fb",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:12:02Z"
+}

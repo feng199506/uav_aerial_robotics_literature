@@ -1,0 +1,19 @@
+{
+ "id": "UA12P06",
+ "started": "2026-10-29T18:38:06Z",
+ "download_url": "https://arxiv.org/pdf/2505.10737",
+ "final_url": "https://arxiv.org/pdf/2505.10737",
+ "http_last_modified": "Wed, 11 Jun 2025 13:14:10 GMT",
+ "verify": "通过：pypdf 可解析 7 页；标题词匹配 1.0",
+ "info": {
+  "pages": 7,
+  "meta_title": "Automated Detection of Salvin's Albatrosses: Improving Deep Learning Tools for Aerial Wildlife Surveys",
+  "body_sample_chars": 17168,
+  "title_match": 1.0
+ },
+ "bytes": 8227126,
+ "sha256": "26ed17a59b619cc3e6251f94db0d477681d3e97d258fe5284c1077e84c31cd09",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:38:11Z"
+}

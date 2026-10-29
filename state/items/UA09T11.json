@@ -1,0 +1,71 @@
+{
+ "id": "UA09T11",
+ "started": "2026-10-29T18:55:14Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/ArduPilot/ardupilot_wiki.git",
+ "ref": "(默认分支)",
+ "commit": "23c3dcd846a92aefe7eaf584f222d8bec91fb095",
+ "commit_date": "2026-10-25T06:52:57-05:00",
+ "sparse_paths": [
+  "README.md",
+  "LICENSE",
+  "copter",
+  "plane",
+  "dev",
+  "planner",
+  "common"
+ ],
+ "verify": "通过：2373 个文件（HTML 0，文档源 1318）",
+ "info": {
+  "files": 2373,
+  "html": 0,
+  "md_rst_ipynb": 1318,
+  "top_ext": [
+   [
+    "rst",
+    1315
+   ],
+   [
+    "jpg",
+    504
+   ],
+   [
+    "png",
+    467
+   ],
+   [
+    "svg",
+    48
+   ],
+   [
+    "js",
+    6
+   ],
+   [
+    "",
+    5
+   ],
+   [
+    "gif",
+    5
+   ],
+   [
+    "bat",
+    4
+   ]
+  ],
+  "license_files": [
+   "ArduPilot_wiki_src_en/LICENSE",
+   "ArduPilot_wiki_src_en/dev/source/docs/license-gplv3.rst",
+   "ArduPilot_wiki_src_en/dev/source/images/license-integrating-open-and-closed.png",
+   "ArduPilot_wiki_src_en/dev/source/images/license-linus-quote.png",
+   "ArduPilot_wiki_src_en/dev/source/images/license-sample-web-page.png"
+  ]
+ },
+ "bytes": 165038080,
+ "sha256": "4f9e4ccb12f47f1f0d3755ecc151c1a60bbd5658f450e34b1dbb6a61a69ff038",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:55:25Z"
+}

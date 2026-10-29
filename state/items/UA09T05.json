@@ -1,0 +1,42 @@
+{
+ "id": "UA09T05",
+ "started": "2026-10-29T19:06:56Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://mavlink.io/en/",
+ "mirror_scope": {
+  "start": [
+   "https://mavlink.io/en/",
+   "https://mavlink.io/en/getting_started/",
+   "https://mavlink.io/en/guide/"
+  ],
+  "include": [
+   "/en"
+  ],
+  "level": "3"
+ },
+ "verify": "通过：95 个文件（HTML 94，文档源 1）",
+ "info": {
+  "files": 95,
+  "html": 94,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "html",
+    94
+   ],
+   [
+    "txt",
+    1
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 12503040,
+ "sha256": "1e6789b9d843d846c587516c07781f8ecafab58832b863a34ae8151e7ccfe982",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:07:45Z"
+}

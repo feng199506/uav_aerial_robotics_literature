@@ -1,0 +1,19 @@
+{
+ "id": "UA05P06",
+ "started": "2026-10-29T18:35:36Z",
+ "download_url": "https://arxiv.org/pdf/2610.17419",
+ "final_url": "https://arxiv.org/pdf/2610.17419",
+ "http_last_modified": "Wed, 14 Oct 2026 03:42:24 GMT",
+ "verify": "通过：pypdf 可解析 9 页；标题词匹配 1.0",
+ "info": {
+  "pages": 9,
+  "meta_title": "ClearNav: Perception-Aligned Quadrotor Flight Using Differential-Physics",
+  "body_sample_chars": 20524,
+  "title_match": 1.0
+ },
+ "bytes": 5429650,
+ "sha256": "62f0dea7683f355fd63dab9a3011254ede2b95547a6ae8f17e013a09f3ec7150",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:35:40Z"
+}

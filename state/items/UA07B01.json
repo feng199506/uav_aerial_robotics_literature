@@ -1,0 +1,16 @@
+{
+ "id": "UA07B01",
+ "reused_from": "/root/industrial_process_monitoring_literature/books/Brunton_DataDrivenScienceEngineering_en.pdf",
+ "status": "ok",
+ "verify": "通过：pypdf 可解析 572 页；标题词匹配 1.0",
+ "info": {
+  "pages": 572,
+  "meta_title": "",
+  "body_sample_chars": 8869,
+  "title_match": 1.0
+ },
+ "bytes": 72136223,
+ "sha256": "8412eadd431264f4b3c25649d60d3fda50cdf24c4c873eb73725ba9241d7b5ee",
+ "error": "",
+ "access_date": "2026-10-29"
+}

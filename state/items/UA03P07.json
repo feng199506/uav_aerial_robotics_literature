@@ -1,0 +1,19 @@
+{
+ "id": "UA03P07",
+ "started": "2026-10-29T18:34:52Z",
+ "download_url": "https://arxiv.org/pdf/2609.34574",
+ "final_url": "https://arxiv.org/pdf/2609.34574",
+ "http_last_modified": "Tue, 29 Sep 2026 03:09:33 GMT",
+ "verify": "通过：pypdf 可解析 8 页；标题词匹配 1.0",
+ "info": {
+  "pages": 8,
+  "meta_title": "Robust Variable-Horizon MPC for Landing a Multirotor UAV on a Moving Platform",
+  "body_sample_chars": 14253,
+  "title_match": 1.0
+ },
+ "bytes": 1016135,
+ "sha256": "a6fc0302e430c8222e926a7993695ce333e6c2a25c2e3730c61b6db7d4ce0555",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:34:53Z"
+}

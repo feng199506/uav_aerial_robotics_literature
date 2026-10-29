@@ -1,0 +1,36 @@
+{
+ "id": "UA09T03",
+ "started": "2026-10-29T19:00:51Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://docs.qgroundcontrol.com/master/en/qgc-user-guide/",
+ "mirror_scope": {
+  "start": [
+   "https://docs.qgroundcontrol.com/master/en/qgc-user-guide/"
+  ],
+  "include": [
+   "/master/en/qgc-user-guide"
+  ],
+  "level": "4"
+ },
+ "verify": "通过：103 个文件（HTML 103，文档源 0）",
+ "info": {
+  "files": 103,
+  "html": 103,
+  "md_rst_ipynb": 0,
+  "top_ext": [
+   [
+    "html",
+    103
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 8099840,
+ "sha256": "8237027f57e2dedaa946b5d20157a25b213ec86613b5db1cc2911f2c5d351d94",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:01:44Z"
+}

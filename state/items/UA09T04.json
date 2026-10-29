@@ -1,0 +1,66 @@
+{
+ "id": "UA09T04",
+ "started": "2026-10-29T19:01:44Z",
+ "wget_rc": 8,
+ "quota_hit": false,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://ardupilot.org/planner/index.html",
+ "mirror_scope": {
+  "start": [
+   "https://ardupilot.org/planner/index.html",
+   "https://ardupilot.org/planner/docs/mission-planner-overview.html",
+   "https://ardupilot.org/planner/docs/common-mission-planning.html"
+  ],
+  "include": [
+   "/planner"
+  ],
+  "level": "3"
+ },
+ "verify": "通过：506 个文件（HTML 76，文档源 1）",
+ "info": {
+  "files": 506,
+  "html": 76,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "png",
+    275
+   ],
+   [
+    "jpg",
+    110
+   ],
+   [
+    "html",
+    76
+   ],
+   [
+    "js",
+    8
+   ],
+   [
+    "css",
+    6
+   ],
+   [
+    "jpeg",
+    3
+   ],
+   [
+    "gif",
+    1
+   ],
+   [
+    "svg",
+    1
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 51302400,
+ "sha256": "7d0413d604ce711e5146ffe57cb4437a82be6d8977031b31ff7efd73aab4fc26",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T19:06:56Z"
+}

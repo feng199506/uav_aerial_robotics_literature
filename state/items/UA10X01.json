@@ -1,0 +1,65 @@
+{
+ "id": "UA10X01",
+ "started": "2026-10-29T18:39:04Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/byu-magicc/mavsim_public.git",
+ "ref": "(默认分支)",
+ "commit": "10363e0eaeb16a61a7463505f8e122a9eb7e2b4e",
+ "commit_date": "2026-06-12T20:52:31-06:00",
+ "sparse_paths": [
+  "README.md",
+  "LICENSE",
+  "mavsim_python",
+  "mavsim_simulink",
+  "docs"
+ ],
+ "verify": "通过：175 个文件（HTML 0，文档源 14）",
+ "info": {
+  "files": 175,
+  "html": 0,
+  "md_rst_ipynb": 14,
+  "top_ext": [
+   [
+    "py",
+    99
+   ],
+   [
+    "m",
+    38
+   ],
+   [
+    "slx",
+    13
+   ],
+   [
+    "txt",
+    11
+   ],
+   [
+    "md",
+    3
+   ],
+   [
+    "",
+    2
+   ],
+   [
+    "jpg",
+    2
+   ],
+   [
+    "mat",
+    2
+   ]
+  ],
+  "license_files": [
+   "BYU_mavsim_public_en/LICENSE"
+  ]
+ },
+ "bytes": 2027520,
+ "sha256": "8dda924e5a989d41e9b7518e1f1e0ecda241030bea459d122c51b46cba84e917",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:39:06Z"
+}

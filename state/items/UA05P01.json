@@ -1,0 +1,19 @@
+{
+ "id": "UA05P01",
+ "started": "2026-10-29T18:35:13Z",
+ "download_url": "https://arxiv.org/pdf/2408.14035",
+ "final_url": "https://arxiv.org/pdf/2408.14035",
+ "http_last_modified": "Thu, 29 Aug 2024 01:07:12 GMT",
+ "verify": "通过：pypdf 可解析 30 页；标题词匹配 1.0",
+ "info": {
+  "pages": 30,
+  "meta_title": "",
+  "body_sample_chars": 9752,
+  "title_match": 1.0
+ },
+ "bytes": 39653122,
+ "sha256": "8a9e5643ff99e4d9b735507ddd80fddb6af38401f635d72a0bf017eda57c5695",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:35:17Z"
+}

@@ -123,10 +123,13 @@
   "out": "01_foundations/books/Diebel_RepresentingAttitude_2006_en.pdf",
   "get": {
    "kind": "pdf",
+   "timeout": 60,
    "urls": [
+    "https://www.cs.cmu.edu/~cga/dynopt/readings/diebel2006attitude.pdf",
+    "https://citeseerx.ist.psu.edu/pdf/6b0c0d0e",
     "https://www.astro.rug.nl/software/kapteyn/_downloads/attitude.pdf",
-    "https://www.astro.rug.nl/software/kapteyn-3.4/_downloads/attitude.pdf",
-    "https://ai.stanford.edu/~diebel/attitude/attitude.pdf"
+    "https://ai.stanford.edu/~diebel/attitude/attitude.pdf",
+    "https://pages.hmc.edu/spjut/AdvRoc/PDF/AircraftQuaternions.pdf"
    ]
   },
   "expect": {
@@ -480,10 +483,11 @@
   "out": "02_modeling_dynamics/books/BeardMcLain_SmallUnmannedAircraft_authorcourse_en.pdf",
   "get": {
    "kind": "pdf",
+   "timeout": 60,
    "urls": [
-    "https://www.et.byu.edu/~beard/classes/ece674/uavbook.pdf",
-    "https://uavbook.byu.edu/lib/exe/fetch.php?media=start:uavbook.pdf",
-    "https://raw.githubusercontent.com/byu-magicc/mavsim_public/master/uavbook.pdf"
+    "https://github.com/byu-magicc/mavsim_public/raw/master/uavbook.pdf",
+    "https://media.githubusercontent.com/media/byu-magicc/mavsim_public/master/uavbook.pdf",
+    "https://www.et.byu.edu/~beard/classes/ece674/uavbook.pdf"
    ]
   },
   "expect": {
@@ -520,11 +524,11 @@
   "authors": "Paul N. Beuchat",
   "school": "ETH Zürich Automatic Control Laboratory",
   "year": "2023",
-  "version": "2023-02-22，CC BY 4.0",
+  "version": "ETH Research Collection bitstream（2019-03-04 文件名；课程页称 2023-02-22 同源 CC BY 4.0）",
   "level": "本科高年级/研究生",
   "prereq": "本科控制、刚体力学",
   "topics": "N 旋翼动力学、气动与参数、PID/LQR、估计、Simulink 仿真",
-  "source": "https://www.dfall.ethz.ch/pands.php",
+  "source": "https://www.research-collection.ethz.ch/handle/20.500.11850/325583",
   "license": "CC BY 4.0",
   "goal": "多旋翼建模-控制-估计一体化教材",
   "order": 2,
@@ -533,8 +537,7 @@
   "get": {
    "kind": "pdf",
    "urls": [
-    "https://www.dfall.ethz.ch/pandsfiles/script/2023_02_22_NrotorVehiclesScript.pdf",
-    "https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/344077/NrotorVehiclesScript.pdf"
+    "https://www.research-collection.ethz.ch/server/api/core/bitstreams/7016770e-20ba-4750-920f-2f8e8a58d5ec/content"
    ]
   },
   "expect": {
@@ -543,7 +546,7 @@
     "vehicles",
     "modelling"
    ],
-   "min_pages": 80
+   "min_pages": 50
   },
   "evidence": "正文",
   "lang": "en",

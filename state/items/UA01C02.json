@@ -1,0 +1,55 @@
+{
+ "id": "UA01C02",
+ "started": "2026-10-29T18:33:40Z",
+ "download_url": "https://ocw.mit.edu/courses/16-100-aerodynamics-fall-2005/16.100-fall-2005.zip",
+ "final_url": "https://ocw.mit.edu/courses/16-100-aerodynamics-fall-2005/16.100-fall-2005.zip",
+ "http_last_modified": "Thu, 15 Oct 2026 13:13:30 GMT",
+ "verify": "通过：473 个文件（HTML 100，文档源 3）",
+ "info": {
+  "files": 473,
+  "html": 100,
+  "md_rst_ipynb": 3,
+  "top_ext": [
+   [
+    "json",
+    110
+   ],
+   [
+    "html",
+    100
+   ],
+   [
+    "js",
+    92
+   ],
+   [
+    "pdf",
+    76
+   ],
+   [
+    "svg",
+    22
+   ],
+   [
+    "png",
+    17
+   ],
+   [
+    "xml",
+    10
+   ],
+   [
+    "css",
+    9
+   ]
+  ],
+  "license_files": [
+   "static_shared/mathjax/LICENSE.42368b5a19b817284b3c"
+  ]
+ },
+ "bytes": 20085590,
+ "sha256": "6c49ad86f08ec0b7fd95a20c0ca3abb5004299fde369bf53d6949880d5eff41d",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:33:42Z"
+}

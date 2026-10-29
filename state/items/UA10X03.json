@@ -1,0 +1,61 @@
+{
+ "id": "UA10X03",
+ "started": "2026-10-29T18:41:32Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/spencerfolk/rotorpy.git",
+ "ref": "(默认分支)",
+ "commit": "40b09697a6a1596d404a67f459941d46a39eedd3",
+ "commit_date": "2026-09-07T12:32:15-04:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：120 个文件（HTML 0，文档源 11）",
+ "info": {
+  "files": 120,
+  "html": 0,
+  "md_rst_ipynb": 11,
+  "top_ext": [
+   [
+    "py",
+    88
+   ],
+   [
+    "md",
+    11
+   ],
+   [
+    "gif",
+    8
+   ],
+   [
+    "json",
+    5
+   ],
+   [
+    "gitignore",
+    3
+   ],
+   [
+    "yml",
+    2
+   ],
+   [
+    "png",
+    2
+   ],
+   [
+    "toml",
+    1
+   ]
+  ],
+  "license_files": [
+   "RotorPy_en/LICENSE.md"
+  ]
+ },
+ "bytes": 26214400,
+ "sha256": "a74df9f8066bd68902e2c2b72deb08586603fe0d051bfb1e08ece84fd99fb33a",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:41:34Z"
+}

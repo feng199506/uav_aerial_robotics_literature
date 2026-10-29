@@ -1,0 +1,19 @@
+{
+ "id": "UA09P04",
+ "started": "2026-10-29T18:37:03Z",
+ "download_url": "https://arxiv.org/pdf/2607.23220",
+ "final_url": "https://arxiv.org/pdf/2607.23220",
+ "http_last_modified": "Tue, 28 Jul 2026 00:46:28 GMT",
+ "verify": "通过：pypdf 可解析 7 页；标题词匹配 1.0",
+ "info": {
+  "pages": 7,
+  "meta_title": "Embedded Firmware Development for Flight Control, Telemetry, and Video Streaming for DIY UAV Research",
+  "body_sample_chars": 13378,
+  "title_match": 1.0
+ },
+ "bytes": 5050178,
+ "sha256": "06be3033fc732946600fb9f98acadb1a1e1e6a7ed63652d58d626904eb3066da",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:37:06Z"
+}

@@ -1,0 +1,62 @@
+{
+ "id": "UA03X01",
+ "started": "2026-10-29T18:39:47Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/uzh-rpg/rpg_mpc.git",
+ "ref": "(默认分支)",
+ "commit": "33263db209105f716e204acc6481834fbd9bc778",
+ "commit_date": "2019-12-19T08:42:50+01:00",
+ "sparse_paths": [
+  "(整个仓库)"
+ ],
+ "verify": "通过：62 个文件（HTML 0，文档源 7）",
+ "info": {
+  "files": 62,
+  "html": 0,
+  "md_rst_ipynb": 7,
+  "top_ext": [
+   [
+    "cpp",
+    18
+   ],
+   [
+    "hpp",
+    13
+   ],
+   [
+    "ipp",
+    9
+   ],
+   [
+    "txt",
+    5
+   ],
+   [
+    "h",
+    5
+   ],
+   [
+    "c",
+    3
+   ],
+   [
+    "",
+    2
+   ],
+   [
+    "md",
+    2
+   ]
+  ],
+  "license_files": [
+   "UZH_rpg_mpc_en/COPYING",
+   "UZH_rpg_mpc_en/externals/qpoases/LICENSE.txt"
+  ]
+ },
+ "bytes": 1515520,
+ "sha256": "4e9d3053cc2b82f54621acaf238da3f28c07bdb20542f754853895715645ef30",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:39:48Z"
+}

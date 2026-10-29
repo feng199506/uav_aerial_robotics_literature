@@ -1,0 +1,19 @@
+{
+ "id": "UA09P03",
+ "started": "2026-10-29T18:37:00Z",
+ "download_url": "https://arxiv.org/pdf/2604.05499",
+ "final_url": "https://arxiv.org/pdf/2604.05499",
+ "http_last_modified": "Wed, 08 Apr 2026 00:52:35 GMT",
+ "verify": "通过：pypdf 可解析 21 页；标题词匹配 1.0",
+ "info": {
+  "pages": 21,
+  "meta_title": "MARS-Dragonfly: Agile and Robust Flight Control of Modular Aerial Robot Systems",
+  "body_sample_chars": 20212,
+  "title_match": 1.0
+ },
+ "bytes": 11884256,
+ "sha256": "d388b9cfde5f6ebe781bbc5e3cb1bd68ec77359c474e29493a8dac324e9721f3",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:37:03Z"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "UA03P11",
+ "started": "2026-10-29T18:35:07Z",
+ "download_url": "https://arxiv.org/pdf/2610.14522",
+ "final_url": "https://arxiv.org/pdf/2610.14522",
+ "http_last_modified": "Wed, 14 Oct 2026 00:41:41 GMT",
+ "verify": "通过：pypdf 可解析 7 页；标题词匹配 1.0",
+ "info": {
+  "pages": 7,
+  "meta_title": "Safety-Critical Quadrotor Navigation Using Fourth-Order Control Barrier Functions with Full Nonlinear Quadrotor Dynamics",
+  "body_sample_chars": 10890,
+  "title_match": 1.0
+ },
+ "bytes": 11778057,
+ "sha256": "083c0ae4bdf46e2abac4ff63fbbc72b7668a513f032e669a12fb7d53643ef0e3",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:35:10Z"
+}

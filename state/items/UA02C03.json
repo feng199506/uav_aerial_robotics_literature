@@ -1,0 +1,14 @@
+{
+ "id": "UA02C03",
+ "started": "2026-10-29T18:34:35Z",
+ "download_url": "https://stengel.mycpanel.princeton.edu/MAE331Lectures.html",
+ "verify": "通过：25 个文件均可解析（PDF 共 654 页）",
+ "info": {
+  "chapters": 25,
+  "pages": 654
+ },
+ "bytes": 253806543,
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:35:23Z"
+}

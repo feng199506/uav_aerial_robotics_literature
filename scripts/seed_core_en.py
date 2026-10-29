@@ -91,10 +91,12 @@ books.append(item(
     goal="无人机姿态所用旋转表示的标准参考",
     order=3, vehicle="平台无关（飞控必备）",
     out="01_foundations/books/Diebel_RepresentingAttitude_2006_en.pdf",
-    get={"kind": "pdf", "urls": [
+    get={"kind": "pdf", "timeout": 60, "urls": [
+        "https://www.cs.cmu.edu/~cga/dynopt/readings/diebel2006attitude.pdf",
+        "https://citeseerx.ist.psu.edu/pdf/6b0c0d0e",
         "https://www.astro.rug.nl/software/kapteyn/_downloads/attitude.pdf",
-        "https://www.astro.rug.nl/software/kapteyn-3.4/_downloads/attitude.pdf",
         "https://ai.stanford.edu/~diebel/attitude/attitude.pdf",
+        "https://pages.hmc.edu/spjut/AdvRoc/PDF/AircraftQuaternions.pdf",
     ]},
     expect={"title_words": ["Representing", "Attitude", "Quaternions"], "min_pages": 40},
     evidence="正文",
@@ -226,10 +228,10 @@ books.append(item(
     goal="固定翼小型无人机系统教材，动力学到制导的完整链条",
     order=1, vehicle="小型固定翼 UAV",
     out="02_modeling_dynamics/books/BeardMcLain_SmallUnmannedAircraft_authorcourse_en.pdf",
-    get={"kind": "pdf", "urls": [
+    get={"kind": "pdf", "timeout": 60, "urls": [
+        "https://github.com/byu-magicc/mavsim_public/raw/master/uavbook.pdf",
+        "https://media.githubusercontent.com/media/byu-magicc/mavsim_public/master/uavbook.pdf",
         "https://www.et.byu.edu/~beard/classes/ece674/uavbook.pdf",
-        "https://uavbook.byu.edu/lib/exe/fetch.php?media=start:uavbook.pdf",
-        "https://raw.githubusercontent.com/byu-magicc/mavsim_public/master/uavbook.pdf",
     ]},
     expect={"title_words": ["Unmanned", "Air", "Vehicles"], "min_pages": 200},
     evidence="正文",

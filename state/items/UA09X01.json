@@ -1,0 +1,79 @@
+{
+ "id": "UA09X01",
+ "started": "2026-10-29T18:39:25Z",
+ "dropped_large_files": [
+  "PX4_Autopilot_v1.17_sparse_en/docs/assets/airframes/vtol/foxtech_loong_2160/loong-3d-prints.zip (5701 KiB)",
+  "PX4_Autopilot_v1.17_sparse_en/docs/assets/debug/realtime_debugging/realtime_debugging.mp4 (6834 KiB)",
+  "PX4_Autopilot_v1.17_sparse_en/docs/assets/flight_log_analysis/plot_juggler/sample_log_boat_testing_2022-7-28-13-31-16.ulg (26184 KiB)"
+ ],
+ "dropped_count": 3,
+ "download_url": "https://github.com/PX4/PX4-Autopilot.git",
+ "ref": "release/1.17",
+ "commit": "f65ddce53985f13cd4fa24e7c0d78345b467bf1f",
+ "commit_date": "2026-08-06T11:30:54+10:00",
+ "sparse_paths": [
+  "README.md",
+  "LICENSE",
+  "msg",
+  "docs",
+  "ROMFS",
+  "src/examples",
+  "src/modules/mc_att_control",
+  "src/modules/mc_pos_control",
+  "src/modules/fw_att_control",
+  "src/modules/logger",
+  "src/modules/commander"
+ ],
+ "verify": "通过：6081 个文件（HTML 3，文档源 3782）",
+ "info": {
+  "files": 6081,
+  "html": 3,
+  "md_rst_ipynb": 3782,
+  "top_ext": [
+   [
+    "md",
+    3738
+   ],
+   [
+    "jpg",
+    729
+   ],
+   [
+    "png",
+    707
+   ],
+   [
+    "msg",
+    244
+   ],
+   [
+    "",
+    143
+   ],
+   [
+    "cpp",
+    108
+   ],
+   [
+    "hpp",
+    61
+   ],
+   [
+    "svg",
+    57
+   ]
+  ],
+  "license_files": [
+   "PX4_Autopilot_v1.17_sparse_en/LICENSE",
+   "PX4_Autopilot_v1.17_sparse_en/docs/LICENSE",
+   "PX4_Autopilot_v1.17_sparse_en/docs/en/contribute/licenses.md",
+   "PX4_Autopilot_v1.17_sparse_en/docs/ko/contribute/licenses.md",
+   "PX4_Autopilot_v1.17_sparse_en/docs/uk/contribute/licenses.md"
+  ]
+ },
+ "bytes": 304168960,
+ "sha256": "a887e6bef5e2535c3ef9a21b55e4c703e3ee5643b0312fb68ddd287c35d2ba03",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:39:45Z"
+}

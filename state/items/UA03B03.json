@@ -1,0 +1,16 @@
+{
+ "id": "UA03B03",
+ "reused_from": "/root/probability_statistics_curriculum_literature/books/BoydVandenberghe_ConvexOptimization_2004_en.pdf",
+ "status": "ok",
+ "verify": "通过：pypdf 可解析 714 页；标题词匹配 1.0",
+ "info": {
+  "pages": 714,
+  "meta_title": "",
+  "body_sample_chars": 6491,
+  "title_match": 1.0
+ },
+ "bytes": 6881335,
+ "sha256": "40d976c83c18cce1900eff8c41bd5ad408c102b813af39d05ff85678ccf8d76e",
+ "error": "",
+ "access_date": "2026-10-29"
+}

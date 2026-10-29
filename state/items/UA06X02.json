@@ -1,0 +1,66 @@
+{
+ "id": "UA06X02",
+ "started": "2026-10-29T18:39:22Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/HKUST-Aerial-Robotics/Fast-Planner.git",
+ "ref": "(默认分支)",
+ "commit": "41be219fe4ecc43bf0e0c2b42a523f8755ccc0bd",
+ "commit_date": "2024-10-24T21:12:43+08:00",
+ "sparse_paths": [
+  "README.md",
+  "LICENSE",
+  "fast_planner",
+  "plan_env",
+  "path_searching",
+  "bspline_opt"
+ ],
+ "verify": "通过：72 个文件（HTML 0，文档源 9）",
+ "info": {
+  "files": 72,
+  "html": 0,
+  "md_rst_ipynb": 9,
+  "top_ext": [
+   [
+    "cpp",
+    18
+   ],
+   [
+    "h",
+    15
+   ],
+   [
+    "xml",
+    10
+   ],
+   [
+    "txt",
+    7
+   ],
+   [
+    "py",
+    6
+   ],
+   [
+    "hpp",
+    4
+   ],
+   [
+    "rviz",
+    3
+   ],
+   [
+    "launch",
+    3
+   ]
+  ],
+  "license_files": [
+   "HKUST_FastPlanner_en/LICENSE"
+  ]
+ },
+ "bytes": 870400,
+ "sha256": "426c4474711fbbc2580fe4e58bcf482da31cf4fa27c6d8321a6792c66b2a68c3",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:39:24Z"
+}

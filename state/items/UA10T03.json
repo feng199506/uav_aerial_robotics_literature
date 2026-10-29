@@ -1,0 +1,57 @@
+{
+ "id": "UA10T03",
+ "started": "2026-10-29T18:54:23Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/PX4/pyulog.git",
+ "ref": "(默认分支)",
+ "commit": "0b392f8444f843b796405b9766cc15a6dddedf62",
+ "commit_date": "2026-10-27T07:55:05+01:00",
+ "sparse_paths": [
+  "README.md",
+  "LICENSE",
+  "pyulog",
+  "docs",
+  "test"
+ ],
+ "verify": "通过：48 个文件（HTML 0，文档源 12）",
+ "info": {
+  "files": 48,
+  "html": 0,
+  "md_rst_ipynb": 12,
+  "top_ext": [
+   [
+    "py",
+    24
+   ],
+   [
+    "txt",
+    9
+   ],
+   [
+    "ulg",
+    6
+   ],
+   [
+    "sql",
+    5
+   ],
+   [
+    "md",
+    3
+   ],
+   [
+    "toml",
+    1
+   ]
+  ],
+  "license_files": [
+   "PX4_pyulog_FlightReview_srcdocs_en/LICENSE.md"
+  ]
+ },
+ "bytes": 13926400,
+ "sha256": "7101fa463044bed7ab37f9749d1cac31d1a72f2ca73245026fced9e523d3b317",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:54:25Z"
+}

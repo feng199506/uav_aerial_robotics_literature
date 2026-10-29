@@ -1,0 +1,48 @@
+{
+ "id": "UA09T08",
+ "started": "2026-10-29T18:54:25Z",
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://github.com/mavlink/mavros.git",
+ "ref": "(默认分支)",
+ "commit": "2d3f4db1101c7950c8817a9d788f0d11106fb261",
+ "commit_date": "2026-10-24T12:33:35+02:00",
+ "sparse_paths": [
+  "README.md",
+  "LICENSE",
+  "mavros/README.md",
+  "docs",
+  "mavros/doc"
+ ],
+ "verify": "通过：96 个文件（HTML 0，文档源 94）",
+ "info": {
+  "files": 96,
+  "html": 0,
+  "md_rst_ipynb": 94,
+  "top_ext": [
+   [
+    "md",
+    90
+   ],
+   [
+    "txt",
+    4
+   ],
+   [
+    "json",
+    2
+   ]
+  ],
+  "license_files": [
+   "MAVROS_RepoDocs_en/LICENSE-BSD.txt",
+   "MAVROS_RepoDocs_en/LICENSE-GPLv3.txt",
+   "MAVROS_RepoDocs_en/LICENSE-LGPLv3.txt",
+   "MAVROS_RepoDocs_en/LICENSE.md"
+  ]
+ },
+ "bytes": 1034240,
+ "sha256": "34a5c72e12cb8b6a4c7460c3b859d767dc96a4f90d410cc6097a54582a28c345",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:54:26Z"
+}

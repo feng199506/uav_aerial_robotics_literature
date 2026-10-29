@@ -1,0 +1,19 @@
+{
+ "id": "UA03P08",
+ "started": "2026-10-29T18:34:53Z",
+ "download_url": "https://arxiv.org/pdf/2603.27576",
+ "final_url": "https://arxiv.org/pdf/2603.27576",
+ "http_last_modified": "Mon, 21 Sep 2026 00:43:36 GMT",
+ "verify": "通过：pypdf 可解析 10 页；标题词匹配 1.0",
+ "info": {
+  "pages": 10,
+  "meta_title": "MPC-Based Trajectory Tracking for a Quadrotor UAV with Uniform Semi-Global Asymptotic Stability Guarantees",
+  "body_sample_chars": 16611,
+  "title_match": 1.0
+ },
+ "bytes": 538806,
+ "sha256": "53f193a0462587831fab1180c2bd4f474444384cd855144e4a5a3ba505a8bdb7",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:34:57Z"
+}

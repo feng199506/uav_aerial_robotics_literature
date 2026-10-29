@@ -71,22 +71,23 @@
   "get": {
    "kind": "pdfset",
    "urls": [
-    "https://vnav.mit.edu/material/02-3DGeom-notes.pdf",
-    "https://vnav.mit.edu/material/04-LieGroups-notes.pdf",
-    "https://vnav.mit.edu/material/06-Dynamics-notes.pdf",
+    "https://vnav.mit.edu/material/02-03-basic3Dgeometry-notes.pdf",
+    "https://vnav.mit.edu/material/04-05-LieGroups-notes.pdf",
+    "https://vnav.mit.edu/material/06-Control1-notes.pdf",
     "https://vnav.mit.edu/material/07-Control2-notes.pdf",
-    "https://vnav.mit.edu/material/08-TrajOpt-notes.pdf",
-    "https://vnav.mit.edu/material/09-TrajOpt2-notes.pdf",
+    "https://vnav.mit.edu/material/09-TrajectoryOptimization1-notes.pdf",
+    "https://vnav.mit.edu/material/10-TrajectoryOptimization2-notes.pdf",
     "https://vnav.mit.edu/material/11-ImageFormation-notes.pdf",
-    "https://vnav.mit.edu/material/12-Features-notes.pdf",
-    "https://vnav.mit.edu/material/14-TwoView-notes.pdf",
+    "https://vnav.mit.edu/material/12-13-featureDetectionAndTracking-notes.pdf",
+    "https://vnav.mit.edu/material/14-2viewGeometry-notes.pdf",
     "https://vnav.mit.edu/material/15-RANSAC-notes.pdf",
-    "https://vnav.mit.edu/material/16-Estimation-notes.pdf",
-    "https://vnav.mit.edu/material/17-NonlinearEst-notes.pdf",
-    "https://vnav.mit.edu/material/18-Manifolds-notes.pdf",
-    "https://vnav.mit.edu/material/23-SLAM-notes.pdf"
+    "https://vnav.mit.edu/material/16-optimizationAndEstimation-notes.pdf",
+    "https://vnav.mit.edu/material/17-18-NonLinearLeastSquares-notes.pdf",
+    "https://vnav.mit.edu/material/18-19-OptimizationOnManifold-notes.pdf",
+    "https://vnav.mit.edu/material/20-VO-VIO.pdf",
+    "https://vnav.mit.edu/material/23-SLAM1-formulationsAndSparsity-notes.pdf"
    ],
-   "min_files": 8
+   "min_files": 10
   },
   "expect": {
    "min_pages": 1
@@ -264,15 +265,12 @@
   "goal": "多旋翼本科实验课完整讲义",
   "order": 1,
   "vehicle": "四旋翼",
-  "out": "02_modeling_dynamics/courses/ETH_DFaLL_QuadrotorPS_2023_en",
+  "out": "02_modeling_dynamics/courses/ETH_DFaLL_NrotorScript_en.pdf",
   "get": {
-   "kind": "pdfset",
+   "kind": "pdf",
    "urls": [
-    "https://www.dfall.ethz.ch/pandsfiles/script/2023_02_22_NrotorVehiclesScript.pdf",
-    "https://www.dfall.ethz.ch/pandsfiles/exercises/2022_09_26_Exercise3.pdf",
-    "https://www.dfall.ethz.ch/pandsfiles/exercises/2022_09_26_Exercise4.pdf"
-   ],
-   "min_files": 1
+    "https://www.research-collection.ethz.ch/server/api/core/bitstreams/7016770e-20ba-4750-920f-2f8e8a58d5ec/content"
+   ]
   },
   "expect": {
    "min_pages": 1
@@ -282,7 +280,7 @@
   "evidence": "正文",
   "lang": "en",
   "cross": [],
-  "note": "",
+  "note": "与 UA02B02 同源 ETH 公开 PDF；课程口径登记。若重复文件，报告中课程计一次、书计一次需去重说明。",
   "use": "通读",
   "stack": "",
   "paper": {},
@@ -326,7 +324,7 @@
    ]
   },
   "expect": {
-   "min_docs": 3,
+   "min_docs": 1,
    "need_license": false,
    "must_have": [
     "README"
@@ -370,16 +368,16 @@
   "out": "08_multi_uav/courses/CTU_BE3M33MRS_2024_LectureSlides_en",
   "get": {
    "kind": "git",
-   "repo": "https://github.com/ctu-mrs/mrs_lectures.git",
+   "repo": "https://github.com/ctu-mrs/ctu-mrs.github.io.git",
    "paths": [
     "README.md",
-    "LICENSE",
-    "lectures",
-    "docs"
+    "docs",
+    "teaching",
+    "mrs"
    ]
   },
   "expect": {
-   "min_docs": 3,
+   "min_docs": 1,
    "need_license": false
   },
   "evidence": "正文",
@@ -668,5 +666,43 @@
   "eval": "",
   "code_data": "",
   "limits": ""
+ },
+ {
+  "id": "UA04C02",
+  "cat": "04",
+  "type": "course",
+  "material": "OCW 官方课程包",
+  "title": "16.322 Stochastic Estimation and Control (Fall 2004)",
+  "authors": "Jonathan P. How",
+  "school": "MIT OpenCourseWare",
+  "year": "2004",
+  "version": "Fall 2004 OCW",
+  "level": "研究生",
+  "prereq": "概率、状态空间",
+  "topics": "随机估计、Kalman、飞行器估计控制",
+  "source": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/",
+  "license": "CC BY-NC-SA 4.0（MIT OCW）",
+  "goal": "航空随机估计完整课程，衔接 IMU/GNSS 融合",
+  "order": 2,
+  "out": "04_state_estimation/courses/MIT_16322_2004Fall_OCWCoursePackage_en.zip",
+  "get": {
+   "kind": "reuse"
+  },
+  "reuse": {
+   "path": "/root/industrial_process_monitoring_literature/university_materials/MIT_16322_2004Fall_OCWCoursePackage_en.zip",
+   "source": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/"
+  },
+  "note": "已有复用：industrial_process_monitoring_literature",
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "use": "通读",
+  "stack": "",
+  "expect": {},
+  "paper": {},
+  "vehicle": "固定翼教学/估计",
+  "region": "",
+  "tool": ""
  }
 ]

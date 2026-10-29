@@ -1,0 +1,19 @@
+{
+ "id": "UA06P03",
+ "started": "2026-10-29T18:35:41Z",
+ "download_url": "https://arxiv.org/pdf/2610.23635",
+ "final_url": "https://arxiv.org/pdf/2610.23635",
+ "http_last_modified": "Mon, 19 Oct 2026 01:29:56 GMT",
+ "verify": "通过：pypdf 可解析 8 页；标题词匹配 1.0",
+ "info": {
+  "pages": 8,
+  "meta_title": "TransNav: Transformer-Based End-to-End Navigation Method for Static and Dynamic Quadrotor Obstacle Avoidance",
+  "body_sample_chars": 14225,
+  "title_match": 1.0
+ },
+ "bytes": 4727741,
+ "sha256": "c4f33186c604e4226bad513db5186525b2f296cfab29e2d68328547ff7f86f8f",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:35:45Z"
+}

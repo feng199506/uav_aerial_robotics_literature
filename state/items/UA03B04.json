@@ -1,0 +1,16 @@
+{
+ "id": "UA03B04",
+ "reused_from": "/root/ai_undergraduate_graduate_curriculum_literature/books/Liberzon_CalculusOfVariationsOptimalControl_2011_en.pdf",
+ "status": "ok",
+ "verify": "通过：pypdf 可解析 200 页；标题词匹配 1.0",
+ "info": {
+  "pages": 200,
+  "meta_title": "",
+  "body_sample_chars": 11626,
+  "title_match": 1.0
+ },
+ "bytes": 1589709,
+ "sha256": "06cd456e649a235b43b14de63b1192cd9f545422036d5c82d95c02e1a9590f7c",
+ "error": "",
+ "access_date": "2026-10-29"
+}

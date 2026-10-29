@@ -125,7 +125,8 @@ def get_pdf(seed, st):
     errs = []
     for url in g["urls"]:
         tmp = STAGING / (seed["id"] + ".pdf")
-        r = http(url, dest=tmp, max_bytes=int(g.get("max_mb", 400)) * 1024 * 1024, timeout=300)
+        r = http(url, dest=tmp, max_bytes=int(g.get("max_mb", 400)) * 1024 * 1024,
+                 timeout=int(g.get("timeout", 90)))
         if r["status"] != 200:
             errs.append(f"{url}: {r['status']} {r['err']}")
             continue
@@ -441,7 +442,10 @@ def get_mirror(seed, st):
     names, _ = list_archive(out)
     ok, msg, info = check_tree(names, out, seed.get("expect", {}))
     if st["quota_hit"]:
-        ok, msg = False, "镜像达到配额上限，可能不完整：" + msg
+        if ok and seed.get("complete") == "部分":
+            msg = "部分镜像（达配额）但仍满足核验：" + msg
+        else:
+            ok, msg = False, "镜像达到配额上限，可能不完整：" + msg
     st.update(download_url=starts[0], mirror_scope={"start": starts, "include": incl, "level": g.get("level", "inf")},
               verify=msg, info=info, bytes=out.stat().st_size, sha256=sha256(out))
     if not ok:

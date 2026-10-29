@@ -1,0 +1,19 @@
+{
+ "id": "UA07P08",
+ "started": "2026-10-29T18:36:23Z",
+ "download_url": "https://arxiv.org/pdf/2507.13359",
+ "final_url": "https://arxiv.org/pdf/2507.13359",
+ "http_last_modified": "Mon, 21 Jul 2025 00:00:39 GMT",
+ "verify": "通过：pypdf 可解析 27 页；标题词匹配 1.0",
+ "info": {
+  "pages": 27,
+  "meta_title": "Open-Vocabulary Object Detection in UAV Imagery: A Review and Future Perspectives",
+  "body_sample_chars": 14838,
+  "title_match": 1.0
+ },
+ "bytes": 2475355,
+ "sha256": "86b52c76204073448e1dcf2d4d948a131c3b39faa110e535b4da17a6665cca06",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:36:26Z"
+}

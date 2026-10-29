@@ -1,0 +1,19 @@
+{
+ "id": "UA07P04",
+ "started": "2026-10-29T18:36:08Z",
+ "download_url": "https://arxiv.org/pdf/2610.31617",
+ "final_url": "https://arxiv.org/pdf/2610.31617",
+ "http_last_modified": "Fri, 23 Oct 2026 01:45:32 GMT",
+ "verify": "通过：pypdf 可解析 8 页；标题词匹配 1.0",
+ "info": {
+  "pages": 8,
+  "meta_title": "DiffDreamer: Coupling World Models with Differentiable Simulation for Agile Quadrotor Control",
+  "body_sample_chars": 13653,
+  "title_match": 1.0
+ },
+ "bytes": 8446493,
+ "sha256": "9ca8a694cde2c24a221fedac89aa2b85c415e0e87f9049efbb3f8f18150e52ba",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:36:09Z"
+}

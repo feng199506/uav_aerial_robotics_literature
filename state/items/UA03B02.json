@@ -1,0 +1,16 @@
+{
+ "id": "UA03B02",
+ "reused_from": "/root/industrial_process_monitoring_literature/books/Rawlings_ModelPredictiveControl_2ndEd_en.pdf",
+ "status": "ok",
+ "verify": "通过：pypdf 可解析 821 页；标题词匹配 1.0",
+ "info": {
+  "pages": 821,
+  "meta_title": "",
+  "body_sample_chars": 8331,
+  "title_match": 1.0
+ },
+ "bytes": 3837012,
+ "sha256": "34f26377117a6aedfc4c48767034c1ba4ed6a758dc68d142fcd5eeef2b37a061",
+ "error": "",
+ "access_date": "2026-10-29"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "UA05P02",
+ "started": "2026-10-29T18:35:17Z",
+ "download_url": "https://arxiv.org/pdf/2509.10730",
+ "final_url": "https://arxiv.org/pdf/2509.10730",
+ "http_last_modified": "Tue, 16 Sep 2025 01:28:25 GMT",
+ "verify": "通过：pypdf 可解析 17 页；标题词匹配 1.0",
+ "info": {
+  "pages": 17,
+  "meta_title": "A Survey on LiDAR-based Autonomous Aerial Vehicles",
+  "body_sample_chars": 31005,
+  "title_match": 1.0
+ },
+ "bytes": 9211479,
+ "sha256": "0849fa7a8e27cf02482dca84bf89a115eb6eb022d68da5231ffea8fef63ecc6a",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:35:23Z"
+}

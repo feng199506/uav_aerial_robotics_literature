@@ -1,0 +1,19 @@
+{
+ "id": "UA07P07",
+ "started": "2026-10-29T18:36:21Z",
+ "download_url": "https://arxiv.org/pdf/2609.31507",
+ "final_url": "https://arxiv.org/pdf/2609.31507",
+ "http_last_modified": "Mon, 28 Sep 2026 01:31:53 GMT",
+ "verify": "通过：pypdf 可解析 32 页；标题词匹配 1.0",
+ "info": {
+  "pages": 32,
+  "meta_title": "SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery",
+  "body_sample_chars": 15038,
+  "title_match": 1.0
+ },
+ "bytes": 31796267,
+ "sha256": "960ace26556fa122d4a80544a6accfbcf474985238f52046097a0a7f92527808",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:36:23Z"
+}

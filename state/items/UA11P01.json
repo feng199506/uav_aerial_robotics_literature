@@ -1,0 +1,19 @@
+{
+ "id": "UA11P01",
+ "started": "2026-10-29T18:37:26Z",
+ "download_url": "https://arxiv.org/pdf/2610.30566",
+ "final_url": "https://arxiv.org/pdf/2610.30566",
+ "http_last_modified": "Fri, 23 Oct 2026 00:27:52 GMT",
+ "verify": "通过：pypdf 可解析 18 页；标题词匹配 1.0",
+ "info": {
+  "pages": 18,
+  "meta_title": "Learning-Oriented Fault-Tolerant Control for UAVs with Time-Varying Fault Estimation",
+  "body_sample_chars": 10864,
+  "title_match": 1.0
+ },
+ "bytes": 1255901,
+ "sha256": "eb6d063af482e61436fe46b31d9a5b4ddeed3204430f8468c6359ee481c92da6",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:37:30Z"
+}

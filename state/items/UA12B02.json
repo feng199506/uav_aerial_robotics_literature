@@ -1,0 +1,19 @@
+{
+ "id": "UA12B02",
+ "started": "2026-10-29T18:32:09Z",
+ "download_url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/remote_pilot_study_guide.pdf",
+ "final_url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/remote_pilot_study_guide.pdf",
+ "http_last_modified": "Fri, 25 Mar 2022 19:39:45 GMT",
+ "verify": "通过：pypdf 可解析 88 页；标题词匹配 1.0",
+ "info": {
+  "pages": 88,
+  "meta_title": "Remote Pilot - Small Unmanned Aircraft Systems Study Guide",
+  "body_sample_chars": 5387,
+  "title_match": 1.0
+ },
+ "bytes": 6730865,
+ "sha256": "55d0e7772ecd16dc201f21b0286f9d7777f67e894a97a9b074fa27464903e05f",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:32:10Z"
+}

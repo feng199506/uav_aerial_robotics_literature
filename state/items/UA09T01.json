@@ -1,0 +1,57 @@
+{
+ "id": "UA09T01",
+ "started": "2026-10-29T18:41:51Z",
+ "wget_rc": 0,
+ "quota_hit": true,
+ "dropped_large_files": [],
+ "dropped_count": 0,
+ "download_url": "https://docs.px4.io/v1.17/en/",
+ "mirror_scope": {
+  "start": [
+   "https://docs.px4.io/v1.17/en/",
+   "https://docs.px4.io/v1.17/en/getting_started/",
+   "https://docs.px4.io/v1.17/en/concept/architecture.html",
+   "https://docs.px4.io/v1.17/en/simulation/",
+   "https://docs.px4.io/v1.17/en/ros2/",
+   "https://docs.px4.io/v1.17/en/log/flight_review.html",
+   "https://docs.px4.io/v1.17/en/config/safety.html",
+   "https://docs.px4.io/v1.17/en/dev_setup/dev_env.html"
+  ],
+  "include": [
+   "/v1.17"
+  ],
+  "level": "4"
+ },
+ "verify": "通过：200 个文件（HTML 197，文档源 1）",
+ "info": {
+  "files": 200,
+  "html": 197,
+  "md_rst_ipynb": 1,
+  "top_ext": [
+   [
+    "html",
+    197
+   ],
+   [
+    "txt",
+    1
+   ],
+   [
+    "js",
+    1
+   ],
+   [
+    "svg",
+    1
+   ]
+  ],
+  "license_files": []
+ },
+ "bytes": 190924800,
+ "sha256": "54f9c350ff5c4d7c3e4d62fbe087341767555c6c1b309bd086b39531537b0d97",
+ "error": "",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:47:35Z",
+ "reverified": "2026-10-29T19:12:58Z"
+}

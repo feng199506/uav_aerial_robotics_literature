@@ -1,0 +1,19 @@
+{
+ "id": "UA03P10",
+ "started": "2026-10-29T18:35:01Z",
+ "download_url": "https://arxiv.org/pdf/2609.38467",
+ "final_url": "https://arxiv.org/pdf/2609.38467",
+ "http_last_modified": "Thu, 01 Oct 2026 00:24:30 GMT",
+ "verify": "通过：pypdf 可解析 8 页；标题词匹配 1.0",
+ "info": {
+  "pages": 8,
+  "meta_title": "L1-MPPI: L1 Adaptive Model Predictive Path Integral for Agile UAV Control",
+  "body_sample_chars": 14546,
+  "title_match": 1.0
+ },
+ "bytes": 4891917,
+ "sha256": "7cd15d3fcd83a1910f445d9bf720715f4beabf033c5e80c66840347cbe230fff",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:35:07Z"
+}

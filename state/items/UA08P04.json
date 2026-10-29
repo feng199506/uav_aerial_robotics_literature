@@ -1,0 +1,19 @@
+{
+ "id": "UA08P04",
+ "started": "2026-10-29T18:36:42Z",
+ "download_url": "https://arxiv.org/pdf/2610.14471",
+ "final_url": "https://arxiv.org/pdf/2610.14471",
+ "http_last_modified": "Wed, 14 Oct 2026 00:30:27 GMT",
+ "verify": "通过：pypdf 可解析 6 页；标题词匹配 1.0",
+ "info": {
+  "pages": 6,
+  "meta_title": "Spatial-Temporal Hybrid Path Planning for Multi-UAV Methane Emission Rate Quantification",
+  "body_sample_chars": 16097,
+  "title_match": 1.0
+ },
+ "bytes": 792833,
+ "sha256": "4cc20d70f3d46b4b6fbf7f6d26071f69bdb32660fe87ad3ede99c609da4fe517",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:36:45Z"
+}

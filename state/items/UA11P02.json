@@ -1,0 +1,19 @@
+{
+ "id": "UA11P02",
+ "started": "2026-10-29T18:37:30Z",
+ "download_url": "https://arxiv.org/pdf/2608.20906",
+ "final_url": "https://arxiv.org/pdf/2608.20906",
+ "http_last_modified": "Mon, 24 Aug 2026 00:44:39 GMT",
+ "verify": "通过：pypdf 可解析 10 页；标题词匹配 1.0",
+ "info": {
+  "pages": 10,
+  "meta_title": "A Safety-Driven Architectural Framework for Fail-Operational Drone Swarms in Critical Missions",
+  "body_sample_chars": 20145,
+  "title_match": 1.0
+ },
+ "bytes": 6538781,
+ "sha256": "e2dd434d36dc96eb2eab69461af30288df36bb271db61f3e59d508a0725d5612",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:37:34Z"
+}

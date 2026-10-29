@@ -1,0 +1,19 @@
+{
+ "id": "UA06P05",
+ "started": "2026-10-29T18:35:50Z",
+ "download_url": "https://arxiv.org/pdf/2605.14920",
+ "final_url": "https://arxiv.org/pdf/2605.14920",
+ "http_last_modified": "Fri, 15 May 2026 01:34:47 GMT",
+ "verify": "通过：pypdf 可解析 11 页；标题词匹配 1.0",
+ "info": {
+  "pages": 11,
+  "meta_title": "FU-MPC: Frontier- and Uncertainty-Aware Model Predictive Control for Efficient and Accurate UAV Exploration with Motorized LiDAR",
+  "body_sample_chars": 20153,
+  "title_match": 1.0
+ },
+ "bytes": 15037124,
+ "sha256": "3f19d9e7af2dfcd75ebb0de648b0a6da45b2e44fc1a87e20d47b5016050c1ebd",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:35:55Z"
+}

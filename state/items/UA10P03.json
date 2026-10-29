@@ -1,0 +1,19 @@
+{
+ "id": "UA10P03",
+ "started": "2026-10-29T18:37:14Z",
+ "download_url": "https://arxiv.org/pdf/2610.15308",
+ "final_url": "https://arxiv.org/pdf/2610.15308",
+ "http_last_modified": "Wed, 14 Oct 2026 01:27:43 GMT",
+ "verify": "通过：pypdf 可解析 6 页；标题词匹配 1.0",
+ "info": {
+  "pages": 6,
+  "meta_title": "An Open MuJoCo Simulation Framework for a Quadrotor Carrying a Tendon-Driven Soft Continuum Arm",
+  "body_sample_chars": 12255,
+  "title_match": 1.0
+ },
+ "bytes": 543896,
+ "sha256": "1aa00f4848547cce6fd76a17d9e830c1e2638bd0e94625df80d740804506a26c",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:37:17Z"
+}

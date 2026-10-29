@@ -1,0 +1,19 @@
+{
+ "id": "UA07P05",
+ "started": "2026-10-29T18:36:09Z",
+ "download_url": "https://arxiv.org/pdf/2609.37316",
+ "final_url": "https://arxiv.org/pdf/2609.37316",
+ "http_last_modified": "Wed, 30 Sep 2026 01:39:01 GMT",
+ "verify": "通过：pypdf 可解析 9 页；标题词匹配 1.0",
+ "info": {
+  "pages": 9,
+  "meta_title": "Battery-Aware Reinforcement Learning for Aggressive Quadrotor Flight",
+  "body_sample_chars": 18589,
+  "title_match": 1.0
+ },
+ "bytes": 1089434,
+ "sha256": "729447473ebe8aa262e948670e68f09f1c6d6c5c0f5967441bc7361d4326b1f8",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:36:13Z"
+}
