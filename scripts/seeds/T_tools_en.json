@@ -1,0 +1,638 @@
+[
+ {
+  "id": "UA09T01",
+  "cat": "09",
+  "type": "docs",
+  "material": "官方 HTML 离线包",
+  "tool": "PX4 Autopilot",
+  "title": "PX4 Autopilot User & Developer Guide (v1.17 stable)",
+  "authors": "PX4 Development Team / Dronecode",
+  "school": "Dronecode Foundation",
+  "year": "2026",
+  "version": "docs.px4.io/v1.17 （稳定版；检索日镜像）",
+  "level": "工程",
+  "prereq": "嵌入式/Linux 基础",
+  "topics": "架构、飞控、仿真、ROS 2、MAVLink、日志、失效保护、VTOL/多旋翼/固定翼",
+  "source": "https://docs.px4.io/v1.17/en/",
+  "license": "PX4 文档（CC-BY / 项目许可，见站点）",
+  "goal": "当前稳定版官方文档离线包（不用 main 开发枝作为推荐版本）",
+  "order": 1,
+  "vehicle": "多旋翼/固定翼/VTOL",
+  "stack": "PX4 v1.17 + QGC + MAVSDK/ROS 2",
+  "out": "09_flight_software_communications/tools/PX4_Guide_v1.17_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": [
+    "https://docs.px4.io/v1.17/en/",
+    "https://docs.px4.io/v1.17/en/getting_started/",
+    "https://docs.px4.io/v1.17/en/concept/architecture.html",
+    "https://docs.px4.io/v1.17/en/simulation/",
+    "https://docs.px4.io/v1.17/en/ros2/",
+    "https://docs.px4.io/v1.17/en/log/flight_review.html",
+    "https://docs.px4.io/v1.17/en/config/safety.html",
+    "https://docs.px4.io/v1.17/en/dev_setup/dev_env.html"
+   ],
+   "domains": [
+    "docs.px4.io"
+   ],
+   "include": [
+    "/v1.17"
+   ],
+   "level": "4",
+   "quota_mb": 180,
+   "timeout": 2400,
+   "wait": 0.35
+  },
+  "expect": {
+   "min_docs": 30,
+   "link_check": false,
+   "entry": ""
+  },
+  "complete": "部分",
+  "scope": "v1.17 英文指南递归镜像，配额 180MB；不含固件二进制与仿真模型资源",
+  "evidence": "官方文档",
+  "lang": "en",
+  "cross": [],
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "reuse_flag": false,
+  "region": "",
+  "sensors": "",
+  "eval": "",
+  "code_data": "",
+  "limits": ""
+ },
+ {
+  "id": "UA09T02",
+  "cat": "09",
+  "type": "docs",
+  "material": "官方 HTML 离线包",
+  "tool": "ArduPilot",
+  "title": "ArduPilot Copter / Plane / Dev wiki (current stable docs)",
+  "authors": "ArduPilot development team",
+  "school": "ArduPilot",
+  "year": "2026",
+  "version": "ardupilot.org 检索日 wiki",
+  "level": "工程",
+  "prereq": "地面站与 RC 基础",
+  "topics": "Copter/Plane 配置、SITL、日志、参数、MAVLink、开发入门",
+  "source": "https://ardupilot.org/",
+  "license": "wiki 内容多为 CC；见站点",
+  "goal": "ArduPilot 官方 wiki 核心子集",
+  "order": 2,
+  "vehicle": "多旋翼/固定翼",
+  "stack": "ArduPilot + Mission Planner / MAVProxy",
+  "out": "09_flight_software_communications/tools/ArduPilot_Wiki_CopterPlaneDev_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": [
+    "https://ardupilot.org/copter/index.html",
+    "https://ardupilot.org/plane/index.html",
+    "https://ardupilot.org/dev/index.html",
+    "https://ardupilot.org/copter/docs/connect-escs-and-motors.html",
+    "https://ardupilot.org/dev/docs/sitl-simulator-software-in-the-loop.html",
+    "https://ardupilot.org/copter/docs/common-logs.html",
+    "https://ardupilot.org/copter/docs/common-parameter-reset.html"
+   ],
+   "domains": [
+    "ardupilot.org"
+   ],
+   "include": [
+    "/copter",
+    "/plane",
+    "/dev"
+   ],
+   "exclude": [
+    "/copter/docs/files",
+    "/plane/docs/files"
+   ],
+   "level": "3",
+   "quota_mb": 160,
+   "timeout": 2400,
+   "wait": 0.4
+  },
+  "expect": {
+   "min_docs": 30,
+   "link_check": false
+  },
+  "complete": "部分",
+  "scope": "Copter/Plane/Dev 文档树，level=3，不含固件与大型媒体",
+  "evidence": "官方文档",
+  "lang": "en",
+  "cross": [],
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "reuse_flag": false,
+  "region": "",
+  "sensors": "",
+  "eval": "",
+  "code_data": "",
+  "limits": ""
+ },
+ {
+  "id": "UA09T03",
+  "cat": "09",
+  "type": "docs",
+  "material": "官方 HTML 离线包",
+  "tool": "QGroundControl",
+  "title": "QGroundControl User Guide",
+  "authors": "QGroundControl / Dronecode",
+  "school": "Dronecode",
+  "year": "2026",
+  "version": "docs.qgroundcontrol.com/master 检索日",
+  "level": "工程",
+  "prereq": "PX4 或 ArduPilot 基础",
+  "topics": "飞前检查、任务规划、参数、日志、固件刷写界面（不下载固件）",
+  "source": "https://docs.qgroundcontrol.com/master/en/qgc-user-guide/",
+  "license": "项目文档许可",
+  "goal": "地面站官方用户指南",
+  "order": 3,
+  "vehicle": "PX4/ArduPilot 载具",
+  "stack": "QGroundControl + MAVLink",
+  "out": "09_flight_software_communications/tools/QGroundControl_UserGuide_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": [
+    "https://docs.qgroundcontrol.com/master/en/qgc-user-guide/"
+   ],
+   "domains": [
+    "docs.qgroundcontrol.com"
+   ],
+   "include": [
+    "/master/en/qgc-user-guide"
+   ],
+   "level": "4",
+   "quota_mb": 80,
+   "wait": 0.3
+  },
+  "expect": {
+   "min_docs": 10,
+   "link_check": false
+  },
+  "complete": "部分",
+  "scope": "User Guide 路径；不保存安装包与固件",
+  "evidence": "官方文档",
+  "lang": "en",
+  "cross": [],
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "reuse_flag": false,
+  "region": "",
+  "sensors": "",
+  "eval": "",
+  "code_data": "",
+  "limits": ""
+ },
+ {
+  "id": "UA09T04",
+  "cat": "09",
+  "type": "docs",
+  "material": "官方 HTML 离线包",
+  "tool": "Mission Planner",
+  "title": "Mission Planner documentation (ArduPilot)",
+  "authors": "ArduPilot",
+  "school": "ArduPilot",
+  "year": "2026",
+  "version": "ardupilot.org/planner 检索日",
+  "level": "工程",
+  "prereq": "ArduPilot 基础",
+  "topics": "任务规划、遥测、日志分析、参数、地理围栏",
+  "source": "https://ardupilot.org/planner/",
+  "license": "wiki",
+  "goal": "Mission Planner 官方文档",
+  "order": 4,
+  "vehicle": "ArduPilot 载具",
+  "stack": "Mission Planner + ArduPilot",
+  "out": "09_flight_software_communications/tools/MissionPlanner_Docs_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": [
+    "https://ardupilot.org/planner/index.html",
+    "https://ardupilot.org/planner/docs/mission-planner-overview.html",
+    "https://ardupilot.org/planner/docs/common-mission-planning.html"
+   ],
+   "domains": [
+    "ardupilot.org"
+   ],
+   "include": [
+    "/planner"
+   ],
+   "level": "3",
+   "quota_mb": 70,
+   "wait": 0.4
+  },
+  "expect": {
+   "min_docs": 8,
+   "link_check": false
+  },
+  "complete": "部分",
+  "scope": "planner 文档树",
+  "evidence": "官方文档",
+  "lang": "en",
+  "cross": [],
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "reuse_flag": false,
+  "region": "",
+  "sensors": "",
+  "eval": "",
+  "code_data": "",
+  "limits": ""
+ },
+ {
+  "id": "UA09T05",
+  "cat": "09",
+  "type": "docs",
+  "material": "官方 HTML 离线包",
+  "tool": "MAVLink",
+  "title": "MAVLink Developer Guide",
+  "authors": "MAVLink / Dronecode",
+  "school": "Dronecode",
+  "year": "2026",
+  "version": "mavlink.io/en 检索日",
+  "level": "工程",
+  "prereq": "串口/UDP 基础",
+  "topics": "消息、方言、微服务器、安全、与 PX4/ArduPilot 的兼容",
+  "source": "https://mavlink.io/en/",
+  "license": "项目文档",
+  "goal": "MAVLink 协议官方开发指南",
+  "order": 5,
+  "vehicle": "通用",
+  "stack": "MAVLink v2",
+  "out": "09_flight_software_communications/tools/MAVLink_DeveloperGuide_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": [
+    "https://mavlink.io/en/",
+    "https://mavlink.io/en/getting_started/",
+    "https://mavlink.io/en/guide/"
+   ],
+   "domains": [
+    "mavlink.io"
+   ],
+   "include": [
+    "/en"
+   ],
+   "level": "3",
+   "quota_mb": 80,
+   "wait": 0.3
+  },
+  "expect": {
+   "min_docs": 15,
+   "link_check": false
+  },
+  "complete": "部分",
+  "scope": "mavlink.io/en 指南，不含全部消息 HTML 字典若超配额",
+  "evidence": "官方文档",
+  "lang": "en",
+  "cross": [],
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "reuse_flag": false,
+  "region": "",
+  "sensors": "",
+  "eval": "",
+  "code_data": "",
+  "limits": ""
+ },
+ {
+  "id": "UA09T06",
+  "cat": "09",
+  "type": "docs",
+  "material": "官方 HTML 离线包",
+  "tool": "MAVSDK",
+  "title": "MAVSDK Guide",
+  "authors": "MAVSDK / Dronecode",
+  "school": "Dronecode",
+  "year": "2026",
+  "version": "mavsdk.mavlink.io 检索日（main 文档）",
+  "level": "工程",
+  "prereq": "MAVLink 概念、C++/Python",
+  "topics": "插件 API、SITL 连接、offboard、任务、遥测",
+  "source": "https://mavsdk.mavlink.io/",
+  "license": "项目文档",
+  "goal": "伴随计算机/地面端 SDK 官方文档",
+  "order": 6,
+  "vehicle": "PX4 为主，MAVLink 载具",
+  "stack": "MAVSDK + PX4 SITL",
+  "out": "09_flight_software_communications/tools/MAVSDK_Guide_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": [
+    "https://mavsdk.mavlink.io/main/en/",
+    "https://mavsdk.mavlink.io/main/en/getting_started/",
+    "https://mavsdk.mavlink.io/main/en/cpp/",
+    "https://mavsdk.mavlink.io/main/en/python/"
+   ],
+   "domains": [
+    "mavsdk.mavlink.io"
+   ],
+   "include": [
+    "/main/en"
+   ],
+   "level": "3",
+   "quota_mb": 70,
+   "wait": 0.3
+  },
+  "expect": {
+   "min_docs": 10,
+   "link_check": false
+  },
+  "complete": "部分",
+  "evidence": "官方文档",
+  "lang": "en",
+  "cross": [],
+  "scope": "",
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "reuse_flag": false,
+  "region": "",
+  "sensors": "",
+  "eval": "",
+  "code_data": "",
+  "limits": ""
+ },
+ {
+  "id": "UA09T07",
+  "cat": "09",
+  "type": "docs",
+  "material": "官方文档子集（PX4 ROS 2）",
+  "tool": "PX4 + ROS 2",
+  "title": "PX4 ROS 2 user guide pages (v1.17)",
+  "authors": "PX4 Development Team",
+  "school": "Dronecode",
+  "year": "2026",
+  "version": "docs.px4.io/v1.17/en/ros2/",
+  "level": "工程",
+  "prereq": "ROS 2 基础、PX4",
+  "topics": "uXRCE-DDS、px4_msgs、offboard、Zenoh 说明、与 MAVROS 关系",
+  "source": "https://docs.px4.io/v1.17/en/ros2/user_guide.html",
+  "license": "PX4 文档",
+  "goal": "ROS 2 与飞控集成的官方说明（当前推荐 uXRCE-DDS，MAVROS 作历史/兼容路径）",
+  "order": 7,
+  "vehicle": "PX4",
+  "stack": "PX4 v1.17 + ROS 2 + uXRCE-DDS（MAVROS 为兼容层）",
+  "out": "09_flight_software_communications/tools/PX4_ROS2_v1.17_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": [
+    "https://docs.px4.io/v1.17/en/ros2/user_guide.html",
+    "https://docs.px4.io/v1.17/en/ros/ros2_comm.html",
+    "https://docs.px4.io/v1.17/en/ros/mavros_offboard.html",
+    "https://docs.px4.io/v1.17/en/middleware/uxrce_dds.html"
+   ],
+   "domains": [
+    "docs.px4.io"
+   ],
+   "include": [
+    "/v1.17/en/ros2",
+    "/v1.17/en/ros",
+    "/v1.17/en/middleware"
+   ],
+   "level": "3",
+   "quota_mb": 40,
+   "wait": 0.3
+  },
+  "expect": {
+   "min_docs": 5,
+   "link_check": false
+  },
+  "complete": "部分",
+  "note": "MAVROS 页面作为兼容路径保存，不标为 PX4 v1.17 的默认推荐中间件。",
+  "evidence": "官方文档",
+  "lang": "en",
+  "cross": [],
+  "scope": "",
+  "use": "通读",
+  "paper": {},
+  "reuse_flag": false,
+  "region": "",
+  "sensors": "",
+  "eval": "",
+  "code_data": "",
+  "limits": ""
+ },
+ {
+  "id": "UA10T01",
+  "cat": "10",
+  "type": "docs",
+  "material": "官方 HTML 离线包",
+  "tool": "Gazebo",
+  "title": "Gazebo Harmonic documentation",
+  "authors": "Open Robotics / Gazebo team",
+  "school": "Open Robotics",
+  "year": "2026",
+  "version": "gazebosim.org/docs/harmonic 检索日",
+  "level": "工程",
+  "prereq": "Linux、SDF 概念",
+  "topics": "安装、SDF、传感器、插件、与 ROS 2；PX4 当前文档亦列出更新发行版",
+  "source": "https://gazebosim.org/docs/harmonic",
+  "license": "项目文档",
+  "goal": "仍受维护的 Gazebo 官方文档（Harmonic LTS）。Gazebo Classic / RotorS 不作为当前推荐。",
+  "order": 1,
+  "vehicle": "仿真通用，PX4 SITL 常用",
+  "stack": "Gazebo Harmonic；PX4 v1.17 另支持更新 Gazebo 发行版（如 Jetty），以 PX4 文档为准",
+  "out": "10_simulation_testing/tools/Gazebo_Harmonic_Docs_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": [
+    "https://gazebosim.org/docs/harmonic",
+    "https://gazebosim.org/docs/harmonic/getstarted",
+    "https://gazebosim.org/docs/harmonic/sensors"
+   ],
+   "domains": [
+    "gazebosim.org"
+   ],
+   "include": [
+    "/docs/harmonic"
+   ],
+   "level": "3",
+   "quota_mb": 90,
+   "wait": 0.3
+  },
+  "expect": {
+   "min_docs": 15,
+   "link_check": false
+  },
+  "complete": "部分",
+  "evidence": "官方文档",
+  "lang": "en",
+  "cross": [],
+  "scope": "",
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "reuse_flag": false,
+  "region": "",
+  "sensors": "",
+  "eval": "",
+  "code_data": "",
+  "limits": ""
+ },
+ {
+  "id": "UA10T02",
+  "cat": "10",
+  "type": "docs",
+  "material": "官方参考手册",
+  "tool": "JSBSim",
+  "title": "JSBSim Reference Manual / project docs",
+  "authors": "JSBSim team",
+  "school": "JSBSim",
+  "year": "2026",
+  "version": "jsbsim-team.github.io 检索日 + 仓库 docs",
+  "level": "工程",
+  "prereq": "飞行动力学概念",
+  "topics": "FDM、XML 飞机模型、脚本、与 FlightGear/ArduPilot SITL 接口",
+  "source": "https://jsbsim-team.github.io/jsbsim-reference-manual/",
+  "license": "LGPL 项目文档",
+  "goal": "固定翼开源 FDM 官方手册",
+  "order": 2,
+  "vehicle": "固定翼（ArduPilot SITL 常用）",
+  "stack": "JSBSim + ArduPilot SITL / FlightGear（可选）",
+  "out": "10_simulation_testing/tools/JSBSim_ReferenceManual_html_en.tar",
+  "get": {
+   "kind": "mirror",
+   "start": [
+    "https://jsbsim-team.github.io/jsbsim-reference-manual/"
+   ],
+   "domains": [
+    "jsbsim-team.github.io"
+   ],
+   "include": [
+    "/jsbsim-reference-manual"
+   ],
+   "level": "4",
+   "quota_mb": 80,
+   "wait": 0.3
+  },
+  "expect": {
+   "min_docs": 8,
+   "link_check": false
+  },
+  "complete": "部分",
+  "evidence": "官方文档",
+  "lang": "en",
+  "cross": [],
+  "scope": "",
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "reuse_flag": false,
+  "region": "",
+  "sensors": "",
+  "eval": "",
+  "code_data": "",
+  "limits": ""
+ },
+ {
+  "id": "UA10T03",
+  "cat": "10",
+  "type": "docs",
+  "material": "官方源码文档归档",
+  "tool": "pyulog / Flight Review",
+  "title": "PX4 pyulog + Flight Review (log analysis tools)",
+  "authors": "PX4 Development Team",
+  "school": "Dronecode",
+  "year": "2026",
+  "version": "GitHub depth-1（文档与源码，不含大数据）",
+  "level": "工程",
+  "prereq": "PX4 日志概念、Python",
+  "topics": "ULog 解析、绘图、Flight Review 网页分析",
+  "source": "https://github.com/PX4/pyulog",
+  "license": "BSD-3-Clause（以仓库 LICENSE 为准）",
+  "goal": "飞控日志解析与评测工具的官方源码+说明",
+  "order": 3,
+  "vehicle": "PX4",
+  "stack": "pyulog + Flight Review",
+  "out": "10_simulation_testing/tools/PX4_pyulog_FlightReview_srcdocs_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/PX4/pyulog.git",
+   "paths": [
+    "README.md",
+    "LICENSE",
+    "pyulog",
+    "docs",
+    "test"
+   ]
+  },
+  "expect": {
+   "min_docs": 2,
+   "need_license": true,
+   "must_have": [
+    "README"
+   ]
+  },
+  "evidence": "官方文档",
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "通读",
+  "paper": {},
+  "reuse_flag": false,
+  "region": "",
+  "sensors": "",
+  "eval": "",
+  "code_data": "",
+  "limits": ""
+ },
+ {
+  "id": "UA09T08",
+  "cat": "09",
+  "type": "docs",
+  "material": "消息定义与库说明",
+  "tool": "MAVROS",
+  "title": "MAVROS (ROS 1/2 MAVLink bridge) repository docs — compatibility path",
+  "authors": "Vladimir Ermakov and contributors",
+  "school": "mavlink/mavros",
+  "year": "2026",
+  "version": "GitHub 默认分支 depth-1 文档",
+  "level": "工程",
+  "prereq": "ROS、MAVLink",
+  "topics": "mavros 插件、话题、与 PX4/ArduPilot 连接。当前 PX4 默认推荐 uXRCE-DDS，本仓库作兼容/历史路径。",
+  "source": "https://github.com/mavlink/mavros",
+  "license": "仓库 LICENSE（BSD/GPLv3 组件，以文件为准）",
+  "goal": "记录 MAVROS 接口，避免与 ROS 2 原生中间件混淆",
+  "order": 8,
+  "vehicle": "PX4/ArduPilot",
+  "stack": "MAVROS + MAVLink（非 PX4 v1.17 默认 ROS 2 路径）",
+  "out": "09_flight_software_communications/tools/MAVROS_RepoDocs_en.tar",
+  "get": {
+   "kind": "git",
+   "repo": "https://github.com/mavlink/mavros.git",
+   "paths": [
+    "README.md",
+    "LICENSE",
+    "mavros/README.md",
+    "docs",
+    "mavros/doc"
+   ]
+  },
+  "expect": {
+   "min_docs": 2,
+   "need_license": true
+  },
+  "note": "维护中但已不是 PX4 对 ROS 2 的默认集成路径。",
+  "evidence": "官方文档",
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "use": "通读",
+  "paper": {},
+  "reuse_flag": false,
+  "region": "",
+  "sensors": "",
+  "eval": "",
+  "code_data": "",
+  "limits": ""
+ }
+]

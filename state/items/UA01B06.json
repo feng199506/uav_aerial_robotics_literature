@@ -1,0 +1,19 @@
+{
+ "id": "UA01B06",
+ "started": "2026-10-29T18:19:53Z",
+ "download_url": "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-696.pdf",
+ "final_url": "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-696.pdf",
+ "http_last_modified": "Thu, 02 Aug 2007 19:19:54 GMT",
+ "verify": "通过：pypdf 可解析 37 页；标题词匹配 1.0",
+ "info": {
+  "pages": 37,
+  "meta_title": "An introduction to inertial navigation",
+  "body_sample_chars": 6936,
+  "title_match": 1.0
+ },
+ "bytes": 940825,
+ "sha256": "fdbcb9317b2b40d6a9656cdf2cb28604872f8b82c83cc5111f00932ea037ca52",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:19:54Z"
+}

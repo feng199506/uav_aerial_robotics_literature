@@ -1,0 +1,16 @@
+{
+ "id": "UA04B02",
+ "reused_from": "/root/industrial_process_monitoring_literature/books/Sarkka_BayesianFilteringSmoothing_2ndEd_en.pdf",
+ "status": "ok",
+ "verify": "通过：pypdf 可解析 436 页；标题词匹配 1.0",
+ "info": {
+  "pages": 436,
+  "meta_title": "Bayesian Filtering and Smoothing",
+  "body_sample_chars": 4236,
+  "title_match": 1.0
+ },
+ "bytes": 11364145,
+ "sha256": "6b57f19aedb36a539a0a882b3c0c7ef49155ac25d82ee6950fc808b0a60f9c55",
+ "error": "",
+ "access_date": "2026-10-29"
+}

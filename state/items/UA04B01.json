@@ -1,0 +1,16 @@
+{
+ "id": "UA04B01",
+ "reused_from": "/root/ai_undergraduate_graduate_curriculum_literature/books/Barfoot_StateEstimationForRobotics_2ndEd_en.pdf",
+ "status": "ok",
+ "verify": "通过：pypdf 可解析 580 页；标题词匹配 1.0",
+ "info": {
+  "pages": 580,
+  "meta_title": "",
+  "body_sample_chars": 4374,
+  "title_match": 1.0
+ },
+ "bytes": 8109610,
+ "sha256": "de055aa361577cbad11bce2501ae0afa47c05e9fdaf949132923b2210234be28",
+ "error": "",
+ "access_date": "2026-10-29"
+}

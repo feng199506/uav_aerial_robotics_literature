@@ -1,0 +1,19 @@
+{
+ "id": "UA01B01",
+ "started": "2026-10-29T18:18:13Z",
+ "download_url": "https://ntrs.nasa.gov/api/citations/19760003955/downloads/19760003955.pdf",
+ "final_url": "https://ntrs.nasa.gov/api/citations/19760003955/downloads/19760003955.pdf",
+ "http_last_modified": "Thu, 06 Aug 2020 19:32:45 GMT",
+ "verify": "通过：pypdf 可解析 212 页；标题词匹配 1.0",
+ "info": {
+  "pages": 212,
+  "meta_title": "",
+  "body_sample_chars": 5447,
+  "title_match": 1.0
+ },
+ "bytes": 7216707,
+ "sha256": "9a4e378aa1378ca4d3b99cb8c3f13a5cc5ae7c91504c2f612f42edb50c1bba9a",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:18:16Z"
+}

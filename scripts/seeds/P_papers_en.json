@@ -1,0 +1,756 @@
+[
+ {
+  "id": "UA03P01",
+  "cat": "03",
+  "year": "2010",
+  "version": "arXiv:1003.2005",
+  "title": "Geometric Tracking Control of a Quadrotor UAV on SE(3)",
+  "authors": "Taeyoung Lee; Melvin Leok; N. Harris McClamroch",
+  "source": "https://arxiv.org/abs/1003.2005",
+  "topics": "SE(3) 几何跟踪控制",
+  "vehicle": "四旋翼",
+  "note": "经典：几乎全局稳定的几何控制器，后续 VNAV/实飞控制器的标准引用。",
+  "out": "papers/2010_Lee_GeometricTrackingControlQuadrotor_en.pdf",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "use": "精读",
+  "stack": "",
+  "school": "Taeyoung Lee",
+  "level": "研究生",
+  "prereq": "",
+  "license": "arXiv 预印本或作者公开 PDF",
+  "region": "",
+  "tool": "",
+  "expect": {
+   "title_words": [
+    "Geometric",
+    "Tracking",
+    "Quadrotor"
+   ],
+   "min_pages": 6
+  },
+  "paper": {
+   "vehicle": "四旋翼",
+   "task": "姿态/位置跟踪",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "理论+仿真（作者报告）",
+   "env": "未在本文作为唯一实飞依据",
+   "metrics": "",
+   "code_data": "",
+   "verified_scope": "未执行；仅保存全文",
+   "author_limits": "",
+   "evidence": "摘要+正文"
+  },
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/1003.2005"
+   ]
+  },
+  "order": 0,
+  "goal": "SE(3) 几何跟踪控制"
+ },
+ {
+  "id": "UA06P01",
+  "cat": "06",
+  "year": "2011",
+  "title": "Minimum Snap Trajectory Generation and Control for Quadrotors",
+  "authors": "Daniel Mellinger; Vijay Kumar",
+  "school": "University of Pennsylvania",
+  "source": "https://ieeexplore.ieee.org/document/5980409",
+  "license": "作者公开 PDF（ICRA 2011）",
+  "topics": "微分平坦、最小 snap 轨迹",
+  "vehicle": "四旋翼",
+  "note": "经典：多旋翼轨迹规划的起点。",
+  "out": "papers/2011_Mellinger_MinimumSnapTrajectory_en.pdf",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "use": "精读",
+  "stack": "",
+  "level": "研究生",
+  "prereq": "",
+  "region": "",
+  "tool": "",
+  "expect": {
+   "title_words": [
+    "Minimum",
+    "Snap",
+    "Trajectory",
+    "Quadrotors"
+   ],
+   "min_pages": 6
+  },
+  "paper": {
+   "vehicle": "四旋翼",
+   "task": "轨迹生成与跟踪",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "实验（作者报告 GRASP 实验室）",
+   "env": "",
+   "metrics": "",
+   "code_data": "",
+   "verified_scope": "未执行；仅保存全文",
+   "author_limits": "",
+   "evidence": "摘要+正文"
+  },
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://www.kumarrobotics.org/wp-content/uploads/2013/11/2011-icra-mellinger.pdf",
+    "https://repository.upenn.edu/bitstreams/minimum-snap.pdf",
+    "https://www.seas.upenn.edu/~dmel/mellingerICRA11.pdf"
+   ]
+  },
+  "version": "2011",
+  "order": 0,
+  "goal": "微分平坦、最小 snap 轨迹"
+ },
+ {
+  "id": "UA03P02",
+  "cat": "03",
+  "year": "2012",
+  "title": "Multirotor Aerial Vehicles: Modeling, Estimation, and Control of Quadrotor",
+  "authors": "Robert Mahony; Vijay Kumar; Peter Corke",
+  "source": "https://ieeexplore.ieee.org/document/6190800",
+  "license": "作者/IEEE CSM 公开副本（若失败则记缺口）",
+  "topics": "建模、估计、控制综述教程",
+  "vehicle": "四旋翼",
+  "note": "经典 IEEE CSM 教程。",
+  "out": "papers/2012_Mahony_MultirotorAerialVehiclesCSM_en.pdf",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "use": "精读",
+  "stack": "",
+  "school": "Robert Mahony",
+  "level": "研究生",
+  "prereq": "",
+  "region": "",
+  "tool": "",
+  "expect": {
+   "title_words": [
+    "Multirotor",
+    "Quadrotor",
+    "Modeling"
+   ],
+   "min_pages": 6
+  },
+  "paper": {
+   "vehicle": "四旋翼",
+   "task": "",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "",
+   "env": "",
+   "metrics": "",
+   "code_data": "",
+   "verified_scope": "未执行；仅保存全文",
+   "author_limits": "",
+   "evidence": "摘要+正文"
+  },
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6190800",
+    "http://www.roboticssymposium.uzh.ch/mahony_kumar_corke_csm2012.pdf",
+    "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=8c1c6c"
+   ]
+  },
+  "version": "2012",
+  "order": 0,
+  "goal": "建模、估计、控制综述教程"
+ },
+ {
+  "id": "UA04P01",
+  "cat": "04",
+  "year": "2018",
+  "version": "arXiv:1708.03852 / TRO 2018",
+  "title": "VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator",
+  "authors": "Tong Qin; Peiliang Li; Shaojie Shen",
+  "source": "https://arxiv.org/abs/1708.03852",
+  "topics": "单目 VIO",
+  "vehicle": "多旋翼",
+  "sensors": "单目相机+IMU",
+  "code_data": "代码公开",
+  "note": "经典 VIO，室内弱 GNSS 导航基线。",
+  "out": "papers/2018_Qin_VINSMono_en.pdf",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "use": "精读",
+  "stack": "",
+  "school": "Tong Qin",
+  "level": "研究生",
+  "prereq": "",
+  "license": "arXiv 预印本或作者公开 PDF",
+  "region": "",
+  "tool": "",
+  "expect": {
+   "title_words": [
+    "VINS-Mono",
+    "Visual-Inertial"
+   ],
+   "min_pages": 6
+  },
+  "paper": {
+   "vehicle": "多旋翼",
+   "task": "",
+   "sensors": "单目相机+IMU",
+   "compute": "",
+   "software": "VINS-Mono",
+   "setting": "EuRoC 等公开数据+实飞（作者报告）",
+   "env": "",
+   "metrics": "",
+   "code_data": "代码公开",
+   "verified_scope": "未执行；仅保存全文",
+   "author_limits": "",
+   "evidence": "摘要+正文"
+  },
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/1708.03852"
+   ]
+  },
+  "order": 0,
+  "goal": "单目 VIO"
+ },
+ {
+  "id": "UA03P03",
+  "cat": "03",
+  "year": "2018",
+  "version": "arXiv:1712.02402",
+  "title": "Differential Flatness of Quadrotor Dynamics Subject to Rotor Drag for Accurate Tracking of High-Speed Trajectories",
+  "authors": "Matthias Faessler; Antonio Franchi; Davide Scaramuzza",
+  "source": "https://arxiv.org/abs/1712.02402",
+  "topics": "含旋翼阻力的微分平坦与高速跟踪",
+  "vehicle": "四旋翼",
+  "note": "经典：高速轨迹跟踪的气动阻力修正。",
+  "out": "papers/2018_Faessler_DifferentialFlatnessRotorDrag_en.pdf",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "use": "精读",
+  "stack": "",
+  "school": "Matthias Faessler",
+  "level": "研究生",
+  "prereq": "",
+  "license": "arXiv 预印本或作者公开 PDF",
+  "region": "",
+  "tool": "",
+  "expect": {
+   "title_words": [
+    "Differential",
+    "Flatness",
+    "Quadrotor",
+    "Drag"
+   ],
+   "min_pages": 6
+  },
+  "paper": {
+   "vehicle": "四旋翼",
+   "task": "",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "实飞（作者报告）",
+   "env": "",
+   "metrics": "",
+   "code_data": "",
+   "verified_scope": "未执行；仅保存全文",
+   "author_limits": "",
+   "evidence": "摘要+正文"
+  },
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/1712.02402"
+   ]
+  },
+  "order": 0,
+  "goal": "含旋翼阻力的微分平坦与高速跟踪"
+ },
+ {
+  "id": "UA04P02",
+  "cat": "04",
+  "year": "2020",
+  "version": "arXiv:2008.05716",
+  "title": "OpenVINS: A Research Platform for Visual-Inertial Estimation",
+  "authors": "Patrick Geneva; Kevin Eckenhoff; Woosik Lee; Yulin Yang; Guoquan Huang",
+  "source": "https://arxiv.org/abs/2008.05716",
+  "topics": "开源 MSCKF VIO 平台",
+  "vehicle": "多旋翼/手持",
+  "sensors": "相机+IMU",
+  "code_data": "代码公开",
+  "note": "经典开源 VIO 研究平台。",
+  "out": "papers/2020_Geneva_OpenVINS_en.pdf",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "use": "精读",
+  "stack": "",
+  "school": "Patrick Geneva",
+  "level": "研究生",
+  "prereq": "",
+  "license": "arXiv 预印本或作者公开 PDF",
+  "region": "",
+  "tool": "",
+  "expect": {
+   "title_words": [
+    "OpenVINS",
+    "Visual-Inertial"
+   ],
+   "min_pages": 6
+  },
+  "paper": {
+   "vehicle": "多旋翼/手持",
+   "task": "",
+   "sensors": "相机+IMU",
+   "compute": "",
+   "software": "OpenVINS",
+   "setting": "",
+   "env": "",
+   "metrics": "",
+   "code_data": "代码公开",
+   "verified_scope": "未执行；仅保存全文",
+   "author_limits": "",
+   "evidence": "摘要+正文"
+  },
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2008.05716"
+   ]
+  },
+  "order": 0,
+  "goal": "开源 MSCKF VIO 平台"
+ },
+ {
+  "id": "UA07P01",
+  "cat": "07",
+  "year": "2021",
+  "title": "Learning high-speed flight in the wild",
+  "authors": "Antonio Loquercio; Elia Kaufmann; René Ranftl; Matthias Müller; Vladlen Koltun; Davide Scaramuzza",
+  "source": "https://arxiv.org/abs/2109.07089",
+  "topics": "学习型视觉导航高速飞行",
+  "vehicle": "四旋翼",
+  "sensors": "相机",
+  "note": "经典 sim-to-real 视觉飞控。Science Robotics 2021。",
+  "out": "papers/2021_Loquercio_LearningHighSpeedFlightWild_en.pdf",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "use": "精读",
+  "stack": "",
+  "school": "Antonio Loquercio",
+  "level": "研究生",
+  "prereq": "",
+  "license": "arXiv 预印本或作者公开 PDF",
+  "region": "",
+  "tool": "",
+  "expect": {
+   "title_words": [
+    "Learning",
+    "high-speed",
+    "flight"
+   ],
+   "min_pages": 6
+  },
+  "paper": {
+   "vehicle": "四旋翼",
+   "task": "",
+   "sensors": "相机",
+   "compute": "",
+   "software": "",
+   "setting": "野外实飞（作者报告）",
+   "env": "",
+   "metrics": "",
+   "code_data": "",
+   "verified_scope": "未执行；仅保存全文",
+   "author_limits": "",
+   "evidence": "摘要+正文"
+  },
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2109.07089"
+   ]
+  },
+  "version": "2021",
+  "order": 0,
+  "goal": "学习型视觉导航高速飞行"
+ },
+ {
+  "id": "UA07P02",
+  "cat": "07",
+  "year": "2024",
+  "version": "arXiv:2402.04418",
+  "title": "A Survey of Offline and Online Learning-Based Algorithms for Multirotor UAVs",
+  "authors": "Eleni Anastasiou; et al.",
+  "source": "https://arxiv.org/abs/2402.04418",
+  "topics": "多旋翼离线/在线学习算法综述",
+  "vehicle": "多旋翼",
+  "out": "papers/2024_Anastasiou_SurveyLearningMultirotorUAVs_en.pdf",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "school": "Eleni Anastasiou",
+  "level": "研究生",
+  "prereq": "",
+  "license": "arXiv 预印本或作者公开 PDF",
+  "region": "",
+  "tool": "",
+  "expect": {
+   "title_words": [
+    "Survey",
+    "Learning",
+    "Multirotor",
+    "UAVs"
+   ],
+   "min_pages": 6
+  },
+  "paper": {
+   "vehicle": "多旋翼",
+   "task": "",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "",
+   "env": "",
+   "metrics": "",
+   "code_data": "",
+   "verified_scope": "未执行；仅保存全文",
+   "author_limits": "",
+   "evidence": "摘要+正文"
+  },
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2402.04418"
+   ]
+  },
+  "order": 0,
+  "goal": "多旋翼离线/在线学习算法综述"
+ },
+ {
+  "id": "UA03P04",
+  "cat": "03",
+  "year": "2023",
+  "version": "arXiv:2310.10943",
+  "title": "Reaching the limit in autonomous racing: Optimal control versus reinforcement learning",
+  "authors": "Yunlong Song; Angel Romero; Matthias Müller; Vladlen Koltun; Davide Scaramuzza",
+  "source": "https://arxiv.org/abs/2310.10943",
+  "topics": "竞速：MPC vs RL",
+  "vehicle": "四旋翼",
+  "out": "papers/2023_Song_ReachingLimitAutonomousRacing_en.pdf",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "school": "Yunlong Song",
+  "level": "研究生",
+  "prereq": "",
+  "license": "arXiv 预印本或作者公开 PDF",
+  "region": "",
+  "tool": "",
+  "expect": {
+   "title_words": [
+    "autonomous",
+    "racing",
+    "Optimal",
+    "reinforcement"
+   ],
+   "min_pages": 6
+  },
+  "paper": {
+   "vehicle": "四旋翼",
+   "task": "",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "实飞（作者报告）",
+   "env": "",
+   "metrics": "",
+   "code_data": "",
+   "verified_scope": "未执行；仅保存全文",
+   "author_limits": "",
+   "evidence": "摘要+正文"
+  },
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2310.10943"
+   ]
+  },
+  "order": 0,
+  "goal": "竞速：MPC vs RL"
+ },
+ {
+  "id": "UA05P01",
+  "cat": "05",
+  "year": "2024",
+  "version": "arXiv:2408.14035",
+  "title": "FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry",
+  "authors": "Chunran Zheng; Wei Xu; Zuhao Zou; et al.",
+  "source": "https://arxiv.org/abs/2408.14035",
+  "topics": "LIVO",
+  "vehicle": "激光无人机",
+  "sensors": "LiDAR+IMU+相机",
+  "code_data": "代码公开（作者报告）",
+  "out": "papers/2024_Zheng_FASTLIVO2_en.pdf",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "school": "Chunran Zheng",
+  "level": "研究生",
+  "prereq": "",
+  "license": "arXiv 预印本或作者公开 PDF",
+  "region": "",
+  "tool": "",
+  "expect": {
+   "title_words": [
+    "FAST-LIVO2",
+    "LiDAR",
+    "Visual",
+    "Odometry"
+   ],
+   "min_pages": 6
+  },
+  "paper": {
+   "vehicle": "激光无人机",
+   "task": "",
+   "sensors": "LiDAR+IMU+相机",
+   "compute": "",
+   "software": "FAST-LIVO2",
+   "setting": "",
+   "env": "",
+   "metrics": "",
+   "code_data": "代码公开（作者报告）",
+   "verified_scope": "未执行；仅保存全文",
+   "author_limits": "",
+   "evidence": "摘要+正文"
+  },
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2408.14035"
+   ]
+  },
+  "order": 0,
+  "goal": "LIVO"
+ },
+ {
+  "id": "UA04P03",
+  "cat": "04",
+  "year": "2024",
+  "version": "arXiv:2402.11347",
+  "title": "AirIMU: Learning Uncertainty Propagation for Inertial Odometry",
+  "authors": "",
+  "source": "https://arxiv.org/abs/2402.11347",
+  "topics": "学习惯性里程计不确定性",
+  "vehicle": "IMU 平台",
+  "out": "papers/2024_AirIMU_LearningUncertaintyInertialOdometry_en.pdf",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "school": "",
+  "level": "研究生",
+  "prereq": "",
+  "license": "arXiv 预印本或作者公开 PDF",
+  "region": "",
+  "tool": "",
+  "expect": {
+   "title_words": [
+    "AirIMU",
+    "Inertial"
+   ],
+   "min_pages": 6
+  },
+  "paper": {
+   "vehicle": "IMU 平台",
+   "task": "",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "",
+   "env": "",
+   "metrics": "",
+   "code_data": "",
+   "verified_scope": "未执行；仅保存全文",
+   "author_limits": "",
+   "evidence": "摘要+正文"
+  },
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2402.11347"
+   ]
+  },
+  "order": 0,
+  "goal": "学习惯性里程计不确定性"
+ },
+ {
+  "id": "UA06P02",
+  "cat": "06",
+  "year": "2024",
+  "version": "arXiv:2407.04230",
+  "title": "EGO-Swarm 2.0: A Fully Autonomous and Decentralized Quadrotor Swarm System in Cluttered Environments",
+  "authors": "Xin Zhou; et al.",
+  "source": "https://arxiv.org/abs/2407.04230",
+  "topics": "去中心化四旋翼集群避障",
+  "vehicle": "四旋翼集群",
+  "out": "papers/2024_EGOSwarm_QuadrotorSwarm_en.pdf",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "school": "Xin Zhou",
+  "level": "研究生",
+  "prereq": "",
+  "license": "arXiv 预印本或作者公开 PDF",
+  "region": "",
+  "tool": "",
+  "expect": {
+   "title_words": [
+    "Swarm",
+    "Quadrotor"
+   ],
+   "min_pages": 6
+  },
+  "paper": {
+   "vehicle": "四旋翼集群",
+   "task": "",
+   "sensors": "",
+   "compute": "",
+   "software": "",
+   "setting": "",
+   "env": "",
+   "metrics": "",
+   "code_data": "",
+   "verified_scope": "未执行；仅保存全文",
+   "author_limits": "",
+   "evidence": "摘要+正文"
+  },
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2407.04230",
+    "https://arxiv.org/pdf/2011.04187"
+   ]
+  },
+  "order": 0,
+  "goal": "去中心化四旋翼集群避障"
+ },
+ {
+  "id": "UA10P02",
+  "cat": "10",
+  "year": "2024",
+  "version": "arXiv:2404.18065",
+  "title": "Pegasus Simulator: An Isaac Sim-based Framework for Multiple Aerial Vehicles Simulation",
+  "authors": "Marcelo Jacinto; et al.",
+  "source": "https://arxiv.org/abs/2404.10853",
+  "topics": "Isaac Sim 多机仿真框架",
+  "vehicle": "多旋翼",
+  "out": "papers/2024_Jacinto_PegasusSimulator_en.pdf",
+  "type": "paper",
+  "material": "论文/综述/学术教程",
+  "lang": "en",
+  "cross": [],
+  "complete": "完整",
+  "scope": "",
+  "note": "",
+  "use": "选读",
+  "stack": "",
+  "school": "Marcelo Jacinto",
+  "level": "研究生",
+  "prereq": "",
+  "license": "arXiv 预印本或作者公开 PDF",
+  "region": "",
+  "tool": "",
+  "expect": {
+   "title_words": [
+    "Pegasus",
+    "Simulator",
+    "Aerial"
+   ],
+   "min_pages": 6
+  },
+  "paper": {
+   "vehicle": "多旋翼",
+   "task": "",
+   "sensors": "",
+   "compute": "",
+   "software": "Pegasus + Isaac Sim + PX4",
+   "setting": "",
+   "env": "",
+   "metrics": "",
+   "code_data": "",
+   "verified_scope": "未执行；仅保存全文",
+   "author_limits": "",
+   "evidence": "摘要+正文"
+  },
+  "get": {
+   "kind": "pdf",
+   "urls": [
+    "https://arxiv.org/pdf/2404.10853"
+   ]
+  },
+  "order": 0,
+  "goal": "Isaac Sim 多机仿真框架"
+ }
+]

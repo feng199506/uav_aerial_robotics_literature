@@ -1,0 +1,19 @@
+{
+ "id": "UA04B03",
+ "started": "2026-10-29T18:19:54Z",
+ "download_url": "https://www.cs.cmu.edu/~kaess/pub/Dellaert17fnt.pdf",
+ "final_url": "https://www.cs.cmu.edu/~kaess/pub/Dellaert17fnt.pdf",
+ "http_last_modified": "Sun, 04 Feb 2018 15:42:32 GMT",
+ "verify": "通过：pypdf 可解析 144 页；标题词匹配 1.0",
+ "info": {
+  "pages": 144,
+  "meta_title": "",
+  "body_sample_chars": 6184,
+  "title_match": 1.0
+ },
+ "bytes": 24161506,
+ "sha256": "6f2e08374ddfc4e13c32d8a0e949d36d1e1a57f70246ec81d50275debdbbbb58",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:20:19Z"
+}

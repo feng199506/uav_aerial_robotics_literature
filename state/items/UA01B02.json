@@ -1,0 +1,8 @@
+{
+ "id": "UA01B02",
+ "started": "2026-10-29T18:18:16Z",
+ "error": "https://open.umn.edu/opentextbooks/formats/2157: 不是 PDF 文件头 | https://www.aerospaceengineering.es/wp-content/uploads/2017/03/Fundamentals-of-Aerospace-Engineering.pdf: 404 HTTP 404 | https://archive.org/download/fundamentals-of-aerospace-engineering/Fundamentals%20of%20Aerospace%20Engineering.pdf: 0 HTTP 503",
+ "status": "failed",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:19:15Z"
+}

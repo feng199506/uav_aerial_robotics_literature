@@ -1,0 +1,19 @@
+{
+ "id": "UA01B05",
+ "started": "2026-10-29T18:19:48Z",
+ "download_url": "https://arxiv.org/pdf/1812.01537",
+ "final_url": "https://arxiv.org/pdf/1812.01537",
+ "http_last_modified": "Sun, 22 Jan 2023 23:18:13 GMT",
+ "verify": "通过：pypdf 可解析 17 页；标题词匹配 1.0",
+ "info": {
+  "pages": 17,
+  "meta_title": "AmicroLietheory",
+  "body_sample_chars": 15553,
+  "title_match": 1.0
+ },
+ "bytes": 1576616,
+ "sha256": "93190a60ad5f390006970f684ba8590bf55ce21adc3c1cb675adc55ead17f869",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:19:53Z"
+}

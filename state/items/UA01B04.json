@@ -1,0 +1,19 @@
+{
+ "id": "UA01B04",
+ "started": "2026-10-29T18:19:47Z",
+ "download_url": "https://arxiv.org/pdf/1711.02508",
+ "final_url": "https://arxiv.org/pdf/1711.02508",
+ "http_last_modified": "Sun, 22 Jan 2023 19:44:37 GMT",
+ "verify": "通过：pypdf 可解析 95 页；标题词匹配 1.0",
+ "info": {
+  "pages": 95,
+  "meta_title": "Quaternion kinematics for the error-state KF",
+  "body_sample_chars": 6797,
+  "title_match": 1.0
+ },
+ "bytes": 1686327,
+ "sha256": "6a3d3d3933c425eb6cef049290c2b48b71a90f5189e9810575d83d3a922faaca",
+ "status": "ok",
+ "access_date": "2026-10-29",
+ "finished": "2026-10-29T18:19:48Z"
+}
